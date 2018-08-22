@@ -202,3 +202,225 @@ header h1 {
     -moz-border-radius: 5px;
     border-radius: 5px;
 }
+
+
+/* ==TABS TO THE RIGHT OF ME== */
+/*
+.tab-body-container {
+  position: relative;
+  margin-top: -14px;
+  padding: 0px;
+  height: 800px;
+}
+
+.tab-group {
+  list-style: none;
+height: 34px;
+margin-bottom: 0px !important;
+position: relative;
+right: 0;
+
+}
+
+.tab-group li {
+  float: right;
+display: inline-block;
+padding: 3px 17px;
+color: #FFF;
+cursor: pointer;
+background: #808285;
+margin-right: 0px;
+border-right: 1px solid #c0c3c8;
+margin: -11px 2px;
+border-radius: 5px 5px 0px 0px;
+width: 44px;
+font-weight: bold;
+}
+
+.tab-current {
+  background: #3e7898 !important;
+}
+
+.tab-group li:first-child {
+  border-right: 0px !important;
+}
+
+.body-group {
+      background: #FFF;
+    margin: -10px;
+    padding: 0px;
+    width: 947px;
+    height: 465px;
+    margin-left: 10px;
+    border-radius: 5px 0px 5px 5px;
+}
+
+
+.body-group li {
+  list-style: none;
+  display: none;
+  position: relative;
+  padding: 15px;
+}
+
+
+/* ==TABS TO THE LEFT OF ME== */
+/*
+.tab-body-container-secondary .tab-group {
+  padding: 0px;
+}
+
+.tab-body-container-secondary .tab-group li {
+  float: left;
+  background: #b4c4d4;
+  border-right: 1px solid #dde8f3;
+}
+
+.tab-body-container-secondary .tab-group li:first-child {
+  border-right: 1px solid #dde8f3 !important;
+}
+
+.tab-body-container-secondary .tab-group li:last-child {
+  border-right: 0px !important;
+}
+
+.tab-body-container-secondary .body-group {
+  background: #e7e8e9 !important;
+}
+
+.white-bgk {
+  background: #FFF;
+  margin: -15px -15px;
+  padding: 10px 4px;
+}*/
+
+#iPestaña {
+      margin: -5px -237px;
+}
+
+/*--------------------------
+* MENU TABS
+---------------------------*/
+.menu__tabs {
+  list-style: none;
+  overflow: hidden;
+  margin-right: -3px;
+}
+.menu__tabs li {
+  float: right;
+  margin-right: -10px;
+  font-size: 1.2em;
+}
+.menu__tabs a {
+  padding: 0px 18px;
+  background: #5d626d;
+  display: inline-block;
+  color: #FFF;
+  text-decoration: none;
+  -webkit-border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,0.2);
+  -moz-box-shadow: inset 0 -2px 5px rgba(0,0,0,0.2);
+  box-shadow: inset 0 -2px 5px rgba(0,0,0,0.2);
+  font-weight: bold;
+  font-size: 19px;
+}
+.menu__tabs a:hover {
+  background: #515a68;
+}
+.menu__tabs a.active {
+  color: #333b48;
+  background: #FFF;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.menu__tabs a.active i {color: #80cbb7;}
+.menu__tabs a i {
+  margin-right: 3px;
+  color: #aaaaaa;
+}
+
+/*--------------------------
+* MENU WRAPPER
+---------------------------*/
+.menu {
+ margin: -31px auto;
+
+width: 942px;
+
+max-width: 950px;
+
+position: relative;
+
+height: 800px;
+}
+.menu__wrapper {
+  position: relative;
+  z-index: 400;
+  background: #FFF;
+  min-height: 300px;
+  -webkit-border-radius: 5px 0 5px 5px;
+  -moz-border-radius: 5px 0 5px 5px;
+  border-radius: 5px 0 5px 5px;
+  top: -26px;
+  height: 466px;
+}
+.menu--shadow {
+  position: absolute;
+  z-index: 300;
+  bottom: -5px;
+  height: 25px;
+  width: 100%;
+}
+.menu--shadow:after,
+.menu--shadow:before {
+  content: '';
+  display: block;
+  width: 50%;
+  height: 25px;
+  position: absolute;
+  left: 0;
+  background: rgba(0,0,0,0.2);
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  -webkit-box-shadow: 0 0 15px 5px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0 0 15px 5px rgba(0,0,0,0.25);
+  box-shadow: 0 0 15px 5px rgba(0,0,0,0.25);
+  -webkit-transform: scale(0.8) rotate(-4deg);
+  -ms-transform: scale(0.8) rotate(-4deg);
+  -o-transform: scale(0.8) rotate(-4deg);
+  transform: scale(0.8) rotate(-4deg);
+}
+.menu--shadow:after {
+  right: 0;
+  left: auto;
+  -webkit-transform: scale(0.8) rotate(4deg);
+  -ms-transform: scale(0.8) rotate(4deg);
+  -o-transform: scale(0.8) rotate(4deg);
+  transform: scale(0.8) rotate(4deg);
+}
+.menu__wrapper .menu__item {
+  line-height: 1.3;
+  color: #76716f;
+  display: none;
+}
+.menu__wrapper .menu__item.item-active {
+  display: block;
+}
+.menu__wrapper .menu__item h3 {
+  font-size: 1.8em;
+  color: #333b48;
+  padding-bottom: 5px;
+  margin-bottom: 240px;
+}
+.menu__wrapper .menu__item p {
+  font-size: 1.3em;
+  line-height: 1.6em;
+  color: #76716f;
+}
