@@ -142,7 +142,7 @@ header h1 {
     width: 220px;
     height: 25px;
     position: relative;
-    background: #ff9d3f;
+    background: #66ff66;
     top: 5px;
     left: -4px;
   }
@@ -166,7 +166,7 @@ header h1 {
     bottom: 0;
     width: 0;
     height: 0;
-    border-left: 12.98px solid #ff9d3f;
+    border-left: 12.98px solid #66ff66;
     border-top: 13px solid transparent;
     border-bottom: 12.98px solid transparent;
   }

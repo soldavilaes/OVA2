@@ -54,7 +54,7 @@ $(document).ready(function(e){
 });
 $(document).ready(function(e){
   $('#itemTema1').on('click', function(){
-    $('#content').load('tema1.html')
+    $('#content').load('tema2.html')
   });
 });
 
