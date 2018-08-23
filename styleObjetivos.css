@@ -166,6 +166,7 @@ h4{
 }
 
 /* OTRA FORMA CAJAS DE TEXTO DE LOS OBJETIVOS */
+/*
 .snip1579 {
   font-family: 'Lato', Arial, sans-serif;
   position: relative;
@@ -245,7 +246,7 @@ h4{
 .snip1579:hover figcaption,
 .snip1579.hover figcaption {
   height: calc(185px);
-}
+}*/
 
 /* CAJA OBJETIVOS*/
 .card-container {
@@ -313,12 +314,6 @@ h4{
 
 .sub-title {
   color: #DE6262;
-  -webkit-animation: slide-in 0.75s;
-          animation: slide-in 0.75s;
-  -webkit-animation: slide-in 0.75s cubic-bezier(0.625, 0.075, 0.11, 1.165);
-          animation: slide-in 0.75s cubic-bezier(0.625, 0.075, 0.11, 1.165);
-  -webkit-animation-timing-function: cubic-bezier(0.625, 0.075, 0.11, 1.165);
-          animation-timing-function: cubic-bezier(0.625, 0.075, 0.11, 1.165);
   font-size: 18px;
   font-weight: 200;
   margin: 0 0 5px 0;
@@ -447,12 +442,6 @@ h4{
 
 .sub-title2 {
   color: #DE6262;
-  -webkit-animation: slide-in 0.75s;
-          animation: slide-in 0.75s;
-  -webkit-animation: slide-in 0.75s cubic-bezier(0.625, 0.075, 0.11, 1.165);
-          animation: slide-in 0.75s cubic-bezier(0.625, 0.075, 0.11, 1.165);
-  -webkit-animation-timing-function: cubic-bezier(0.625, 0.075, 0.11, 1.165);
-          animation-timing-function: cubic-bezier(0.625, 0.075, 0.11, 1.165);
   font-size: 18px;
   font-weight: 200;
   margin: 0 0 5px 0;

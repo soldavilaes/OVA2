@@ -1,4 +1,12 @@
-/* CONFIGURACIONES DE LA PAGINA*/
+
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(https://fonts.googleapis.com/css?family=Sansita:400,400i,700,700i,800,800i,900,900i);
+
+/*-----------------------------
+* CONFIGURACIONES DE LA PAGINA
+-------------------------------*/
 
 html, body {
   color: #555;
@@ -116,7 +124,10 @@ header h1 {
           transition: all 500ms ease-in-out;
 }*/
 
-/* CAPAS DEL CONTENIDO*/
+/*--------------------------
+* CAPAS DEL CONTENIDO
+---------------------------*/
+
 #cabecera {
   background: #617C99;
   position: relative;
@@ -128,7 +139,10 @@ header h1 {
   height: 45px;
   left: -100px; 
 }
-/* Autoforma de Titulo*/
+
+/*--------------------------
+* AUTOFORMA DEL TITULO
+---------------------------*/
   #pointer {
     width: 180px;
     height: 25px;
@@ -161,7 +175,11 @@ header h1 {
     border-top: 13px solid transparent;
     border-bottom: 12.98px solid transparent;
   }
-/* Capa de Escenario */
+
+/*--------------------------
+* CAPA ESCENARIO
+---------------------------*/
+
 #escenario{
     display: block;
     position: relative;
@@ -174,7 +192,6 @@ header h1 {
     position: relative;
     top: 10px;
     left: -100px;
-
   }
 
   #escenario p{
@@ -182,7 +199,6 @@ header h1 {
     top: 21px;
     font-style: italic;
     color: #000000;
-    
   }
 
   #escenario img{
@@ -191,7 +207,11 @@ header h1 {
     top: 26px;
     left: 555px;
   }
-/*Capa de Contenido General*/
+
+/*--------------------------
+* CAPA CONTENIDO GENERAL
+---------------------------*/
+
 #contenidoGeneral{
     width: 97.4%;
     height: 467px;
@@ -203,7 +223,7 @@ header h1 {
     border-radius: 5px;
 }
 
-
+/*OTRAS PESTAÑAS*/
 /* ==TABS TO THE RIGHT OF ME== */
 /*
 .tab-body-container {
@@ -255,14 +275,12 @@ font-weight: bold;
     border-radius: 5px 0px 5px 5px;
 }
 
-
 .body-group li {
   list-style: none;
   display: none;
   position: relative;
   padding: 15px;
 }
-
 
 /* ==TABS TO THE LEFT OF ME== */
 /*
@@ -294,23 +312,29 @@ font-weight: bold;
   padding: 10px 4px;
 }*/
 
+/*--------------------------------
+* IMAGEN DE INDICACION - PESTAÑAS
+----------------------------------*/
+
 #iPestaña {
-      margin: -5px -237px;
+  margin: -5px -237px;
 }
 
 /*--------------------------
-* MENU TABS
+* TEMA 2 - PESTAÑAS
 ---------------------------*/
 .menu__tabs {
   list-style: none;
   overflow: hidden;
   margin-right: -3px;
 }
+
 .menu__tabs li {
   float: right;
   margin-right: -10px;
   font-size: 1.2em;
 }
+
 .menu__tabs a {
   padding: 0px 18px;
   background: #5d626d;
@@ -329,9 +353,11 @@ font-weight: bold;
   font-weight: bold;
   font-size: 19px;
 }
+
 .menu__tabs a:hover {
   background: #515a68;
 }
+
 .menu__tabs a.active {
   color: #333b48;
   background: #FFF;
@@ -339,6 +365,7 @@ font-weight: bold;
   -moz-box-shadow: none;
   box-shadow: none;
 }
+
 .menu__tabs a.active i {color: #80cbb7;}
 .menu__tabs a i {
   margin-right: 3px;
@@ -349,16 +376,13 @@ font-weight: bold;
 * MENU WRAPPER
 ---------------------------*/
 .menu {
- margin: -31px auto;
-
-width: 942px;
-
-max-width: 950px;
-
-position: relative;
-
-height: 800px;
+  margin: -31px auto;
+  width: 942px;
+  max-width: 950px;
+  position: relative;
+  height: 800px;
 }
+
 .menu__wrapper {
   position: relative;
   z-index: 400;
@@ -370,6 +394,7 @@ height: 800px;
   top: -26px;
   height: 466px;
 }
+
 .menu--shadow {
   position: absolute;
   z-index: 300;
@@ -377,6 +402,7 @@ height: 800px;
   height: 25px;
   width: 100%;
 }
+
 .menu--shadow:after,
 .menu--shadow:before {
   content: '';
@@ -397,6 +423,7 @@ height: 800px;
   -o-transform: scale(0.8) rotate(-4deg);
   transform: scale(0.8) rotate(-4deg);
 }
+
 .menu--shadow:after {
   right: 0;
   left: auto;
@@ -405,22 +432,250 @@ height: 800px;
   -o-transform: scale(0.8) rotate(4deg);
   transform: scale(0.8) rotate(4deg);
 }
+
 .menu__wrapper .menu__item {
   line-height: 1.3;
   color: #76716f;
   display: none;
 }
+
 .menu__wrapper .menu__item.item-active {
   display: block;
+  height: 470px;
 }
+
 .menu__wrapper .menu__item h3 {
   font-size: 1.8em;
   color: #333b48;
   padding-bottom: 5px;
   margin-bottom: 240px;
 }
+
 .menu__wrapper .menu__item p {
   font-size: 1.3em;
   line-height: 1.6em;
   color: #76716f;
+  height: 400px;
+  margin-top: 40px;
+}
+
+/*--------------------------
+* PESTAÑA 1
+---------------------------*/
+
+#subArboles {
+  margin: -22px  -555px;
+}
+
+/*--------------------------
+* CAJA DE DEFINICION
+---------------------------*/
+.mybox { 
+  width: 845px;
+  height: 60px;
+  background-color: #b4edf7;
+  box-shadow: 10px 10px #04cef2;
+
+  padding: 10px;
+  top: 60px;
+  left: 50px;
+
+}
+       
+.mybox:hover { 
+    box-shadow: 10px 0 10px 0 #00B7FF; 
+  }
+
+.mybox span {
+  line-height: 1;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+  text-align: justify;
+  font-style: italic;
+}
+
+#idea {
+  margin: 120px -510px;
+}
+
+/*--------------------------
+* CAJA 1
+---------------------------*/
+
+.card {
+  margin: 0 auto 2rem;
+  padding: 1rem;
+  min-width: 10rem;
+  max-width: 16rem;
+  background-color: white;
+  word-wrap: break-word;
+  box-shadow: 0 0.0625em 0.1875em 0 rgba(0, 0, 0, 0.1), 0 0.5em 0 -0.25em #f2f2f2,
+              0 0.5em 0.1875em -0.25em rgba(0, 0, 0, 0.1), 0 1em 0 -0.5em #e6e6e6,
+              0 1em 0.1875em -0.5em rgba(0, 0, 0, 0.1);
+  height: 110px;
+  left: -80px;
+  font-family: 'Sansita';
+  color: #000000;
+  text-align: justify;
+  font-size: 19px;
+  line-height: 1;
+  top: 100px;
+}
+
+.card.card-secondary {
+  background-color: #47e3ff;
+  box-shadow: 0 0.0625em 0.1875em 0 rgba(0, 0, 0, 0.1), 
+              0 0.5em 0 -0.25em #43d8f2, 0 0.5em 0.1875em -0.25em rgba(0, 0, 0, 0.1),
+              0 1em 0 -0.5em #40cce6, 0 1em 0.1875em -0.5em rgba(0, 0, 0, 0.1);
+}
+
+.card > :last-child {
+  margin-bottom: 0;
+}
+
+/*--------------------------
+* CAJA 2
+---------------------------*/
+  .card1 {
+  margin: 0 auto 2rem;
+  padding: 1rem;
+  min-width: 10rem;
+  max-width: 16rem;
+  background-color: white;
+  word-wrap: break-word;
+  box-shadow: 0 0.0625em 0.1875em 0 rgba(0, 0, 0, 0.1), 
+              0 0.5em 0 -0.25em #f2f2f2, 0 0.5em 0.1875em -0.25em rgba(0, 0, 0, 0.1), 
+              0 1em 0 -0.5em #e6e6e6, 0 1em 0.1875em -0.5em rgba(0, 0, 0, 0.1);
+  height: 110px;
+  left: 250px;
+  font-family: 'Sansita';
+  color: #000000;
+  text-align: justify;
+  font-size: 19px;
+  line-height: 1;
+  top: -42px;
+}
+
+.card1.card-secondary1 {
+  background-color: #47e3ff;
+  box-shadow: 0 0.0625em 0.1875em 0 rgba(0, 0, 0, 0.1), 
+              0 0.5em 0 -0.25em #43d8f2, 0 0.5em 0.1875em -0.25em rgba(0, 0, 0, 0.1), 
+              0 1em 0 -0.5em #40cce6, 0 1em 0.1875em -0.5em rgba(0, 0, 0, 0.1);
+  
+}
+
+.card1 > :last-child {
+  margin-bottom: 0;
+}
+
+/*--------------------------
+* IMAGENES - ARBOLES
+---------------------------*/
+
+#arbol1 {
+  margin-left: -280px;
+  margin-top: 270px;
+}
+
+#arbol2 {
+  margin-left: 90px;
+  margin-top: 270px;
+}
+
+/*--------------------------
+* BOTON DEL EJEMPLO
+---------------------------*/
+
+.open_popup{
+  background:tomato;
+  border:none;
+  padding:5px 15px;
+  color:#fff;
+  animation-name: pulse;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  right: -870px;
+
+}
+
+.popup_main {
+  top: 50px;
+  right: 15px;
+
+}
+
+.popup_body{
+  display:none;
+  position:fixed;
+  top:0;left:0;right:0;bottom:0;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -o-transition: 300ms;
+  -ms-transition: 300ms;
+  transition: 300ms;
+}
+
+.popup_body_show{
+  display:block;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -o-transition: 300ms;
+  -ms-transition: 300ms;
+  transition: 300ms;
+}
+
+.popup_back{
+  background: rgba(0,0,0,0.7);
+  position: fixed;
+  left:0;right:0;top:0;bottom:0;
+}
+
+.popup_contain{
+  position: relative;
+  background: #fff;
+  min-width: 300px;
+  max-width: 50%;
+  margin: 125px 235px 50px;
+  min-height: 465px;
+  padding: 10px 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 19px;
+  color: #000000;
+}
+
+.popup_close{
+  background: red;
+  padding: 3px 10px 5px;
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#arbolG {
+  margin-left: -425px;
+  margin-top: 7px;
+}
+
+/*-----------------------------
+* TEMA 2 - ANIMACION DEL BOTON 
+-------------------------------*/
+
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    background-color:#FACC2E;
+  }
+  to {
+    transform: scale(0.9);
+  }
 }
