@@ -8,6 +8,7 @@
         </style>
         
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        
       </head>
 
     <body>
@@ -87,8 +88,38 @@
             </article>
             <!-- PESTAÑA 2 --> 
             <article id="item-2" class="menu__item">
-              <h3>Contenido Dos</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, dignissimos nam dolor est. Ad vel eum voluptates rerum. Harum quia dolore architecto ducimus, rem porro minus perferendis ab eveniet aliquid!</p>
+              <div class="slider">
+                <div class="slider-inner">
+                    <ul class="slider-container">
+                        <li class="slider-item">
+                          <img id="defArboles" src="defArboles.png">
+                          <p id="subtitulo1"><span>NODO</span></p>
+                          <p id="texto1"><span>Un nodo puede ser una <b>hoja</b> o un nodo <b>raíz</b>.</span></p>
+                          <div class="formas">
+                           <div class="circulo circle bottom-left"><b>HOJA:</b><span>No tiene nodos hijos (sucesores).</span></div>
+                            <div class="circulo1 circle bottom-left"><b>RAÍZ:</b><span>No tiene nodos predecesores.</span></div>
+                          </div> 
+                          <p id="subtitulo2"><span>SUBÁRBOL</span></p>
+                           <div class="forma2">
+                           <div class="cuadro inset"><b>SUBÁRBOL&nbsp;:</b>&nbsp;Es el conjunto de todos los predecesores de un nodo.</div>
+                          </div>
+                          <p id="subtitulo3"><span>ÁRBOL BINARIO</span></p>
+                          <img id="arbolB" src="arbolB.gif">
+                        </li>
+                        <li class="slider-item">helloooo
+                          <div><img id="subRecorridos" src="recorridos.png"></div>
+                          
+                        </li>
+
+                        <li class="slider-item">Item 3</li>
+                        <li class="slider-item">Item 4</li>
+                        <li class="slider-item">Item 5</li>
+                    </ul>
+                </div>
+                <nav class="slider-nav">
+                    <a class="slider-nav-link prev" href="#prev">Précédent</a>
+                    <a class="slider-nav-link next" href="#next">Suivant</a>
+              </div>
             </article>
             <!-- PESTAÑA 3 --> 
             <article id="item-3" class="menu__item">
@@ -104,7 +135,7 @@
           <div class="menu--shadow"></div>
           </div>
             <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-
+             
             <script  src="tema2.js"></script>
         </div>
     </body>

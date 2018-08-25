@@ -80,3 +80,76 @@ $(".open_popup").click(function () {
  $(".popup_back").click(function () {
    $(".popup_body").removeClass("popup_body_show");
    });
+
+/*--------------------------
+* CARRUSEL PESTAÑA 2
+---------------------------*/
+
+ "use strict";
+// function to calculate value to deplace band
+function calculLeft(index, width) {
+  return index * -width;
+}
+// function to activate current pager
+function activatedPagination(index) {
+  $('.slider-pager-link.active').removeClass('active');
+  $('.slider-pager-item').eq(index).children().addClass('active');
+}
+
+// DOM ready
+$(function () {
+  // variable to know current slide showed
+  var index = 0;
+  // number of slides in slider
+  var nbSlide = $('.slider-item').length;
+  // width in percentage
+  var width = 100;
+  // maximum index allowed
+  var indexMax = nbSlide - 1;
+  // var to generate pagination from JS
+  var htmlPagination;
+
+  // listener on prev and next button
+  $('.slider-nav-link').on('click', function () {
+    // if prev button clicked
+    if ($(this).hasClass('prev')) {
+      // current index decrease
+      index--;
+      // else next button clicked
+    } else {
+      // current index increase
+      index++;
+    }
+    // if index go out of boundary, reinitialization
+    if (index < 0) {
+      index = indexMax;
+    } else if (index > indexMax) {
+      index = 0;
+    }
+    activatedPagination(index);
+    // animate band of slides
+    $('.slider-container').animate({ "left": calculLeft(index, width) + "%" });
+  });
+
+  // generate pagination in function of number of slides
+  htmlPagination = '<ul class="slider-pager">';
+  for (var i = 0; i < nbSlide; i++) {
+    htmlPagination += '<li class="slider-pager-item">';
+    htmlPagination += '<a class="slider-pager-link" href="#slide' + i + '">item ' + (i + 1) + '</a>';
+    htmlPagination += '</li>';
+  }
+  htmlPagination += '</ul>';
+
+  // add pagination in DOM
+  $('.slider').append(htmlPagination);
+  activatedPagination(index);
+
+  // listener on pagination
+  $('.slider-pager-link').on('click', function () {
+    // get current index slide
+    index = $(this).parent().index();
+    activatedPagination(index);
+    // animate band of slides
+    $('.slider-container').animate({ "left": calculLeft(index, width) + "%" });
+  });
+});
