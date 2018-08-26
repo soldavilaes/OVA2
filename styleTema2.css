@@ -1032,3 +1032,276 @@ font-weight: bold;
 .slider-item div {
   overflow: visible;
 }
+
+/*-----------------------------
+* TEMA 2 - PESTAÑA 3 
+-------------------------------*/
+
+[ripple] {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+}
+[ripple] .ripple {
+  position: absolute;
+  background: #FFFFFF;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  -webkit-animation: ripple 1.6s;
+          animation: ripple 1.6s;
+}
+
+@-webkit-keyframes ripple {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0.2;
+  }
+  100% {
+    -webkit-transform: scale(40);
+            transform: scale(40);
+    opacity: 0;
+  }
+}
+
+@keyframes ripple {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0.2;
+  }
+  100% {
+    -webkit-transform: scale(40);
+            transform: scale(40);
+    opacity: 0;
+  }
+}
+
+.tabsP4 {
+ 
+position: relative;
+background: #FFFFFF;
+border-radius: 4px;
+box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+box-sizing: border-box;
+margin: 100px auto 10px;
+overflow: hidden;
+height: 445px;
+top: -125px;
+width: 900px;
+border-radius: 0 10px 10px 10px;
+border: 4px solid #F08080;
+color: #17202A;
+
+}
+.tabsP4-header {
+  position: relative;
+  background: #CD5C5C;
+  overflow: hidden; 
+  height: 40px;
+  width: 900px;
+}
+
+.tabsP4-header ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 13px;
+  width: 900px;
+}
+.tabsP4-header li {
+  transition: 0.3s ease;
+}
+.tabsP4-header a {
+  z-index: 1;
+display: block;
+box-sizing: border-box;
+padding: 15px 20px;
+color: #FFFFFF;
+font-weight: 500;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 14px;
+top: -25px;
+font-weight: bold;
+}
+
+.tabsP4-content {
+  position: relative;
+  padding: 15px 20px;
+  transition: 0.3s ease;
+  overflow: hidden;
+  background:#FFFFFF ;
+ height: 410px;
+
+}
+.tabsP4-content:after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 1px;
+  box-shadow: 0 0 20px 10px #FFFFFF;
+  height: 550px;
+}
+.tabsP4-content .tabP4 {
+  display: none;
+  height: 500px;
+}
+.tabsP4-content .tabP4.active {
+  display: block;
+}
+
+.pen-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 600px;
+  margin: 20px auto 100px;
+
+}
+.pen-footer a {
+  font-size: 12px;
+  text-decoration: none;
+  text-shadow: 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.cp-fab {
+  background: #FFFFFF !important;
+  color: #4285F4 !important;
+}
+#arbolGenrico {
+  margin: -20px -110px;
+}
+.recuadro3 {
+  text-align: center;
+  padding: 4px 10px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px 0;
+  border-radius: 10px 0;
+  width: 350px;
+height: 30px;
+  margin: -23px 490px;
+  border-style: outset; border-width: 1px;
+  font-size: 20px;
+   background:-webkit-linear-gradient(left, #a3e4d7 0%,#ffffff 42%,#ffffff 52%,#99CCFF 100%);
+ 
+}
+
+.boxes4 {
+  margin:5px 2px;
+  width: 400px;
+height: 360px;
+  background:-webkit-linear-gradient(left, #a3e4d7 0%,#ffffff 42%,#ffffff 52%,#99CCFF 100%);
+  font-size: 20px;
+  color: #000000;
+  text-align: justify;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border-radius-right:10px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 30px;
+  border: 3px #0fe4d2 groove;
+box-shadow: 6px 6px 6px #99CCFF;
+
+}
+
+.circle-1
+{
+  color: #F08080;
+  width: 330px;
+  height: 200px;
+  margin: 30px 5px;
+  mix-blend-mode: multiply;
+}
+
+#circle-1 span{
+  font-style: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+
+}
+
+.circle-2
+{
+  color: #fff;
+   width: 220px;
+  height: 190px;
+  margin: -220px 320px;
+  mix-blend-mode: multiply;
+}
+
+#circle-2 span{
+  font-style: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+
+}
+.circle-3
+{
+  color: #fff;
+   width: 420px;
+  height: 180px;
+  margin: 150px 70px;
+  mix-blend-mode: multiply;
+}
+
+#circle-3 span{
+  font-style: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+
+}
+
+.circle-1 {
+  background: #f66;
+  border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
+}
+.circle-2 {
+  background: #f92;
+  border-radius: 80% 30% 50% 50%/50%;
+}
+.circle-3 {
+  background: #fc2;
+  border-radius: 40% 40% 50% 40%/30% 50% 50% 50%;
+}
+
+.recuadro4 {
+  text-align: center;
+  padding: 4px 10px;
+  text-decoration: none;
+  color:  #f66;
+  font-weight: bold;
+  border-radius: 10px 10px ;
+  box-shadow: 15px 15px 15px #f92;
+  width: 540px;
+height: 30px;
+  font-size: 20px;
+  margin: 0px -2px;
+}
+#recuerda {
+  margin: 45px -12px;
+}
+
+.boxes5 {
+margin: -520px 680px;
+width: 168px;
+height: 280px;
+background: -webkit-linear-gradient(left, #f66 0%,#ffffff 42%,#ffffff 52%, #f92);
+font-size: 18px;
+color: #000000;
+text-align: justify;
+padding: 10px 10px;
+border-radius: 10px;
+border-radius-right: 10px;
+font-family: 'Open Sans', sans-serif;
+line-height: 15px;
+border: 3px #0fe4d2 groove;
+box-shadow: 6px 6px 6px #fff;
+}
