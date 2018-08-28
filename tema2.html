@@ -9,6 +9,7 @@
         
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen">
       </head>
 
     <body>
@@ -192,11 +193,34 @@
 
                 </div>
 
-                <div class="tabP4" tab-id="3">
-          
+                 <div class="tabP4" tab-id="3">
+                
+                  <div class='caja1'>
+                    <span>
+                      <b>• (make-tree dato lista-hijos):</b> construye un árbol a partir de un dato y una lista de hijos formada por árboles. La lista puede ser vacía. <br><br>
+                       <div class='caja1-1'>
+                        <span> (define (make-tree dato hijos) (cons dato hijos))</span>
+                       </div>
+
+                    </span>
+                  </div>
+
+                  <div class='caja2'>
+                    <span>
+
+                      <b> • (dato-tree tree):</b> devuelve el dato de la raíz del árbol.<br>
+                      <b>• (hijos-tree tree):</b> devuelve una lista de árboles hijos.<br>
+                      <b>• (hoja-tree? tree):</b> predicado que comprueba si el árbol es un nodo hoja (no tiene hijos).
+                    </span>
+                  </div>
+
+                  <img id="nota" class="lightbox" src="nota.png"/>
+                  <img id="notaa" src="notaa.png"/>
+                  <img id="flecha" src="flecha.png"/>
+                  <img id="flecha2" src="flecha2.png"/>
 </div>
               <div class="tabP4" tab-id="4">
-               <p>ul</p>
+                
              </div>
 
              <div class="tabP4" tab-id="5">
@@ -229,6 +253,7 @@
 </div>
 <script src="tema2.js"></script>
 <script src="indexPestaña4.js"></script>
+<script src="lightbox.js"></script>
 </div>
 </body>
 </html>
