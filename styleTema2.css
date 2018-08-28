@@ -741,12 +741,12 @@ font-weight: bold;
 }
 
 .slider-item:nth-child(3) {
-  background: #f4766e;
+  background: #FEE0D5;
   font-size: 4rem;
 }
 
 .slider-item:nth-child(4) {
-  background: #5f3f02;
+  background: #FEE0D5;
   font-size: 4rem;
 }
 
@@ -1301,6 +1301,167 @@ font-weight: bold;
   }
 }
 
+/*-----------------------------
+* PESTAÑA 2 - STEP 3 
+-------------------------------*/
+
+#subEjRecorridos {
+  margin: -40px -575px;
+}
+
+ #enunciadoEj {
+  padding-bottom: 0em;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  height: 0px;
+  font-size: 21px;
+margin-top: 30px;
+margin-left: 40px;
+width: 400px;
+line-height: 1;
+}
+
+#enunciadoEj span {
+  font-style: normal;
+}
+
+#arbolEj {
+  margin: 95px -390px;
+}
+
+#subInorden {
+  padding-bottom: 0em;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 0 0 0.2em #FA8072, 0 0 0.2em #FA8072;
+  height: 0px;
+  font-size: 22px;
+font-weight: bold;
+margin-left: 525px;
+margin-top: -12px;
+}
+
+#subInorden span {
+  font-style: normal;
+  }
+
+#ejInorden {
+  margin: -80px -50px;
+}
+
+#mEjemplo {
+  margin: 30px -490px;
+  top: 10px;
+}
+
+
+/*-----------------------------
+* PESTAÑA 2 - STEP 4 
+-------------------------------*/
+
+#subPreorden {
+  padding-bottom: 0em;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 0 0 0.2em #9AFE2E, 0 0 0.2em #9AFE2E;
+  height: 0px;
+  font-size: 22px;
+font-weight: bold;
+margin-left: 38px;
+margin-top: -12px;
+}
+
+#subPreorden span {
+  font-style: normal;
+  }
+
+#ejPreorden {
+  margin: 15px -530px;
+}
+
+#subPostorden {
+  padding-bottom: 0em;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 0 0 0.2em #00FFBF, 0 0 0.2em #00FFBF;
+  height: 0px;
+  font-size: 22px;
+font-weight: bold;
+margin-left: 548px;
+margin-top: -12px;
+}
+
+#subPostorden span {
+  font-style: normal;
+  }
+
+#ejPostorden {
+ margin: 15px -10px;
+}
+
+#muñecoFin {
+  margin: 30px -244px;
+}
+
+
+
+/*
+#arrowAnim {
+  
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow {
+  width: 2vw;
+  height: 2vw;
+  border: 0.5vw solid;
+  border-color: #66ff66 transparent transparent #66ff66;
+}
+
+
+
+.right {
+  transform: rotate(135deg); 
+}
+
+
+
+.arrowSlidingR {
+  position: absolute;
+  -webkit-animation: slideR 1.4s linear infinite;
+  animation: slideR 1.4s linear infinite;
+}
+
+.delay1 {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+.delay2 {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.delay3 {
+  -webkit-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
+
+
+
+@-webkit-keyframes slideR {
+  0% { opacity:0; transform: translateX(-3vw); }
+  20% { opacity:1; transform: translateX(-1vw); }
+  80% { opacity:1; transform: translateX(1vw); }
+  100% { opacity:0; transform: translateX(3vw); }
+}
+@keyframes slideR {
+  0% { opacity:0; transform: translateX(-3vw); }
+  20% { opacity:1; transform: translateX(-1vw); }
+  80% { opacity:1; transform: translateX(1vw); }
+  100% { opacity:0; transform: translateX(3vw); }
+}*/
 
 /*-----------------------------
 * TEMA 2 - PESTAÑA 3 
