@@ -153,3 +153,4 @@ $(function () {
     $('.slider-container').animate({ "left": calculLeft(index, width) + "%" });
   });
 });
+
