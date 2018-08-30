@@ -154,3 +154,18 @@ $(function () {
   });
 });
 
+/*-----------------------------
+* TABS - PESTAÑA 4 
+-------------------------------*/
+
+  $(".tab__content").hide();
+    $(".tab__content:first").show();
+
+    $(".tab__head li").click(function() {
+  
+      $(".tab__content").hide();
+      var activeTab = $(this).attr("rel"); 
+      $("#"+activeTab).fadeIn();    
+      $(".tab__head li").removeClass("active");
+      $(this).addClass("active");
+});

@@ -449,7 +449,7 @@ font-weight: bold;
   font-size: 1.8em;
   color: #333b48;
   padding-bottom: 5px;
-  margin-bottom: 240px;
+  margin-bottom: 0px;
 }
 
 .menu__wrapper .menu__item p {
@@ -2265,5 +2265,62 @@ line-height: 100px;
   }
 }
 
+/*-----------------------------
+* PESTAÑA 4 - TABS
+-------------------------------*/
+
+.v-tab .tab__head {
+  margin: 0;
+  padding: 0;
+  float: left;
+  list-style: none;
+  height: 32px;
+  width: 125px;
+}
+.v-tab .tab__head li {
+  float: left;
+  margin: 0 0 1px 0;
+  cursor: pointer;
+  padding: 0px 10%;
+  height: 32px;
+  line-height: 31px;
+  color: #333;
+  border-bottom: 0px;
+  overflow: hidden;
+  position: relative;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background-color: #b2f0f1;
+  width: 80%;
+  left: 13px;
+}
+.v-tab .tab__head li:hover {
+  background-color: #7fe6e8;
+  color: #000;
+}
+.v-tab .tab__head li.active {
+ border: 3px solid #00CED1;
+  background-color: #fff;
+  color: #333;
+  border-right: 0;
+  display: block;
+}
+.v-tab .tab__container {
+  border: 3px solid #00CED1;
+  float: left;
+  width: 815px;
+  min-height: 200px;
+  left: -12px;
+  border-radius: 0 5px 5px 5px;
+}
+.v-tab .tab__content {
+  padding: 20px;
+  display: none;
+  height: 410px;
+  background: linear-gradient(to top, #ccf5f5 0%, #ffffff 100%);
+}
+.v-tab .tab__content > :first-child {
+  margin-top: 0;
+}
 
 
