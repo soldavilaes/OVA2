@@ -1638,6 +1638,7 @@ margin-top: -12px;
 * TEMA 2 - PESTAÑA 3 
 -------------------------------*/
 
+
 [ripple] {
   z-index: 1;
   position: relative;
@@ -1775,7 +1776,7 @@ font-weight: bold;
   color: #4285F4 !important;
 }
 #arbolGenrico {
-  margin: -20px -110px;
+  margin: 80px -50px;
 }
 .recuadro3 {
   text-align: center;
@@ -1787,27 +1788,27 @@ font-weight: bold;
   -moz-border-radius: 10px 0;
   border-radius: 10px 0;
   width: 350px;
-height: 30px;
-  margin: -23px 490px;
+  height: 25px;
+  margin: -120px 490px;
   border-style: outset; border-width: 1px;
-  font-size: 20px;
+  font-size: 15px;
    background:-webkit-linear-gradient(left, #a3e4d7 0%,#ffffff 42%,#ffffff 52%,#99CCFF 100%);
  
 }
 
 .boxes4 {
-  margin:5px 2px;
-  width: 400px;
-height: 360px;
+  margin: 100px 2px;
+width: 400px;
+height: 270px;
   background:-webkit-linear-gradient(left, #a3e4d7 0%,#ffffff 42%,#ffffff 52%,#99CCFF 100%);
-  font-size: 20px;
+  font-size: 18px;
   color: #000000;
   text-align: justify;
   padding: 10px 10px;
   border-radius: 10px;
   border-radius-right:10px;
   font-family: 'Open Sans', sans-serif;
-  line-height: 30px;
+  line-height: 25px;
   border: 3px #0fe4d2 groove;
 box-shadow: 6px 6px 6px #99CCFF;
 
@@ -1920,7 +1921,7 @@ margin: -10px -10px;
 
 .caja1 {
   border-radius: 10px;
-  background: -webkit-linear-gradient(left, #D284AC 0%,#c4b0b0 42%, 52%, #b4abbf);
+  background: -webkit-linear-gradient(left, #d5a3ff 0%,#c785ff 42%, 52%, #b967ff);
   padding: 20px;
   box-shadow: 10px 18px 12px 1px rgba(0, 0, 0, 0.2);
   line-height: 1.5;
@@ -1938,9 +1939,8 @@ margin: 5px 210px;
    width: 400px;
 height: 170px;
 margin: 20px 210px;
-background: -webkit-linear-gradient(left, #D284AC 0%,#c4b0b0 42%, 52%, #b4abbf);
+background: -webkit-linear-gradient(left, #d5a3ff 0%,#c785ff 42%, 52%, #b967ff);
 }
-
 #nota {
 width: 180px;
 height: 130px;
@@ -1975,14 +1975,295 @@ animation: wiggle 3s linear infinite;
   margin: 130px 85px;
 }
 
-#flecha{
-  margin: 200px -555px;
-}
-#flecha2{
-  margin: 5px -555px;
+
+/* BOTON */
+
+.containerMass3, .buttonMas3 {
+  position: absolute;
 }
 
+.nav3 {
+  position: relative;
+}
 
+.containerMass3 {
+  margin: auto;
+   top: 50px;
+left: -205px;
+margin-left: 190px;
+width: 200px;
+height: 164px;
+}
+
+#toggles {
+  display: none;
+}
+
+.buttonMass3 {
+z-index: 999;
+  width: 43px;
+  height: 43px;
+  background: #77CBC9;
+  border-radius: 100%;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 1px 3px 10px 0 rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  left: 88px;
+  margin: 5px -1px;
+  position: absolute;
+}
+
+.buttonMass3:hover {
+  background: #ff71ce;
+}
+
+.buttonMass3:before {
+ position: absolute;
+  top: 20px;
+  left: 9px;
+  content: '';
+  width: 25px;
+  height: 2px;
+  background: #FFF;
+  transform: rotate(90deg);
+}
+.buttonMass3:after {
+ position: absolute;
+  top: 20px;
+  left: 9px;
+  content: '';
+  width: 25px;
+  height: 2px;
+  background: #FFF;
+}
+
+.nav3 {
+  transform: translateY(-10%);
+  opacity: 0;
+  top: 18px;
+  margin-left: 20px;
+  transition: all 0.5s ease-in-out;
+  background:   #ff71ce;
+  width: 180px;
+  height: 80px;
+  border-radius: 5px;
+  transform: translateY(0%);
+  box-shadow: 2px 3px 10px 0 rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Sansita;
+  line-height: 1;
+  color: #000000;
+  font-weight: lighter;
+  padding: 2px 2px;
+}
+
+#toggles:checked ~ .nav3 {
+ opacity: 1;
+  transform: translateY(10%);
+}
+
+#toggles:checked ~ .button {
+transform: rotate(135deg);
+  box-shadow: 0 0 0 0 transparent;
+}
+
+.ContenText{
+  margin: 20px auto;
+}
+
+.ContenText h1{
+position: fixed;
+bottom: 0;
+height: 10px;
+margin: 490px -10px;
+display: block;
+animation-duration: 3s;
+font-family: "Homer Simpson", cursive;
+font-size: 30px;
+color: #27283D;
+text-align: center;
+line-height: 100px;
+
+  text-shadow: 0 1px 0 #77CBC9,
+               0 2px 0 #77CBC9,
+               0 3px 0 #77CBC9,
+               0 4px 0 #77CBC9,
+               0 5px 0 #77CBC9,
+               0 6px 0 transparent,
+               0 7px 0 transparent,
+               0 8px 0 transparent,
+               0 9px 0 transparent,
+               0 10px 10px rgba(0, 0, 0, .6);
+}
+
+.ContenText2{
+  margin: 20px auto;
+}
+
+.ContenText2 h1{
+position: fixed;
+bottom: 0;
+height: 10px;
+margin: 290px 12px;
+display: block;
+animation-duration: 3s;
+font-family: "Homer Simpson", cursive;
+font-size: 30px;
+color: #27283D;
+text-align: center;
+line-height: 100px;
+
+  text-shadow: 0 1px 0 #77CBC9,
+               0 2px 0 #77CBC9,
+               0 3px 0 #77CBC9,
+               0 4px 0 #77CBC9,
+               0 5px 0 #77CBC9,
+               0 6px 0 transparent,
+               0 7px 0 transparent,
+               0 8px 0 transparent,
+               0 9px 0 transparent,
+               0 10px 10px rgba(0, 0, 0, .6);
+}
+
+.containerMass4, .buttonMas4 {
+  position: absolute;
+}
+
+.nav4 {
+  position: relative;
+}
+
+.containerMass4 {
+  margin: auto;
+   top: 220px;
+left: -205px;
+margin-left: 190px;
+width: 200px;
+height: 164px;
+}
+
+#toggles4 {
+  display: none;
+}
+
+.buttonMass4 {
+z-index: 999;
+  width: 43px;
+  height: 43px;
+  background: #77CBC9;
+  border-radius: 100%;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 1px 3px 10px 0 rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  left: 88px;
+  margin: 35px -1px;
+  position: absolute;
+}
+
+.buttonMass4:hover {
+  background: #ff71ce;
+}
+
+.buttonMass4:before {
+ position: absolute;
+  top: 20px;
+  left: 9px;
+  content: '';
+  width: 25px;
+  height: 2px;
+  background: #FFF;
+  transform: rotate(90deg);
+}
+.buttonMass4:after {
+ position: absolute;
+  top: 20px;
+  left: 9px;
+  content: '';
+  width: 25px;
+  height: 2px;
+  background: #FFF;
+}
+
+.nav4 {
+  transform: translateY(-10%);
+  opacity: 0;
+  top: 48px;
+  margin-left: 20px;
+  transition: all 0.5s ease-in-out;
+  background:   #ff71ce;
+  width: 180px;
+  height: 80px;
+  border-radius: 5px;
+  transform: translateY(0%);
+  box-shadow: 2px 3px 10px 0 rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Sansita;
+  line-height: 1;
+  color: #000000;
+  font-weight: lighter;
+  padding: 2px 2px;
+}
+
+#toggles4:checked ~ .nav4 {
+ opacity: 1;
+  transform: translateY(10%);
+}
+
+#toggles4:checked ~ .button {
+transform: rotate(135deg);
+  box-shadow: 0 0 0 0 transparent;
+}
+
+/***EFECTO LETRAS PESTAÑA 3*****/
+.letrasP3{
+margin: auto;
+}
+
+.letrasP3 h1 {
+cursor: default;
+position: fixed;
+top: 10px;
+left: -190px;
+right: 0;
+bottom: 0;
+height: 10px;
+margin: 185px;
+display: block;
+-webkit-animation: bounce .9s ease infinite alternate;
+font-family: 'Erica One', cursive;
+font-size: 50px;
+color: #99CCFF;
+text-align: center;
+line-height: 100px;
+
+  text-shadow: 0 1px 0 #a3e4d7,
+               0 2px 0 #a3e4d7,
+               0 3px 0 #a3e4d7,
+               0 4px 0 #a3e4d7,
+               0 5px 0 #a3e4d7,
+               0 6px 0 transparent,
+               0 7px 0 transparent,
+               0 8px 0 transparent,
+               0 9px 0 transparent,
+               0 10px 10px rgba(0, 0, 0, .6);
+}
+/* ANIMATION */
+@-webkit-keyframes bounce {
+  100% {
+    top: -30px;
+    
+    text-shadow: 0 1px 0 #5780cd,
+                 0 2px 0 #5780cd,
+                 0 3px 0 #5780cd,
+                 0 4px 0 #5780cd,
+                 0 5px 0 #5780cd,
+                 0 6px 0 #5780cd,
+                 0 7px 0 #5780cd,
+                 0 8px 0 #5780cd,
+                 0 9px 0 #5780cd,
+                 0 30px 30px rgba(0, 0, 0, .3);
+  }
+}
 
 
 

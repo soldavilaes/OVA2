@@ -10,6 +10,9 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen">
+
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Fredoka+One'>
+
       </head>
 
     <body>
@@ -186,95 +189,124 @@
                     <li><a href="#tab-5" tab-id="7" ripple="ripple" ripple-color="#FFF">Ejemplo 6</a></li>
                   </ul>
                 </div>
-                <div class="tabsP4-content">
-
-                  <div class="tabP4 active" tab-id="1">
-                    <img id="arbolGenrico" src="arbol.gif"/>
-                    
-                    <div class="boxes4">
-                      <span>
-                        Los nodos de los árboles genéricos pueden tener un número variable de hijos, a diferencia de los nodos de los árboles binarios que sólo pueden tener dos hijos como máximo. <br><br>Se usan en un gran número de dominios en los que es necesario representar estructuras jerárquicas: procesadores de lenguaje, documentos XML, documentos HTML, etc. 
-                      </span>
-                    </div>
-                    <div class="recuadro3">Ejemplo de árbol genérico</div>
-                  </div>
-
-                  <div class="tabP4" tab-id="2">
-                   <div class="recuadro4">Algunas caracteristicas de los arboles genericos son:</div>
-                   <div class="circle-1">
-                    <p id="circle-1"><span><b>1.</b> Un árbol genérico está formado por un dato y una lista de árboles hijos (también árboles).</span></p> 
-                  </div>
-
-                  <div class="circle-2">
-                    <p id="circle-2"><span><b>2.</b> La lista de árboles hijos puede ser vacía.</span></p> 
-                  </div>
-
-                  <div class="circle-3">
-                    <p id="circle-2"><span><b>3.</b>No usamos el concepto de árbol-vacío, un árbol o nodo hoja es un árbol cuya lista de hijos es una lista vacía.</span></p> 
-                  </div>
-                  <img id="recuerda" src="recuerda.png"/>
-                  <div class="boxes5">
-                    <span>
-                      <b>Recuerda que...</b><br><br>
-                      <b>Cons</b>: Toma dos argumentos y devuelve una lista construida a partir de esos dos argumentos.<br><br>
-                      <b>Car</b>: Primer artículo.<br><br>
-                      <b>Cdr</b>: Segundo y todos los elementos subsiguientes en la lista.<br><br>
-                      <b>Cadr</b>: Segundo elemento.<br>
-
-                    </span>
-                  </div>
-
-                </div>
-
-                 <div class="tabP4" tab-id="3">
-                
-                  <div class='caja1'>
-                    <span>
-                      <b>• (make-tree dato lista-hijos):</b> construye un árbol a partir de un dato y una lista de hijos formada por árboles. La lista puede ser vacía. <br><br>
-                       <div class='caja1-1'>
-                        <span> (define (make-tree dato hijos) (cons dato hijos))</span>
-                       </div>
-
-                    </span>
-                  </div>
-
-                  <div class='caja2'>
-                    <span>
-
-                      <b> • (dato-tree tree):</b> devuelve el dato de la raíz del árbol.<br>
-                      <b>• (hijos-tree tree):</b> devuelve una lista de árboles hijos.<br>
-                      <b>• (hoja-tree? tree):</b> predicado que comprueba si el árbol es un nodo hoja (no tiene hijos).
-                    </span>
-                  </div>
-
-                  <img id="nota" class="lightbox" src="nota.png"/>
-                  <img id="notaa" src="notaa.png"/>
-                  <img id="flecha" src="flecha.png"/>
-                  <img id="flecha2" src="flecha2.png"/>
-</div>
-              <div class="tabP4" tab-id="4">
-                
-             </div>
-
-             <div class="tabP4" tab-id="5">
-               <p>l</p>
-             </div>
-
-             <div class="tabP4" tab-id="6">
-               <p>l</p>
-             </div>
-
-             <div class="tabP4" tab-id="7">
-               <p>l</p>
-             </div>
-
-           </div>
-</div>
-
+<div class="tabsP4-content">
+        <div class="tabP4 active" tab-id="1">
+         <div class="letrasP3">
+           <h1>ARBOLES GENÉRICOS</h1>
          </div>
-       </div>
-     </div>
-   </article>
+         <img id="arbolGenrico" src="arbol1.gif"/>
+
+         <div class="boxes4">
+          <span>
+            Los nodos de los árboles genéricos pueden tener un número variable de hijos, a diferencia de los nodos de los árboles binarios que sólo pueden tener dos hijos como máximo. <br><br>Se usan en un gran número de dominios en los que es necesario representar estructuras jerárquicas: procesadores de lenguaje, documentos XML, documentos HTML, etc. 
+          </span>
+        </div>
+        <div class="recuadro3">Ejemplo de árbol genérico</div>
+      </div>
+
+      <div class="tabP4" tab-id="2">
+       <div class="recuadro4">Algunas caracteristicas de los arboles genéricos son:</div>
+       <div class="circle-1">
+        <p id="circle-1"><span><b>1.</b> Un árbol genérico está formado por un dato y una lista de árboles hijos (también árboles).</span></p> 
+      </div>
+
+      <div class="circle-2">
+        <p id="circle-2"><span><b>2.</b> La lista de árboles hijos puede ser vacía.</span></p> 
+      </div>
+
+      <div class="circle-3">
+        <p id="circle-2"><span><b>3.</b>No usamos el concepto de árbol-vacío, un árbol o nodo hoja es un árbol cuya lista de hijos es una lista vacía.</span></p> 
+      </div>
+      <img id="recuerda" src="recuerda.png"/>
+      <div class="boxes5">
+        <span>
+          <b>Recuerda que...</b><br><br>
+          <b>Cons</b>: Toma dos argumentos y devuelve una lista construida a partir de esos dos argumentos.<br><br>
+          <b>Car</b>: Primer artículo.<br><br>
+          <b>Cdr</b>: Segundo y todos los elementos subsiguientes en la lista.<br><br>
+          <b>Cadr</b>: Segundo elemento.<br>
+
+        </span>
+      </div>
+
+    </div>
+
+    <div class="tabP4" tab-id="3">
+
+      <div class='caja1'>
+        <span>
+          <b>• (make-tree dato lista-hijos):</b> Construye un árbol a partir de un dato y una lista de hijos formada por árboles. La lista puede ser vacía. <br><br>
+          <div class='caja1-1'>
+            <span> (define (make-tree dato hijos) (cons dato hijos))</span>
+          </div>
+
+        </span>
+      </div>
+
+      <div class='caja2'>
+        <span>
+
+          <b>• (dato-tree tree):</b> Devuelve el dato de la raíz del árbol.<br>
+          <b>• (hijos-tree tree):</b> Devuelve una lista de árboles hijos.<br>
+          <b>• (hoja-tree? tree):</b> Predicado que comprueba si el árbol es un nodo hoja (no tiene hijos).
+        </span>
+      </div>
+
+      <img id="nota" class="lightbox" src="nota.png"/>
+      <img id="notaa" src="notaa.png"/>
+
+
+      <div class="ContenText">
+        <h1>Constructores</h1>
+      </div>
+
+      <div class="containerMass3">
+        <input type="checkbox" id="toggles" />
+        <label class="buttonMass3" for="toggles"></label>
+        <nav class="nav3">
+          <br>
+          Funciones que permiten construir un nuevo árbol. 
+        </nav>
+      </div>
+
+
+      <div class="ContenText2">
+        <h1>Selectores</h1>
+      </div>
+
+      <div class="containerMass4">
+        <input type="checkbox" id="toggles4" />
+        <label class="buttonMass4" for="toggles4"></label>
+        <nav class="nav4">
+          <br>
+          Funciones que obtienen los elementos de un árbol. 
+        </nav>
+      </div>
+    </div>
+    <div class="tabP4" tab-id="4">
+
+
+    </div>
+
+    <div class="tabP4" tab-id="5">
+     <p>l</p>
+   </div>
+
+   <div class="tabP4" tab-id="6">
+     <p>l</p>
+   </div>
+
+   <div class="tabP4" tab-id="7">
+     <p>l</p>
+   </div>
+
+ </div>
+</div>
+
+</div>
+</div>
+</div>
+</article>
    <!-- PESTAÑA 4 --> 
    <article id="item-4" class="menu__item">
     <h3>Contenido Cuatro</h3>
