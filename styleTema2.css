@@ -1893,8 +1893,8 @@ height: 30px;
 
 .boxes5 {
 margin: -520px 680px;
-width: 168px;
-height: 280px;
+width: 170px;
+height: 370px;
 background: -webkit-linear-gradient(left, #f66 0%,#ffffff 42%,#ffffff 52%, #f92);
 font-size: 18px;
 color: #000000;
@@ -1908,17 +1908,6 @@ border: 3px #0fe4d2 groove;
 box-shadow: 6px 6px 6px #fff;
 }
 
-.caja1-1 {
-  border-radius: 10px;
-  background: #EDE7F6;
-  padding: 20px;
-  box-shadow: 4px 4px 12px 1px rgba(0, 0, 0, 0.2);
-  line-height: 1px;
-  width: 377px;
-height: 5px;
-margin: -10px -10px;
-}
-
 .caja1 {
   border-radius: 10px;
   background: -webkit-linear-gradient(left, #d5a3ff 0%,#c785ff 42%, 52%, #b967ff);
@@ -1926,8 +1915,8 @@ margin: -10px -10px;
   box-shadow: 10px 18px 12px 1px rgba(0, 0, 0, 0.2);
   line-height: 1.5;
   width: 400px;
-height: 170px;
-margin: 5px 210px;
+height: 120px;
+margin: 40px 210px;
 }
 
 .caja2 {
@@ -1938,14 +1927,14 @@ margin: 5px 210px;
   line-height: 1.5;
    width: 400px;
 height: 170px;
-margin: 20px 210px;
+margin: -25px 210px;
 background: -webkit-linear-gradient(left, #d5a3ff 0%,#c785ff 42%, 52%, #b967ff);
 }
 #nota {
 width: 180px;
-height: 130px;
-margin: -12px 80px;
-animation: wiggle 3s linear infinite;
+height: 80px;
+margin: 45px 95px;
+animation: wiggle 10s linear infinite;
 }
 
 @keyframes wiggle {
@@ -1972,7 +1961,7 @@ animation: wiggle 3s linear infinite;
   }
 }
 #notaa {
-  margin: 130px 85px;
+  margin: 150px 95px;
 }
 
 
@@ -1988,7 +1977,7 @@ animation: wiggle 3s linear infinite;
 
 .containerMass3 {
   margin: auto;
-   top: 50px;
+   top: 67px;
 left: -205px;
 margin-left: 190px;
 width: 200px;
@@ -2009,7 +1998,7 @@ z-index: 999;
   box-shadow: 1px 3px 10px 0 rgba(0, 0, 0, 0.3);
   cursor: pointer;
   left: 88px;
-  margin: 5px -1px;
+  margin: 40px -1px;
   position: absolute;
 }
 
@@ -2040,12 +2029,12 @@ z-index: 999;
 .nav3 {
   transform: translateY(-10%);
   opacity: 0;
-  top: 18px;
+  top: 55px;
   margin-left: 20px;
   transition: all 0.5s ease-in-out;
   background:   #ff71ce;
   width: 180px;
-  height: 80px;
+  height: 60px;
   border-radius: 5px;
   transform: translateY(0%);
   box-shadow: 2px 3px 10px 0 rgba(0, 0, 0, 0.1);
@@ -2075,7 +2064,7 @@ transform: rotate(135deg);
 position: fixed;
 bottom: 0;
 height: 10px;
-margin: 490px -10px;
+margin: 430px -10px;
 display: block;
 animation-duration: 3s;
 font-family: "Homer Simpson", cursive;
@@ -2104,7 +2093,7 @@ line-height: 100px;
 position: fixed;
 bottom: 0;
 height: 10px;
-margin: 290px 12px;
+margin: 285px 12px;
 display: block;
 animation-duration: 3s;
 font-family: "Homer Simpson", cursive;
@@ -2192,7 +2181,7 @@ z-index: 999;
   transition: all 0.5s ease-in-out;
   background:   #ff71ce;
   width: 180px;
-  height: 80px;
+  height: 60px;
   border-radius: 5px;
   transform: translateY(0%);
   box-shadow: 2px 3px 10px 0 rgba(0, 0, 0, 0.1);
@@ -2265,6 +2254,111 @@ line-height: 100px;
   }
 }
 
+.recuadro5 {
+  text-align: center;
+  padding: 4px 10px;
+  text-decoration: none;
+  color:  #27283D;
+  font-weight: bold;
+  border-radius: 10px 10px ;
+  box-shadow: 15px 10px 15px #b967ff;
+  width: 640px;
+height: 30px;
+  font-size: 20px;
+  margin: -2px 100px;
+}
+
+.recuadro6 {
+  text-align: center;
+  padding: 4px 10px;
+  text-decoration: none;
+  color: #05ffa1;
+  font-weight: bold;
+  border-radius: 10px 10px ;
+  box-shadow: 5px 5px 5px #01cdfe;
+  width: 640px;
+height: 30px;
+  font-size: 20px;
+  margin: -2px 100px;
+}
+
+.recuadro7 {
+
+margin: auto;
+}
+
+.recuadro7 h1{
+font-family: 'Open Sans', sans-serif;
+position: fixed;
+bottom: 0;
+margin: 110px 5px;
+display: block;
+animation-duration: 3s;
+font-size: 20px;
+color: #baffc9;
+text-align: justify;
+line-height: 25px;
+background-color:  #baffc9;
+  animation: textColor 10s ease infinite;
+width: 400px;
+font-weight: normal;
+border-radius: 10px;
+height: 300px;
+box-shadow: 5px 5px 5px #01cdfe;
+
+}
+.recuadro7:after {
+position: fixed;
+content: "";
+top: 310px;
+left: 360px;
+right: 0;
+height: 50px;
+width: 700px;
+margin: 205px 90px;
+z-index: 1;
+}
+
+.recuadro7:after {
+  -webkit-filter: blur(5vw);
+  -moz-filter: blur(5vw);
+  -ms-filter: blur(5vw);
+  filter: blur(5vw);
+  background-size: 200% 200%;
+  animation: animateGlow 10s ease infinite;
+  }
+
+@keyframes textColor {
+  0% {
+    color: #0000ff;
+  }
+  50% {
+    color: #cd8500;
+  }
+  100% {
+    color: #0000ff;
+  }
+}
+
+#ejemplo{
+  margin: 35px -140px;
+}
+
+#arbolG{
+  margin: 70px -30px;
+}
+
+#implementacion{
+  margin: 260px -140px;
+}
+
+#arbolLista{
+ width: 180px;
+height: 80px;
+margin: 245px 100px;
+animation: wiggle 10s linear infinite;
+}
+
 /*-----------------------------
 * PESTAÑA 4 - TABS
 -------------------------------*/
@@ -2327,5 +2421,6 @@ line-height: 100px;
 .v-tab .tab__content > :first-child {
   margin-top: 0;
 }
+
 
 

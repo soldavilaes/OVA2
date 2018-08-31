@@ -182,8 +182,8 @@
                   <ul>
                     <li class="activeP4"><a href="#tab-1" tab-id="1" ripple="ripple" ripple-color="#FFF">Definición</a></li>
                     <li><a href="#tab-2" tab-id="2" ripple="ripple" ripple-color="#FFF">Características</a></li>
-                    <li><a href="#tab-3" tab-id="3" ripple="ripple" ripple-color="#FFF">Ejemplo 2</a></li>
-                    <li><a href="#tab-4" tab-id="4" ripple="ripple" ripple-color="#FFF">Ejemplo 3</a></li>
+                    <li><a href="#tab-3" tab-id="3" ripple="ripple" ripple-color="#FFF">Representación</a></li>
+                    <li><a href="#tab-4" tab-id="4" ripple="ripple" ripple-color="#FFF">Manejo</a></li>
                     <li><a href="#tab-5" tab-id="5" ripple="ripple" ripple-color="#FFF">Ejemplo 4</a></li>
                     <li><a href="#tab-5" tab-id="6" ripple="ripple" ripple-color="#FFF">Ejemplo 5</a></li>
                     <li><a href="#tab-5" tab-id="7" ripple="ripple" ripple-color="#FFF">Ejemplo 6</a></li>
@@ -220,26 +220,45 @@
       <img id="recuerda" src="recuerda.png"/>
       <div class="boxes5">
         <span>
-          <b>Recuerda que...</b><br><br>
+          <b>Funciones Importantes</b><br><br>
           <b>Cons</b>: Toma dos argumentos y devuelve una lista construida a partir de esos dos argumentos.<br><br>
-          <b>Car</b>: Primer artículo.<br><br>
-          <b>Cdr</b>: Segundo y todos los elementos subsiguientes en la lista.<br><br>
-          <b>Cadr</b>: Segundo elemento.<br>
-
+          <b>Car</b>:  Devuelve el dato de la raíz del árbol.<br><br>
+          <b>Cdr</b>:  Devuelve la lista de árboles hijos (lista vacía, cuando es un nodo hoja).<br><br>
+          <b>Cadr</b>: Devuelve el segundo elemento.<br>
         </span>
       </div>
 
     </div>
 
     <div class="tabP4" tab-id="3">
+   
 
+    <div class="recuadro6">REPRESENTACIÓN DE ARBOLES GENÉRICOS CON LISTAS</div>
+
+       <div class="recuadro7">
+       <h1> Recordemos que un árbol contiene un dato en su raíz y un número cualquiera de hijos, que también son árboles. <br><br>
+       Para representar un árbol con n hijos, se utiliza una lista de n+1 elementos donde el primer elemento será el dato de la raíz y el resto serán los árboles hijos. Los nodos hoja serán por tanto listas de un elemento, el dato.
+       </h1>
+        
+        </div>
+
+        <img id="ejemplo" src="ejemplo.png"/>
+        <img id="arbolG" src="arbolG.png"/>
+        <img id="arbolLista" src="arbolListas.png"/>
+        <img id="implementacion" src="implementacion.png"/>
+
+    </div>
+
+
+   
+  
+ 
+    <div class="tabP4" tab-id="4">
+	 
+    <div class="recuadro5">FUNCIONES PARA MANEJO DE ARBOLES GENÉRICOS</div>
       <div class='caja1'>
         <span>
           <b>• (make-tree dato lista-hijos):</b> Construye un árbol a partir de un dato y una lista de hijos formada por árboles. La lista puede ser vacía. <br><br>
-          <div class='caja1-1'>
-            <span> (define (make-tree dato hijos) (cons dato hijos))</span>
-          </div>
-
         </span>
       </div>
 
@@ -282,10 +301,6 @@
           Funciones que obtienen los elementos de un árbol. 
         </nav>
       </div>
-    </div>
-    <div class="tabP4" tab-id="4">
-
-
     </div>
 
     <div class="tabP4" tab-id="5">
@@ -378,6 +393,7 @@
 <script src="tema2.js"></script>
 <script src="indexPestaña4.js"></script>
 <script src="lightbox.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 </div>
 </body>
 </html>
