@@ -456,7 +456,6 @@ font-weight: bold;
   font-size: 1.3em;
   line-height: 1.6em;
   color: #76716f;
-  height: 400px;
   margin-top: 40px;
 }
 
@@ -2352,12 +2351,136 @@ z-index: 1;
   margin: 260px -140px;
 }
 
-#arbolLista{
- width: 180px;
-height: 80px;
-margin: 245px 100px;
-animation: wiggle 10s linear infinite;
+.botonPestaña4{
+ width: 850px;
+height: 360px;
+top: 220px;
 }
+
+.pop-up-button {
+  border:none;
+  height:40px;
+  width:40px;
+  font-family:'Open Sans';
+  font-size:15px;
+  background-color: #0055a4;
+  cursor: pointer;
+  z-index: 999;
+ border-radius: 80%;
+ margin: 150px 765px;
+
+
+}
+.pop-up-button p{
+font-style: normal;
+
+}
+.pop-up-button:hover{
+  background:#dfdfdf;
+}
+.pop-up-text {
+  box-sizing:border-box;
+  padding:20px;  
+  z-index: 999;
+margin: -50px -500px;
+height: 350px;
+}
+.pop-up {
+left: 140px;
+width: 885px;
+height: 390px;
+opacity: 15px;
+background: rgba(0,0,0,.8);
+position: fixed;
+text-align: center;
+border-radius: 10px;
+display: none;
+z-index: 1;
+top: 190px;
+}
+
+.closeP4 {
+left: 360px;
+width: 985px;
+height: 75px;
+z-index: 1;
+top: 15px;
+
+}
+.botonPestaña4 p{
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+}
+
+.botonPestaña4 span {
+  border-radius:0 0 30px 30px;
+  margin-left:90%;
+  background:red;
+  color:#fff;
+  font-size:20px;
+  height:10px;
+  padding:0 5px;
+  cursor:pointer;
+  margin:195px 20px;
+
+}
+
+.pop-up-container{
+  height:700px;
+  width:100%;
+  opacity:.5;
+  position:relative;
+  z-index:-1;
+  margin-top:-450px;
+
+}
+
+
+/* Yellow Shadow */
+@-moz-keyframes yellow {
+  0%, 100% {
+    -moz-box-shadow: 1px 0px 19px 4px #05ffa1, inset 0px 0px 10px rgba(255, 255, 255, 0.5);
+    box-shadow: 1px 0px 19px 4px #05ffa1, inset 0px 0px 10px rgba(255, 255, 255, 0.5); }
+
+  50% {
+    -moz-box-shadow: 0px 0px 0px 0px rgba(255, 245, 3, 0), inset 0px 0px 0px rgba(255, 255, 255, 0);
+    box-shadow: 0px 0px 0px 0px rgba(255, 245, 3, 0), inset 0px 0px 0px rgba(255, 255, 255, 0); } }
+
+@-webkit-keyframes yellow {
+  0%, 100% {
+    -webkit-box-shadow: 1px 0px 19px 4px #05ffa1, inset 0px 0px 10px rgba(255, 255, 255, 0.5);
+    box-shadow: 1px 0px 19px 4px #05ffa1, inset 0px 0px 10px rgba(255, 255, 255, 0.5); }
+
+  50% {
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(255, 245, 3, 0), inset 0px 0px 0px rgba(255, 255, 255, 0);
+    box-shadow: 0px 0px 0px 0px rgba(255, 245, 3, 0), inset 0px 0px 0px rgba(255, 255, 255, 0); } }
+
+@-o-keyframes yellow {
+  0%, 100% {
+    box-shadow: 1px 0px 19px 4px #05ffa1, inset 0px 0px 10px rgba(255, 255, 255, 0.5); }
+
+  50% {
+    box-shadow: 0px 0px 0px 0px rgba(255, 245, 3, 0), inset 0px 0px 0px rgba(255, 255, 255, 0); } }
+
+@keyframes yellow {
+  0%, 100% {
+    box-shadow: 1px 0px 19px 4px #05ffa1, inset 0px 0px 10px rgba(255, 255, 255, 0.5); }
+
+  50% {
+    box-shadow: 0px 0px 0px 0px rgba(255, 245, 3, 0), inset 0px 0px 0px rgba(255, 255, 255, 0); } }
+
+  .yellow {
+  text-shadow: 0px 1px 0px #0055a4;
+  background-image: -webkit-linear-gradient(top, #05ffa1, #40e0d0);
+  background-image: -moz-linear-gradient(top, #05ffa1, #40e0d0);
+  background-image: -o-linear-gradient(top, #05ffa1, #40e0d0);
+  background-image: linear-gradient(to bottom, #05ffa1, #40e0d0);
+  -webkit-animation: yellow 1s infinite;
+  -moz-animation: yellow 1s infinite;
+  -o-animation: yellow 1s infinite;
+  animation: yellow 1s infinite; }
+
 
 /*-----------------------------
 * PESTAÑA 4 - TABS
