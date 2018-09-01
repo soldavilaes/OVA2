@@ -8,9 +8,6 @@
         </style>
         
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen">
-
         <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Fredoka+One'>
 
       </head>
@@ -322,7 +319,8 @@
 </article> 
      <!-- PESTAÑA 4 --> 
   <article id="item-4" class="menu__item">
-    <h3>Contenido Cuatro</h3>
+    <img id="subArbolBin" src="arbolesBin.png" />
+    <p id="indPestañasV"><span>Haz clic sobre las pestañas verticales para observar el contenido.</span></p>
     <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, dignissimos nam dolor est. Ad vel eum voluptates rerum. Harum quia dolore architecto ducimus, rem porro minus perferendis ab eveniet aliquid!
     </p>-->
     <div class="v-tab">
@@ -337,18 +335,59 @@
       </ul>
         
       <div class="tab__container">
-
+       <!-- TAB 1 -->
         <div id="tab1" class="tab__content">
-          
-          <h3>heading here</h3>
-          <p>Lorem ipsum non pellentesque lacinia ullamcorper faucibus eu quisque, ut odio nisi aptent proin dictumst lorem tincidunt, accumsan nec habitasse arcu nisl lacus gravida odio elementum quis consectetur vehicula egestas.</p>
+           <div class="defAb">
+            <h1>ÁRBOL BINARIO</h1>
+          </div>
+          <p id="dArbolB"><span>Un árbol binario es una estructura que contiene tres elementos:</span></p>
+          <!-- NÚMERO 1 -->
+          <div class="wraps">
+            <div class="portrait"></div>
+            <div id="contentt" class="">
+              <h1>Un dato</h1>
+            </div>
+            <div class="button1"></div>
+          </div>
+          <!-- NÚMERO 2 -->
+          <div class="wraps2">
+            <div class="portrait2"></div>
+            <div id="contentt2" class="">
+              <h1>Un árbol binario izquierdo</h1>
+            </div>
+            <div class="button2"></div>
+          </div>
+          <!-- NÚMERO 3 -->
+          <div class="wraps3">
+            <div class="portrait3"></div>
+            <div id="contentt3" class="">
+              <h1>un árbol binario derecho</h1>
+            </div>
+            <div class="button3"></div>
+          </div>
+          <p id="dArbolB2"><span>Esta definición es recursiva y necesita un caso base. Es el siguiente: </span></p>
+          <!-- EFECTO CIRCULO -->
+          <div class="notice-wrapper">
+              <div class="notice js-notice">
+                  <div class="notice-icon"></div>
+                  <div class="notice-text">
+                      <h5 class="notice-title">Un árbol binario puede ser también un árbol-vacío, un símbolo especial (usaremos la lista vacía) que representa un árbol que no tiene datos ni hijos.</h5>
+                  </div>
+              </div>
+          </div>
+          <img id="arBinario" src="arBinario.gif" />
         </div>
-        <!-- #tab1 -->
+        
 
         <div id="tab2" class="tab__content">
           <p>Dui sociosqu vitae varius nulla habitasse inceptos pharetra feugiat curabitur, nibh molestie est semper mattis malesuada viverra auctor, duis pulvinar quam diam scelerisque ut nullam condimentum ut per conubia feugiat ultricies tristique dictum.
 
       </p>
+
+      <img id="nota" class="lightbox" src="arBinario.png" />
+
+
+        
         </div>
         <!-- #tab2 -->
 
@@ -394,6 +433,7 @@
 <script src="indexPestaña4.js"></script>
 <script src="lightbox.js"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </div>
 </body>
 </html>

@@ -169,3 +169,74 @@ $(function () {
       $(".tab__head li").removeClass("active");
       $(this).addClass("active");
 });
+
+
+/*-----------------------------
+* PESTAÑA 4 - ITEM 1 - NUMEROS 
+-------------------------------*/
+
+  $('.button1').click(function(){    
+  $("#contentt").toggleClass("display");
+});
+
+$('.button1').click(function(){    
+  $(this).toggleClass("buttonDisplay");
+});
+
+    $('.button2').click(function(){    
+  $("#contentt2").toggleClass("display2");
+});
+
+$('.button2').click(function(){    
+  $(this).toggleClass("buttonDisplay2");
+});
+
+   $('.button3').click(function(){    
+  $("#contentt3").toggleClass("display3");
+});
+
+$('.button3').click(function(){    
+  $(this).toggleClass("buttonDisplay3");
+});
+
+/*-----------------------------
+* PESTAÑA 4 - ITEM 1 - CIRCULO
+-------------------------------*/
+
+$(document).ready(function()
+{
+
+$('.js-notice').addClass('show-notice');
+
+$('.js-open-notice').on('click', function(){
+    $('.js-notice').addClass('show-notice');
+});    
+    
+
+$('.js-close-notice').on('click', function(){
+    $('.js-notice').removeClass('show-notice');
+});
+    
+});
+
+/*-----------------------------
+* LIGHTBOX
+-------------------------------*/
+
+$(document).ready(function () {
+    "use strict";
+    $(".lightbox").click(function () {
+        var imgsrc = $(this).attr('src');
+        $("body").append("<div class='img-popup'><span class='close-lightbox'>&times;</span><img src='" + imgsrc + "'></div>");
+        $(".close-lightbox, .img-popup").click(function () {
+            $(".img-popup").fadeOut(500, function () {
+                $(this).remove();
+            }).addClass("lightboxfadeout");
+        });
+
+    });
+    $(".lightbox").click(function () {
+        $(".img-popup").fadeIn(500);
+    });
+
+});
