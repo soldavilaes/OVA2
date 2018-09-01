@@ -2354,7 +2354,8 @@ z-index: 1;
 .botonPestaña4{
  width: 850px;
 height: 360px;
-top: 220px;
+top: 215px;
+left: -50px;
 }
 
 .pop-up-button {
