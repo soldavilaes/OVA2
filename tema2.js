@@ -240,3 +240,29 @@ $(document).ready(function () {
     });
 
 });
+
+/*-----------------------------
+* ACORDEON
+-------------------------------*/
+
+$(document).ready(function(){
+
+  $(".accordion-01 .set > a").on("click", function(){
+    if($(this).hasClass('active'))
+    {
+        $(this).removeClass("active");
+        $(this).siblings('.content1').slideUp(200);
+        $(".accordion-01 .set > a i").removeClass("fa-minus").addClass("fa-plus");
+    }
+    else
+    {
+        $(".accordion-01 .set > a i").removeClass("fa-minus").addClass("fa-plus");
+      $(this).find("i").removeClass("fa-plus").addClass("fa-minus");
+      $(".accordion-01 .set > a").removeClass("active");
+      $(this).addClass("active");
+      $('.accordion-01 .content1').slideUp(200);
+      $(this).siblings('.content1').slideDown(200);
+    }
+  });
+
+});

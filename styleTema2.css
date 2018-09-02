@@ -3198,3 +3198,229 @@ line-height: 100px;
     }
 }
 
+/*-----------------------------
+* PESTAÑA 4 - ITEM 2 - MANEJO
+-------------------------------*/
+
+.manejo h1{
+position: fixed;
+bottom: 0;
+height: 10px;
+margin: 520px 155px;
+display: block;
+animation-duration: 3s;
+font-family: "Open Sans", sans-serif;
+font-size: 25px;
+color: #000000;
+text-align: center;
+line-height: 100px;
+
+  text-shadow: 0 1px 0 #77CBC9,
+               0 2px 0 #77CBC9,
+               0 3px 0 #77CBC9,
+               0 4px 0 #77CBC9,
+               0 5px 0 #77CBC9,
+               0 6px 0 transparent,
+               0 7px 0 transparent,
+               0 8px 0 transparent,
+               0 9px 0 transparent,
+               0 10px 10px rgba(0, 0, 0, .6);
+}
+
+#subConstructor {
+  padding-bottom: 0em;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 0 0 0.2em #77CBC9, 0 0 0.2em #77CBC9;
+  height: 0px;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 95px;
+  margin-top: 30px;
+}
+
+#subConstructor span {
+  font-style: normal;
+  }
+
+#subSelector {
+  padding-bottom: 0em;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 0 0 0.2em #77CBC9, 0 0 0.2em #77CBC9;
+  height: 0px;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 500px;
+  margin-top: 30px;
+}
+
+#subSelector span {
+  font-style: normal;
+  } 
+
+/* ACORDEON */
+
+.accordion {
+  top: 80px;
+  left: 380px;
+}
+
+.accordion .set {
+  margin-bottom: 2px;
+
+}
+
+.accordion .set > a {
+  color: #000000;
+  display: block;
+  font-size: 18px;
+  font-weight: normal;
+  padding: 1px 50px 1px 15px;
+  position: relative;
+  text-decoration: none;
+  transition: all 0.1s linear 0s;
+  cursor: pointer;
+  background-color: #85859d;
+  height: 30px;  
+  width: 350px;
+}
+
+.accordion .set > a:focus {
+  outline: 0;
+}
+
+.accordion .set > a:hover {
+  background-color: #b5b5c4; 
+}
+
+.accordion .set > a.active {
+  background-color: #0B0B3B;
+  color: #fff;
+  height: 30px;
+}
+
+.accordion .set > a i {
+  color: #000000;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.accordion .set > a.active i {
+  color: #fff;
+}
+
+.accordion .content1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #0b0b3b;
+  display: none;
+  height: 50px;
+  width: 350px;
+}
+
+.accordion .content1 p {
+  color: #000000;
+  font-size: 20px;
+  margin: 0;
+  padding: 10px 15px;
+}
+
+#selector1 {
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+  margin-top: -25px;
+  line-height: 1;
+}
+
+#selector1 span {
+  font-style: normal;
+  
+  }
+
+/* CONSTRUCTORES */
+
+div.stickyNote {
+  display: inline-block;
+  width: 330px;
+  height: 100px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px black;
+  font-family: Arial;
+  transition: all 0.333s ease;
+  top: -174px;
+  left: 7px;
+}
+
+div.stickyNote div.stickyTitle {
+  display: block;
+  background: #FF0000;
+  width: 100%;
+  color: white;
+  padding: 5px 0px;
+  border-radius: 10px 10px 0px 0px; 
+  text-align: center;
+  font-size: 20px;
+  transition: background 0.333s ease;
+}
+
+div.stickyNote div.stickyContent {
+  font-size: 16px;
+  padding: 10px;
+  color: #000000;
+  text-overflow: clip;
+  text-align: justify;
+  line-height: 1.2;
+}
+
+div.stickyNote:hover  {
+  box-shadow: 0px 0px 10px black;
+}
+
+div.stickyNote:hover div.stickyTitle {
+  background: rgb(255,180,0);
+}
+
+
+div.stickyNote1 {
+  display: inline-block;
+  width: 330px;
+  height: 100px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px black;
+  font-family: Arial;
+  transition: all 0.333s ease;
+  top: -50px;
+  left: -325px;
+}
+
+div.stickyNote1 div.stickyTitle1 {
+  display: block;
+  background: #FF0000;
+  width: 100%;
+  color: white;
+  padding: 5px 0px;
+  border-radius: 10px 10px 0px 0px; 
+  text-align: center;
+  font-size: 20px;
+  transition: background 0.333s ease;
+}
+
+div.stickyNote1 div.stickyContent1 {
+  font-size: 16px;
+  padding: 10px;
+  color: #000000;
+  text-overflow: clip;
+  text-align: justify;
+  line-height: 1.2;
+}
+
+div.stickyNote1:hover  {
+  box-shadow: 0px 0px 10px black;
+}
+
+div.stickyNote1:hover div.stickyTitle1{
+  background: rgb(255,180,0);
+}
+

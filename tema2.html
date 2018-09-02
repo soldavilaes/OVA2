@@ -401,17 +401,80 @@
           </div>
           <img id="arBinario" src="arBinario.gif" />
         </div>
-        
-
+        <!-- ITEM 2 -->
         <div id="tab2" class="tab__content">
-          <p>Dui sociosqu vitae varius nulla habitasse inceptos pharetra feugiat curabitur, nibh molestie est semper mattis malesuada viverra auctor, duis pulvinar quam diam scelerisque ut nullam condimentum ut per conubia feugiat ultricies tristique dictum.
-
-      </p>
-
-      <img id="nota" class="lightbox" src="arBinario.png" />
-
-
-        
+          <div class="manejo">
+              <h1>FUNCIONES CON ESTRUCTURAS</h1>
+          </div>
+          <p id="subConstructor"><span>Constructores</span></p>   
+          <p id="subSelector"><span>Selectores</span></p>  
+          <div class="accordion accordion-01">
+            <div class="set">
+              <a>(make-bt &nbsp; dato &nbsp; izq-bt &nbsp; der-bt)<i class="fa fa-plus"></i></a>
+              <div class="content1">
+                <p id="selector1"><span>Crea un árbol binario con un dato, un árbol binario izquierdo y un árbol binario derecho.</span></p>
+              </div>
+            </div>
+            <div class="set">
+              <a>(make-hoja-bt &nbsp; dato)<i class="fa fa-plus"></i></a>
+              <div class="content1">
+                <p id="selector1"><span>Crea una hoja, con su hijo izquierdo e hijo derecho vacíos.</span></p>
+              </div>
+            </div>
+            <div class="set">
+              <a>'vacio-bt<i class="fa fa-plus"></i></a>
+              <div class="content1">
+                <p id="selector1"><span>Símbolo que define el árbol binario vacío.</span> </p>
+              </div>
+            </div>
+            <div class="set">
+              <a>(dato-bt &nbsp; bt)<i class="fa fa-plus"></i></a>
+              <div class="content1">
+                <p id="selector1"><span>Devuelve el dato de un árbol binario.</span></p>
+              </div>
+            </div>
+            <div class="set">
+              <a>(izq-bt &nbsp; bt)<i class="fa fa-plus"></i></a>
+              <div class="content1">
+                <p id="selector1"><span>Devuelve el árbol binario izquierdo.</span></p>
+              </div>
+            </div>
+            <div class="set">
+              <a>(der-bt &nbsp;bt)<i class="fa fa-plus"></i></a>
+              <div class="content1">
+                <p id="selector1"><span>Devuelve el árbol binario derecho.</span></p>
+              </div>
+            </div>
+            <div class="set">
+              <a>(hoja-bt? &nbsp;bt)<i class="fa fa-plus"></i></a>
+              <div class="content1">
+                <p id="selector1"><span>Comprueba si el árbol es una hoja (no tiene hijos).</span></p>
+              </div>
+            </div>
+            <div class="set">
+              <a>(vacio-bt? &nbsp;bt)<i class="fa fa-plus"></i></a>
+              <div class="content1">
+                <p id="selector1"><span>Comprueba si el árbol es vacío.</span></p>
+              </div>
+            </div>
+          </div> <!-- /.accordion-01 -->
+          <!--<img id="nota" class="lightbox" src="arBinario.png" />-->
+          <div class="stickyNote">
+            <div class="stickyTitle">
+              (make-btree &nbsp; dato &nbsp; izq &nbsp; der)
+            </div>
+            <div class="stickyContent">
+              Construye un árbol binario a partir de un dato y otros dos árboles binarios.
+            </div>
+          </div>
+           <div class="stickyNote1">
+            <div class="stickyTitle1">
+              empty-btree
+            </div>
+            <div class="stickyContent1">
+              Define el árbol binario vacío.
+            </div>
+          </div>
         </div>
         <!-- #tab2 -->
 
