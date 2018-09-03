@@ -82,7 +82,7 @@
                 <div class="popup_contain">
                   <div class="popup_close">x</div>
                   <b>Ejemplo:</b> Árbol Genealogico.
-                  <img id="arbolG" src="arbolGenealogico.jpg">
+                  <img id="arbolGenealogico" src="arbolGenealogico.jpg">
                 </div>
               </div>
             </div>
@@ -388,10 +388,10 @@
     <div class="v-tab">
       <ul class="tab__head">
         <li class="active" rel="tab1">DEFINICIÓN</li>
-        <li rel="tab2">REPRESENTACIÓN</li>
+        <li rel="tab2">MANEJO</li>
         <li rel="tab3">IMPLEMENTACIÓN</li>
-        <li rel="tab4">OPERACIÓN 1</li>
-        <li rel="tab5">OPERACIÓN 2</li>
+        <li rel="tab4">IMPLEMENTACIÓN</li>
+        <li rel="tab5">IMPLEMENTACIÓN</li>
         <li rel="tab6">OPERACIÓN 3</li>
         <li rel="tab7">OPERACIÓN 4</li>
       </ul>
@@ -437,7 +437,7 @@
             </div>
           </div>
         </div>
-        <img id="arBinario" src="arBinario.gif" />
+        <img id="arBinario" src="arBinario1.gif" />
       </div>
       <!-- ITEM 2 -->
       <div id="tab2" class="tab__content">
@@ -515,24 +515,75 @@
         </div>
       </div>
       <!-- #tab2 -->
-
+      <!-- #TAB3 -->
       <div id="tab3" class="tab__content">
-        <p>Morbi cursus dapibus ut donec commodo consequat arcu turpis hendrerit luctus nulla aliquam tempor diam massa faucibus vitae vehicula, ultricies volutpat nullam phasellus dui auctor senectus morbi tellus potenti iaculis bibendum ipsum sodales non.
-
-        </p>
+        <div class="impAb">
+            <h1>IMPLEMENTACIÓN DE ÁRBOLES BINARIOS</h1>
+        </div>
+        <img id="arBinario2" src="arBinario2.gif" />
+        <div class="arrow1">
+            <div class="arrow-part"></div>
+            <div class="arrow-part"></div>
+        </div>
+        <img id="impAb" src="impArBin.gif" />
       </div>
       <!-- #tab3 -->
-
+      <!-- #TAB4 -->
       <div id="tab4" class="tab__content">
-        <p>Per ligula mollis vulputate tortor urna platea non maecenas fames, maecenas ante senectus suspendisse ultrices aptent torquent laoreet scelerisque ut integer arcu magna ultricies mollis.
-
-        </p>
+        <div class="manejo1">
+            <h1>FUNCIONES CON LISTAS</h1>
+          </div>
+          <main>
+            <section>
+              <!-- CAJA 1 -->
+              <div class="cuadroT">
+                <div class="contents">
+                  <h2>(to-list-bt &nbsp; bt)</h2>
+                  <p id="funcion1"><span>Devuelve una lista formada por los elementos del bt.</span></p>
+                </div>
+              </div>
+              <p id="subImp"><span>Implementación</span></p>
+              <img id="impF1" class="lightbox" src="factorial.png" />
+              <!-- CAJA 2 -->
+              <div class="cuadroT2">
+                <div class="contents2">
+                  <h2>(member-bt? &nbsp; x &nbsp; bt)</h2>
+                  <p id="funcion2"><span>Busca el elemento x en un árbol binario ordenado.</span></p>
+                </div>
+              </div>
+            </section>
+          </main>
+          <p id="subImp2"><span>Implementación</span></p>
+          <img id="impF2" class="lightbox" src="factorial.png" />
       </div>
       <!-- #tab4 --> 
+      <!-- #TAB5 -->
       <div id="tab5" class="tab__content">
-
-        <h3>Otra Cosa</h3>
-        <p>Lorem ipsum non pellentesque lacinia ullamcorper faucibus eu quisque, ut odio nisi aptent proin dictumst lorem tincidunt, accumsan nec habitasse arcu nisl lacus gravida odio elementum quis consectetur vehicula egestas.</p>
+        <div class="manejo1">
+            <h1>FUNCIONES CON LISTAS</h1>
+        </div>
+        <main>
+          <section>
+            <!-- CAJA 1 -->
+            <div class="cuadroT3">
+              <div class="contents3">
+                <h2>(insert-bt &nbsp; x &nbsp; bt) </h2>
+                <p id="funcion1"><span>“Inserta” un dato (realmente, crea otro árbol) en un árbol binario ordenado.</span></p>
+              </div>
+            </div>
+            <p id="subImp3"><span>Implementación</span></p>
+            <img id="impF1-4" class="lightbox" src="factorial.png" />
+            <!-- CAJA 2 -->
+            <div class="cuadroT4">
+              <div class="contents4">
+                <h2>(list-to-bt &nbsp; list)</h2>
+                <p id="funcion2"><span>Construye un árbol binario ordenado a partir de una lista.</span></p>
+              </div>
+            </div>
+          </section>
+        </main>
+        <p id="subImp4"><span>Implementación</span></p>
+        <img id="impF2-4" class="lightbox" src="factorial.png" />
       </div>
       <!-- #tab5 -->
       <div id="tab6" class="tab__content">

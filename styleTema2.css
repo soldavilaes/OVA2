@@ -659,7 +659,7 @@ font-weight: bold;
   cursor: pointer;
 }
 
-#arbolG {
+#arbolGenealogico {
   margin-left: -425px;
   margin-top: 7px;
 }
@@ -3391,6 +3391,8 @@ line-height: 100px;
 .accordion {
   top: 80px;
   left: 380px;
+  box-shadow: 0px 0px 5px black;
+  width: 350px;
 }
 
 .accordion .set {
@@ -3509,7 +3511,6 @@ div.stickyNote:hover div.stickyTitle {
   background: rgb(255,180,0);
 }
 
-
 div.stickyNote1 {
   display: inline-block;
   width: 330px;
@@ -3551,3 +3552,659 @@ div.stickyNote1:hover div.stickyTitle1{
   background: rgb(255,180,0);
 }
 
+/*------------------------------------
+* PESTAÑA 4 - ITEM 3 - IMPLEMENTACION
+--------------------------------------*/
+
+.impAb h1{
+position: fixed;
+bottom: 0;
+height: 10px;
+margin: 520px 95px;
+display: block;
+animation-duration: 3s;
+font-family: "Open Sans", sans-serif;
+font-size: 25px;
+color: #000000;
+text-align: center;
+line-height: 100px;
+
+  text-shadow: 0 1px 0 #77CBC9,
+               0 2px 0 #77CBC9,
+               0 3px 0 #77CBC9,
+               0 4px 0 #77CBC9,
+               0 5px 0 #77CBC9,
+               0 6px 0 transparent,
+               0 7px 0 transparent,
+               0 8px 0 transparent,
+               0 9px 0 transparent,
+               0 10px 10px rgba(0, 0, 0, .6);
+}
+
+#arBinario2 {
+  margin: 35px -542px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+#impAb {
+  margin: 35px -180px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+
+/* FLECHA */
+
+.arrow1 {
+  position: absolute;
+  top: 50%;
+  left: 44%;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+}
+.arrow-part {
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 25px);
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  transform: rotate(45deg);
+  border-top: 4px solid #ffbd4a;
+  border-right: 4px solid #ffbd4a;
+}
+.arrow-part:first-of-type {
+  animation: arrow-movement 2s ease-in-out infinite;
+}
+.arrow-part:last-of-type {
+  animation: arrow-movement 2s 1s ease-in-out infinite;
+}
+
+@keyframes arrow-movement {
+  0% {
+    opacity: 0;
+    left: 25px;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+/*-----------------------------
+* PESTAÑA 4 - ITEM 4 - MANEJO
+-------------------------------*/
+
+.manejo1 h1{
+position: fixed;
+bottom: 0;
+height: 10px;
+margin: 520px 200px;
+display: block;
+animation-duration: 3s;
+font-family: "Open Sans", sans-serif;
+font-size: 25px;
+color: #000000;
+text-align: center;
+line-height: 100px;
+
+  text-shadow: 0 1px 0 #77CBC9,
+               0 2px 0 #77CBC9,
+               0 3px 0 #77CBC9,
+               0 4px 0 #77CBC9,
+               0 5px 0 #77CBC9,
+               0 6px 0 transparent,
+               0 7px 0 transparent,
+               0 8px 0 transparent,
+               0 9px 0 transparent,
+               0 10px 10px rgba(0, 0, 0, .6);
+}
+
+/*CUADRO DE TEXTO 1*/
+
+main {
+  /* Adjust font size */
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  /* Font variant */
+  font-variant-ligatures: none;
+  -webkit-font-variant-ligatures: none;
+  /* Smoothing */
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  overflow: auto;
+  font-family: "Lato", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+main section {
+  width: 80%;
+  margin: 20px 0px;
+  height: 370px;
+}
+
+main section .cuadroT {
+  border-radius: 2px;
+  margin: 17px 25px;
+  position: relative;
+  cursor: pointer;
+  background: linear-gradient(to right, #ccffff 0%, #99ccff 100%);
+  width: 320px;
+  box-shadow: 0 8px 45px 3px rgba(0, 0, 0, 0.13);
+}
+
+main section .cuadroT .contents {
+  padding: 25px 35px 25px 45px;
+}
+
+main section .cuadroT .contents .social {
+  margin: 20px 0 0 0;
+}
+
+main section .cuadroT .contents .social i {
+  transition: color 0.3s;
+  margin: 0 15px 0 0;
+  z-index: 2;
+  position: relative;
+  color: #bababa;
+  font-size: 1.5em;
+}
+
+main section .cuadroT h2 {
+  font-size: 20px;
+  font-weight: 700;
+  top: -25px;
+  left: -30px;
+  font-family: Open Sans, sans-serif;
+}
+
+main section .cuadroT p {
+  margin-top: 15px;
+  color: #bababa;
+}
+
+main section .cuadroT h2,
+main section .cuadroT p {
+  transition: 0.4s;
+  z-index: 2;
+  position: relative;
+  display: inline-block;
+}
+
+main section .cuadroT::before {
+  border-radius: 2px 0 0 2px;
+  transition: 1.5s cubic-bezier(0.19, 1, 0.22, 1);
+  position: absolute;
+  background: #006cfc;
+  width: 10px;
+  z-index: 1;
+  height: 100%;
+  content: "";
+}
+
+main section .cuadroT:hover:before {
+  width: 100%;
+}
+
+main section .cuadroT:nth-child(1):hover > .contents p {
+  color: #c2dbfc;
+}
+
+#funcion1 {
+  font-family: Open Sans, sans-serif;
+  line-height: 1;
+  font-size: 16px;
+  left: 10px;
+  margin-top: 18px;
+}
+
+#funcion1 span {
+  font-style: normal;
+}
+
+/*CUADRO DE TEXTO 2*/
+
+ .cuadroT2 {
+  border-radius: 2px;
+  margin: 0px 20px;
+  position: relative;
+  cursor: pointer;
+  background: linear-gradient(to right, #ccffff 0%, #99ccff 100%);
+  width: 320px;
+  box-shadow: 0 8px 45px 3px rgba(0, 0, 0, 0.13);
+  top: -110px;
+  left: 370px;
+}
+
+main section .cuadroT2 .contents2 {
+  padding: 25px 35px 25px 45px;
+}
+
+main section .cuadroT2 .contents2 .social {
+  margin: 20px 0 0 0;
+}
+
+main section .cuadroT2 .contents2 .social i {
+  transition: color 0.3s;
+  margin: 0 15px 0 0;
+  z-index: 2;
+  position: relative;
+  color: #bababa;
+  font-size: 1.5em;
+}
+
+main section .cuadroT2 h2 {
+  font-size: 20px;
+  font-weight: 700;
+  top: -25px;
+  left: -30px;
+  font-family: Open Sans, sans-serif;
+}
+
+main section .cuadroT2 p {
+  margin-top: 15px;
+  color: #bababa;
+}
+
+main section .cuadroT2 h2,
+main section .cuadroT2 p {
+  transition: 0.4s;
+  z-index: 2;
+  position: relative;
+  display: inline-block;
+}
+
+main section .cuadroT2::before {
+  border-radius: 2px 0 0 2px;
+  transition: 1.5s cubic-bezier(0.19, 1, 0.22, 1);
+  position: absolute;
+  background: #006cfc;
+  width: 10px;
+  z-index: 1;
+  height: 100%;
+  content: "";
+}
+
+main section .cuadroT2:hover:before {
+  width: 100%;
+}
+
+main section .cuadroT2:nth-child(1):hover > .contents2 p {
+  color: #c2dbfc;
+}
+
+#funcion2 {
+  font-family: Open Sans, sans-serif;
+  line-height: 1;
+  font-size: 16px;
+  left: 10px;
+  margin-top: 18px;
+}
+
+#funcion2 span {
+  font-style: normal;
+}
+
+#subImp {
+  padding-bottom: 0em;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 0 0 0.2em #006cfc, 0 0 0.2em #006cfc;
+  height: 0px;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 100px;
+  margin-top: 95px;
+}
+
+#subImp span {
+  font-style: normal;
+}
+
+#impF1 {
+  width: 300px;
+  height: 190px;
+  margin: 140px -520px;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-name: wiggle;
+}
+
+#subImp2 {
+  padding-bottom: 0em;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 0 0 0.2em #006cfc, 0 0 0.2em #006cfc;
+  height: 0px;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 470px;
+  margin-top: 135px;
+}
+
+#subImp2 span {
+  font-style: normal;
+}
+
+#impF2 {
+  width: 300px;
+  height: 190px;
+  margin: 180px -135px;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-name: wiggle;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: skewX(9deg);
+  }
+  10% {
+    transform: skewX(-8deg);
+  }
+  20% {
+    transform: skewX(7deg);
+  }
+  30% {
+    transform: skewX(-6deg);
+  }
+  40% {
+    transform: skewX(5deg);
+  }
+  50% {
+    transform: skewX(-4deg);
+  }
+  60% {
+    transform: skewX(3deg);
+  }
+  70% {
+    transform: skewX(-2deg);
+  }
+  80% {
+    transform: skewX(1deg);
+  }
+  90% {
+    transform: skewX(0deg);
+  }
+  100% {
+    transform: skewX(0deg);
+  }
+}
+
+/*-----------------------------
+* PESTAÑA 4 - ITEM 5 - MANEJO
+-------------------------------*/
+
+/*CUADRO DE TEXTO 1*/
+
+main {
+  /* Adjust font size */
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  /* Font variant */
+  font-variant-ligatures: none;
+  -webkit-font-variant-ligatures: none;
+  /* Smoothing */
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  overflow: auto;
+  font-family: "Lato", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+main section {
+  width: 80%;
+  margin: 20px 0px;
+  height: 370px;
+}
+
+main section .cuadroT3 {
+  border-radius: 2px;
+  margin: 17px 25px;
+  position: relative;
+  cursor: pointer;
+  background: linear-gradient(to bottom, #ffffff 0%, #ffff99 100%);
+  width: 320px;
+  box-shadow: 0 8px 45px 3px rgba(0, 0, 0, 0.13);
+}
+
+main section .cuadroT3 .contents3 {
+  padding: 25px 35px 25px 45px;
+}
+
+main section .cuadroT3 .contents3 .social {
+  margin: 20px 0 0 0;
+}
+
+main section .cuadroT3 .contents3 .social i {
+  transition: color 0.3s;
+  margin: 0 15px 0 0;
+  z-index: 2;
+  position: relative;
+  color: #bababa;
+  font-size: 1.5em;
+}
+
+main section .cuadroT3 h2 {
+  font-size: 20px;
+  font-weight: 700;
+  top: -25px;
+  left: -30px;
+  font-family: Open Sans, sans-serif;
+}
+
+main section .cuadroT3 p {
+  margin-top: 15px;
+  color: #bababa;
+}
+
+main section .cuadroT3 h2,
+main section .cuadroT3 p {
+  transition: 0.4s;
+  z-index: 2;
+  position: relative;
+  display: inline-block;
+}
+
+main section .cuadroT3::before {
+  border-radius: 2px 0 0 2px;
+  transition: 1.5s cubic-bezier(0.19, 1, 0.22, 1);
+  position: absolute;
+  background: #006cfc;
+  width: 10px;
+  z-index: 1;
+  height: 100%;
+  content: "";
+}
+
+main section .cuadroT3:hover:before {
+  width: 100%;
+}
+
+main section .cuadroT3:before {
+ height: 10px;
+  width: 100%;
+  border-radius: 2px 2px 0 0;
+}
+main section .cuadroT3:hover:before {
+  height: 100%;
+}
+main section .cuadroT3:hover > .contents3 h2 {
+  color: #007231;
+}
+main section .cuadroT3:hover > .contents3 p {
+  color: #00893b;
+}
+main section .cuadroT3:before {
+  background: #ffdc00;
+}
+
+
+/*CUADRO DE TEXTO 2*/
+
+ .cuadroT4 {
+  border-radius: 2px;
+  margin: 0px 20px;
+  position: relative;
+  cursor: pointer;
+  background: linear-gradient(to bottom, #ffffff 0%, #ffff99 100%);
+  width: 320px;
+  box-shadow: 0 8px 45px 3px rgba(0, 0, 0, 0.13);
+  top: -110px;
+  left: 370px;
+}
+
+main section .cuadroT4 .contents4 {
+  padding: 25px 35px 25px 45px;
+}
+
+main section .cuadroT4 .contents4 .social {
+  margin: 20px 0 0 0;
+}
+
+main section .cuadroT4 .contents4 .social i {
+  transition: color 0.3s;
+  margin: 0 15px 0 0;
+  z-index: 2;
+  position: relative;
+  color: #bababa;
+  font-size: 1.5em;
+}
+
+main section .cuadroT4 h2 {
+  font-size: 20px;
+  font-weight: 700;
+  top: -25px;
+  left: -30px;
+  font-family: Open Sans, sans-serif;
+}
+
+main section .cuadroT4 p {
+  margin-top: 15px;
+  color: #bababa;
+}
+
+main section .cuadroT4 h2,
+main section .cuadroT4 p {
+  transition: 0.4s;
+  z-index: 2;
+  position: relative;
+  display: inline-block;
+}
+
+main section .cuadroT4::before {
+  border-radius: 2px 0 0 2px;
+  transition: 1.5s cubic-bezier(0.19, 1, 0.22, 1);
+  position: absolute;
+  background: #006cfc;
+  width: 10px;
+  z-index: 1;
+  height: 100%;
+  content: "";
+}
+
+main section .cuadroT4:hover:before {
+  width: 100%;
+}
+
+main section .cuadroT4:before {
+  height: 10px;
+  width: 100%;
+  border-radius: 2px 2px 0 0;
+}
+main section .cuadroT4:hover:before {
+  height: 100%;
+}
+main section .cuadroT4:hover > .contents4 h2 {
+  color: #007231;
+}
+main section .cuadroT4:hover > .contents4 p {
+  color: #00893b;
+}
+main section .cuadroT4:before {
+  background: #ffdc00;
+}
+
+
+#subImp3 {
+  padding-bottom: 0em;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 0 0 0.2em #ffdc00, 0 0 0.2em #ffdc00;
+  height: 0px;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 100px;
+  margin-top: 95px;
+}
+
+#subImp3 span {
+  font-style: normal;
+}
+
+#impF1-4 {
+  width: 300px;
+  height: 190px;
+  margin: 140px -520px;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-name: aumentar;
+}
+
+#subImp4 {
+  padding-bottom: 0em;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 0 0 0.2em #ffdc00, 0 0 0.2em #ffdc00;
+  height: 0px;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 470px;
+  margin-top: 135px;
+}
+
+#subImp4 span {
+  font-style: normal;
+}
+
+#impF2-4 {
+  width: 300px;
+  height: 190px;
+  margin: 180px -135px;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-name: aumentar;
+}
+
+@keyframes aumentar {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
