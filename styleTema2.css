@@ -1718,7 +1718,7 @@ color: #17202A;
   z-index: 1;
 display: block;
 box-sizing: border-box;
-padding: 15px 20px;
+padding: 15px 15px;
 color: #FFFFFF;
 font-weight: 500;
 text-decoration: none;
@@ -2178,7 +2178,7 @@ z-index: 999;
   top: 48px;
   margin-left: 20px;
   transition: all 0.5s ease-in-out;
-  background: rgba(0,0,0,.8);
+  background: #ff71ce;
   width: 180px;
   height: 60px;
   border-radius: 5px;
@@ -2439,7 +2439,7 @@ top: 15px;
 
 
 /* verde Shadow */
-@-moz-keyframes verde {
+@-moz-keyframes green {
   0%, 100% {
     -moz-box-shadow: 1px 0px 19px 4px #05ffa1, inset 0px 0px 10px rgba(255, 255, 255, 0.5);
     box-shadow: 1px 0px 19px 4px #05ffa1, inset 0px 0px 10px rgba(255, 255, 255, 0.5); }
@@ -2448,7 +2448,7 @@ top: 15px;
     -moz-box-shadow: 0px 0px 0px 0px rgba(255, 245, 3, 0), inset 0px 0px 0px rgba(255, 255, 255, 0);
     box-shadow: 0px 0px 0px 0px rgba(255, 245, 3, 0), inset 0px 0px 0px rgba(255, 255, 255, 0); } }
 
-@-webkit-keyframes verde {
+@-webkit-keyframes green {
   0%, 100% {
     -webkit-box-shadow: 1px 0px 19px 4px #05ffa1, inset 0px 0px 10px rgba(255, 255, 255, 0.5);
     box-shadow: 1px 0px 19px 4px #05ffa1, inset 0px 0px 10px rgba(255, 255, 255, 0.5); }
@@ -2457,36 +2457,36 @@ top: 15px;
     -webkit-box-shadow: 0px 0px 0px 0px rgba(255, 245, 3, 0), inset 0px 0px 0px rgba(255, 255, 255, 0);
     box-shadow: 0px 0px 0px 0px rgba(255, 245, 3, 0), inset 0px 0px 0px rgba(255, 255, 255, 0); } }
 
-@-o-keyframes verde {
+@-o-keyframes green {
   0%, 100% {
     box-shadow: 1px 0px 19px 4px #05ffa1, inset 0px 0px 10px rgba(255, 255, 255, 0.5); }
 
   50% {
     box-shadow: 0px 0px 0px 0px rgba(255, 245, 3, 0), inset 0px 0px 0px rgba(255, 255, 255, 0); } }
 
-@keyframes verde {
+@keyframes green {
   0%, 100% {
     box-shadow: 1px 0px 19px 4px #05ffa1, inset 0px 0px 10px rgba(255, 255, 255, 0.5); }
 
   50% {
     box-shadow: 0px 0px 0px 0px rgba(255, 245, 3, 0), inset 0px 0px 0px rgba(255, 255, 255, 0); } }
 
-  .verde {
+  .green {
   text-shadow: 0px 1px 0px #0055a4;
   background-image: -webkit-linear-gradient(top, #05ffa1, #40e0d0);
   background-image: -moz-linear-gradient(top, #05ffa1, #40e0d0);
   background-image: -o-linear-gradient(top, #05ffa1, #40e0d0);
   background-image: linear-gradient(to bottom, #05ffa1, #40e0d0);
-  -webkit-animation: yellow 1s infinite;
-  -moz-animation: yellow 1s infinite;
-  -o-animation: yellow 1s infinite;
-  animation: yellow 1s infinite; }
+  -webkit-animation: green 1s infinite;
+  -moz-animation: green 1s infinite;
+  -o-animation: green 1s infinite;
+  animation: green 1s infinite; }
 
 .caja3 {
+   
     border-radius: 10px;
     background: -webkit-linear-gradient(left, #d5a3ff 0%,#c785ff 42%, 52%, #b967ff);
     padding: 20px;
-    box-shadow: 10px 18px 12px 1px rgba(0, 0, 0, 0.2);
     line-height: 1;
     width: 230px;
     height: 80px;
@@ -2582,6 +2582,133 @@ padding: 2px 2px;
 #toggles5:checked ~ .button {
 transform: rotate(135deg);
   box-shadow: 0 0 0 0 transparent;
+}
+
+#notaEjm{
+  margin: 125px 120px;
+}
+
+.recuadro8 {
+  text-align: center;
+  padding: 4px 10px;
+  text-decoration: none;
+  color:  #27283D;
+  font-weight: bold;
+  border-radius: 10px 10px ;
+  box-shadow: 15px 10px 15px #fdbb1c;
+  width: 680px;
+height: 30px;
+  font-size: 20px;
+  margin: -2px 75px;
+}
+/***** STEP 4*****/
+
+.tabsP3 {
+  position: relative;   
+  min-height: 200px; 
+  clear: both;
+  margin: 25px 0;
+  width: 400px;
+  z-index: 1;
+}
+.tabP3 {
+  float: left;  
+  clear: both;
+  height: 40px;
+}
+.tabP3 label {
+ background: #ffe991;
+padding: 10px;
+border: 1px solid #ffe062;
+margin-left: -1px;
+font-size: 13px;
+position: fixed;
+left: 1px;
+width: 170px;
+display: -moz-groupbox;
+margin: 10px 150px;
+
+}
+.tabP3 [type=radio] {
+  display: contents;
+}
+.contentP3 {
+position: fixed;
+top: 0;
+left: 86px;
+background: #ffffff;
+border: 1px solid #ffe062;
+right: 0;
+bottom: 0;
+padding: 20px;
+width: 350px;
+height: 315px;
+margin: 262px 235px;
+}
+.tabP3 [type=radio]:checked ~ label {
+  background: white;
+  border-bottom: 1px solid #332c13;
+  z-index: 2;
+}
+.tabP3 [type=radio]:checked ~ label ~ .contentP3 {
+  z-index: 1;
+}
+
+
+#titulo2 {
+  padding-bottom: 0em;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;
+  height: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: -20px 80px;
+
+}
+
+#titulo2  span {
+    font-style: normal;
+  }
+
+
+#conte1{
+  margin:25px -520px;
+}
+
+#conte2{
+  margin:25px -520px;
+}
+
+#conte3{
+  margin:25px -520px;
+}
+
+#conte4{
+  margin:25px -520px;
+}
+
+
+#notaSuma{
+  margin:25px -5px;
+}
+
+#profesora{
+   margin:70px 160px;
+}
+
+.recuadro9 {
+  text-align: center;
+  padding: 4px 10px;
+  text-decoration: none;
+  color: #05ffa1;
+  font-weight: bold;
+  border-radius: 10px 10px ;
+  box-shadow: 5px 5px 5px #01cdfe;
+  width: 640px;
+height: 30px;
+  font-size: 20px;
+  margin: -2px 100px;
 }
 
 /*-----------------------------
