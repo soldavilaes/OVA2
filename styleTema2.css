@@ -3363,8 +3363,8 @@ line-height: 100px;
   height: 0px;
   font-size: 22px;
   font-weight: bold;
-margin-left: 90px;
-margin-top: 30px;
+  margin-left: 90px;
+  margin-top: 30px;
 }
 
 #subConstructores span {
@@ -3380,7 +3380,7 @@ margin-top: 30px;
   font-size: 22px;
   font-weight: bold;
   margin-left: 500px;
-margin-top: 30px;
+  margin-top: 30px;
 }
 
 #subSelectores span {
@@ -3391,9 +3391,9 @@ margin-top: 30px;
 
 .accordion {
  top: 93px;
-left: 380px;
-box-shadow: 0px 0px 5px black;
-width: 350px;
+  left: 380px;
+  box-shadow: 0px 0px 5px black;
+  width: 350px;
 }
 
 .accordion .set {
@@ -3403,17 +3403,17 @@ width: 350px;
 
 .accordion .set > a {
   color: #000000;
-display: block;
-font-size: 18px;
-font-weight: normal;
-padding: 5px 50px 1px 15px;
-position: relative;
-text-decoration: none;
-transition: all 0.1s linear 0s;
-cursor: pointer;
-background-color: #85859d;
-height: 35px;
-width: 350px;
+  display: block;
+  font-size: 18px;
+  font-weight: normal;
+  padding: 5px 50px 1px 15px;
+  position: relative;
+  text-decoration: none;
+  transition: all 0.1s linear 0s;
+  cursor: pointer;
+  background-color: #85859d;
+  height: 35px;
+  width: 350px;
 }
 
 .accordion .set > a:focus {
@@ -3467,7 +3467,7 @@ width: 350px;
 #selector1 span {
   font-style: normal;
   
-  }
+}
 
 /* CONSTRUCTORES */
 
@@ -3479,8 +3479,8 @@ div.stickyNote {
   box-shadow: 0px 0px 5px black;
   font-family: Arial;
   transition: all 0.333s ease;
- top: -130px;
-left: 7px;
+  top: -130px;
+  left: 7px;
 }
 
 div.stickyNote div.stickyTitle {
@@ -3558,28 +3558,28 @@ div.stickyNote1:hover div.stickyTitle1{
 --------------------------------------*/
 
 .impAb h1{
-position: fixed;
-bottom: 0;
-height: 10px;
-margin: 520px 95px;
-display: block;
-animation-duration: 3s;
-font-family: "Open Sans", sans-serif;
-font-size: 25px;
-color: #000000;
-text-align: center;
-line-height: 100px;
+  position: fixed;
+  bottom: 0;
+  height: 10px;
+  margin: 520px 95px;
+  display: block;
+  animation-duration: 3s;
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  color: #000000;
+  text-align: center;
+  line-height: 100px;
 
-  text-shadow: 0 1px 0 #77CBC9,
-               0 2px 0 #77CBC9,
-               0 3px 0 #77CBC9,
-               0 4px 0 #77CBC9,
-               0 5px 0 #77CBC9,
-               0 6px 0 transparent,
-               0 7px 0 transparent,
-               0 8px 0 transparent,
-               0 9px 0 transparent,
-               0 10px 10px rgba(0, 0, 0, .6);
+    text-shadow: 0 1px 0 #77CBC9,
+                 0 2px 0 #77CBC9,
+                 0 3px 0 #77CBC9,
+                 0 4px 0 #77CBC9,
+                 0 5px 0 #77CBC9,
+                 0 6px 0 transparent,
+                 0 7px 0 transparent,
+                 0 8px 0 transparent,
+                 0 9px 0 transparent,
+                 0 10px 10px rgba(0, 0, 0, .6);
 }
 
 #arBinario2 {
@@ -3639,28 +3639,28 @@ line-height: 100px;
 --------------------------------------*/
 
 .impConSel h1{
-position: fixed;
-bottom: 0;
-height: 10px;
-margin: 520px 150px;
-display: block;
-animation-duration: 3s;
-font-family: "Open Sans", sans-serif;
-font-size: 25px;
-color: #000000;
-text-align: center;
-line-height: 100px;
+  position: fixed;
+  bottom: 0;
+  height: 10px;
+  margin: 520px 150px;
+  display: block;
+  animation-duration: 3s;
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  color: #000000;
+  text-align: center;
+  line-height: 100px;
 
-  text-shadow: 0 1px 0 #77CBC9,
-               0 2px 0 #77CBC9,
-               0 3px 0 #77CBC9,
-               0 4px 0 #77CBC9,
-               0 5px 0 #77CBC9,
-               0 6px 0 transparent,
-               0 7px 0 transparent,
-               0 8px 0 transparent,
-               0 9px 0 transparent,
-               0 10px 10px rgba(0, 0, 0, .6);
+    text-shadow: 0 1px 0 #77CBC9,
+                 0 2px 0 #77CBC9,
+                 0 3px 0 #77CBC9,
+                 0 4px 0 #77CBC9,
+                 0 5px 0 #77CBC9,
+                 0 6px 0 transparent,
+                 0 7px 0 transparent,
+                 0 8px 0 transparent,
+                 0 9px 0 transparent,
+                 0 10px 10px rgba(0, 0, 0, .6);
 }
 
 #subConstructor {
@@ -3671,8 +3671,8 @@ line-height: 100px;
   height: 0px;
   font-size: 22px;
   font-weight: bold;
-margin-left: 25px;
-margin-top: 30px;
+  margin-left: 25px;
+  margin-top: 30px;
 }
 
 #subConstructor span {
@@ -3688,7 +3688,7 @@ margin-top: 30px;
   font-size: 22px;
   font-weight: bold;
   margin-left: 410px;
-margin-top: 30px;
+  margin-top: 30px;
 }
 
 #subSelector span {
@@ -3703,8 +3703,8 @@ margin-top: 30px;
   height: 0px;
   font-size: 20px;
   font-weight: bold;
-margin-left: 60px;
-margin-top: 70px;
+  margin-left: 60px;
+  margin-top: 70px;
 }
 
 #subMake-bt span {
@@ -3712,13 +3712,13 @@ margin-top: 70px;
   } 
 
 #impMake-bt {
-width: 130px;
-height: 100px;
-margin: 110px -500px;
-transition:all 0.3s linear;
+  width: 130px;
+  height: 100px;
+  margin: 110px -500px;
+  transition:all 0.3s linear;
   animation-iteration-count: infinite;
   animation-duration: 2s;
-   animation-name: pulses;
+  animation-name: pulses;
   
 }
 
@@ -3819,9 +3819,6 @@ transition:all 0.3s linear;
   }
 }
 
-
-
-
 #subMake-hoja {
   padding-bottom: 0em;
   color: #000000;
@@ -3830,8 +3827,8 @@ transition:all 0.3s linear;
   height: 0px;
   font-size: 20px;
   font-weight: bold;
-margin-left: 35px;
-margin-top: 230px;
+  margin-left: 35px;
+  margin-top: 230px;
 }
 
 #subMake-hoja span {
@@ -3839,13 +3836,13 @@ margin-top: 230px;
   } 
 
 #impMake-hoja {
- width: 130px;
-height: 100px;
-margin: 270px -500px;
-transition:all 0.3s linear;
+  width: 130px;
+  height: 100px;
+  margin: 270px -500px;
+  transition:all 0.3s linear;
   animation-iteration-count: infinite;
   animation-duration: 2s;
-   animation-name: pulses;
+  animation-name: pulses;
 }
 
 #subVacio-btt {
@@ -3856,8 +3853,8 @@ transition:all 0.3s linear;
   height: 0px;
   font-size: 20px;
   font-weight: bold;
-margin-left: 270px;
-margin-top: 70px;
+  margin-left: 270px;
+  margin-top: 70px;
 }
 
 #subVacio-btt span {
@@ -3865,13 +3862,13 @@ margin-top: 70px;
   } 
 
 #impVacio-btt {
-width: 130px;
-height: 100px;
-margin: 110px -280px;
-transition:all 0.3s linear;
+  width: 130px;
+  height: 100px;
+  margin: 110px -280px;
+  transition:all 0.3s linear;
   animation-iteration-count: infinite;
   animation-duration: 1s;
-   animation-name: shaker;
+  animation-name: shaker;
 }
 
 #subDato {
@@ -3882,8 +3879,8 @@ transition:all 0.3s linear;
   height: 0px;
   font-size: 20px;
   font-weight: bold;
-margin-left: 440px;
-margin-top: 70px;
+  margin-left: 440px;
+  margin-top: 70px;
 }
 
 #subDato span {
@@ -3891,13 +3888,13 @@ margin-top: 70px;
   } 
 
 #impDato-bt {
- width: 130px;
-height: 100px;
-margin: 110px -120px;
-transition:all 0.3s linear;
+  width: 130px;
+  height: 100px;
+  margin: 110px -120px;
+  transition:all 0.3s linear;
   animation-iteration-count: infinite;
-animation-duration: 1s;
-   animation-name: shaker;
+  animation-duration: 1s;
+  animation-name: shaker;
 }
 
 #subIzq {
@@ -3908,8 +3905,8 @@ animation-duration: 1s;
   height: 0px;
   font-size: 20px;
   font-weight: bold;
-margin-left: 600px;
-margin-top: 70px;
+  margin-left: 600px;
+  margin-top: 70px;
 }
 
 #subIzq span {
@@ -3917,13 +3914,13 @@ margin-top: 70px;
   } 
 
 #impIzq-bt {
-width: 130px;
-height: 100px;
-margin: 110px 35px;
-transition:all 0.3s linear;
+  width: 130px;
+  height: 100px;
+  margin: 110px 35px;
+  transition:all 0.3s linear;
   animation-iteration-count: infinite;
   animation-duration: 1s;
-   animation-name: shaker;
+  animation-name: shaker;
 }
 
 
@@ -3936,8 +3933,8 @@ transition:all 0.3s linear;
   height: 0px;
   font-size: 20px;
   font-weight: bold;
-margin-left: 365px;
-margin-top: 230px;
+  margin-left: 365px;
+  margin-top: 230px;
 }
 
 #subDer span {
@@ -3945,13 +3942,13 @@ margin-top: 230px;
   } 
 
 #impDer-bt {
-width: 130px;
-height: 100px;
-margin: 270px -200px;
-transition:all 0.3s linear;
+  width: 130px;
+  height: 100px;
+  margin: 270px -200px;
+  transition:all 0.3s linear;
   animation-iteration-count: infinite;
   animation-duration: 1s;
-   animation-name: shaker;
+  animation-name: shaker;
 }
 
 #subVacio {
@@ -3962,8 +3959,8 @@ transition:all 0.3s linear;
   height: 0px;
   font-size: 20px;
   font-weight: bold;
-margin-left: 520px;
-margin-top: 230px;
+  margin-left: 520px;
+  margin-top: 230px;
 }
 
 #subVacio span {
@@ -3971,13 +3968,13 @@ margin-top: 230px;
   }
 
 #impVacio-bt {
- width: 130px;
-height: 100px;
-margin: 270px -40px; 
-transition:all 0.3s linear;
+  width: 130px;
+  height: 100px;
+  margin: 270px -40px; 
+  transition:all 0.3s linear;
   animation-iteration-count: infinite;
-animation-duration: 1s;
-   animation-name: shaker;
+  animation-duration: 1s;
+  animation-name: shaker;
 }
 
 #subHoja {
@@ -3988,8 +3985,8 @@ animation-duration: 1s;
   height: 0px;
   font-size: 20px;
   font-weight: bold;
-margin-left: 530px;
-margin-top: 230px;
+  margin-left: 530px;
+  margin-top: 230px;
 }
 
 #subHoja span {
@@ -3997,13 +3994,13 @@ margin-top: 230px;
   }
 
 #impHoja-bt {
- width: 130px;
-height: 100px;
-margin: 270px -30px;
-transition:all 0.3s linear;
+  width: 130px;
+  height: 100px;
+  margin: 270px -30px;
+  transition:all 0.3s linear;
   animation-iteration-count: infinite;
-animation-duration: 1s;
-   animation-name: shaker;
+  animation-duration: 1s;
+  animation-name: shaker;
 }
 
 
@@ -4093,28 +4090,28 @@ animation-duration: 1s;
 -------------------------------*/
 
 .manejo1 h1{
-position: fixed;
-bottom: 0;
-height: 10px;
-margin: 520px 200px;
-display: block;
-animation-duration: 3s;
-font-family: "Open Sans", sans-serif;
-font-size: 25px;
-color: #000000;
-text-align: center;
-line-height: 100px;
+  position: fixed;
+  bottom: 0;
+  height: 10px;
+  margin: 520px 200px;
+  display: block;
+  animation-duration: 3s;
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  color: #000000;
+  text-align: center;
+  line-height: 100px;
 
-  text-shadow: 0 1px 0 #77CBC9,
-               0 2px 0 #77CBC9,
-               0 3px 0 #77CBC9,
-               0 4px 0 #77CBC9,
-               0 5px 0 #77CBC9,
-               0 6px 0 transparent,
-               0 7px 0 transparent,
-               0 8px 0 transparent,
-               0 9px 0 transparent,
-               0 10px 10px rgba(0, 0, 0, .6);
+    text-shadow: 0 1px 0 #77CBC9,
+                 0 2px 0 #77CBC9,
+                 0 3px 0 #77CBC9,
+                 0 4px 0 #77CBC9,
+                 0 5px 0 #77CBC9,
+                 0 6px 0 transparent,
+                 0 7px 0 transparent,
+                 0 8px 0 transparent,
+                 0 9px 0 transparent,
+                 0 10px 10px rgba(0, 0, 0, .6);
 }
 
 /*CUADRO DE TEXTO 1*/
