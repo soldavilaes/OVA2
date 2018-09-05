@@ -2749,6 +2749,7 @@ height: 30px;
   font-size: 14px;
   color: #000000;
   padding-top: 12px;
+  text-align: center;
 }
 .v-tab .tab__head li:hover {
   background-color: #7fe6e8;
@@ -3217,7 +3218,7 @@ line-height: 100px;
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0,0,0,.8);
+    background: rgba(38, 40, 52, 0.7);
     text-align: center;
     display: none;
     z-index: 9999999999999;
@@ -3233,15 +3234,15 @@ line-height: 100px;
     position: absolute;
     top: 50%;
     max-width: 80%;
-    max-height: 80vh;
+    max-height: 100vh;
     display: inline-block;
     transform: translate(-50%, -50%);
 }
 
 .close-lightbox {
     position: absolute;
-    top: 45px;
-    right: 20%;
+    top: 15px;
+    right: 10%;
     padding: 0px 10px;
     color: #fff;
     font-size: 35px;
@@ -3333,7 +3334,7 @@ line-height: 100px;
 position: fixed;
 bottom: 0;
 height: 10px;
-margin: 520px 155px;
+margin: 520px 50px;
 display: block;
 animation-duration: 3s;
 font-family: "Open Sans", sans-serif;
@@ -3354,7 +3355,7 @@ line-height: 100px;
                0 10px 10px rgba(0, 0, 0, .6);
 }
 
-#subConstructor {
+#subConstructores {
   padding-bottom: 0em;
   color: #000000;
   font-family: 'Open Sans', sans-serif;
@@ -3362,15 +3363,15 @@ line-height: 100px;
   height: 0px;
   font-size: 22px;
   font-weight: bold;
-  margin-left: 95px;
-  margin-top: 30px;
+margin-left: 90px;
+margin-top: 30px;
 }
 
-#subConstructor span {
+#subConstructores span {
   font-style: normal;
   }
 
-#subSelector {
+#subSelectores {
   padding-bottom: 0em;
   color: #000000;
   font-family: 'Open Sans', sans-serif;
@@ -3379,20 +3380,20 @@ line-height: 100px;
   font-size: 22px;
   font-weight: bold;
   margin-left: 500px;
-  margin-top: 30px;
+margin-top: 30px;
 }
 
-#subSelector span {
+#subSelectores span {
   font-style: normal;
   } 
 
 /* ACORDEON */
 
 .accordion {
-  top: 80px;
-  left: 380px;
-  box-shadow: 0px 0px 5px black;
-  width: 350px;
+ top: 93px;
+left: 380px;
+box-shadow: 0px 0px 5px black;
+width: 350px;
 }
 
 .accordion .set {
@@ -3402,17 +3403,17 @@ line-height: 100px;
 
 .accordion .set > a {
   color: #000000;
-  display: block;
-  font-size: 18px;
-  font-weight: normal;
-  padding: 1px 50px 1px 15px;
-  position: relative;
-  text-decoration: none;
-  transition: all 0.1s linear 0s;
-  cursor: pointer;
-  background-color: #85859d;
-  height: 30px;  
-  width: 350px;
+display: block;
+font-size: 18px;
+font-weight: normal;
+padding: 5px 50px 1px 15px;
+position: relative;
+text-decoration: none;
+transition: all 0.1s linear 0s;
+cursor: pointer;
+background-color: #85859d;
+height: 35px;
+width: 350px;
 }
 
 .accordion .set > a:focus {
@@ -3426,7 +3427,7 @@ line-height: 100px;
 .accordion .set > a.active {
   background-color: #0B0B3B;
   color: #fff;
-  height: 30px;
+  height: 35px;
 }
 
 .accordion .set > a i {
@@ -3478,8 +3479,8 @@ div.stickyNote {
   box-shadow: 0px 0px 5px black;
   font-family: Arial;
   transition: all 0.333s ease;
-  top: -174px;
-  left: 7px;
+ top: -130px;
+left: 7px;
 }
 
 div.stickyNote div.stickyTitle {
@@ -3496,7 +3497,7 @@ div.stickyNote div.stickyTitle {
 
 div.stickyNote div.stickyContent {
   font-size: 16px;
-  padding: 10px;
+  padding: 9px;
   color: #000000;
   text-overflow: clip;
   text-align: justify;
@@ -3519,8 +3520,8 @@ div.stickyNote1 {
   box-shadow: 0px 0px 5px black;
   font-family: Arial;
   transition: all 0.333s ease;
-  top: -50px;
-  left: -325px;
+  top: -5px;
+left: -327px;
 }
 
 div.stickyNote1 div.stickyTitle1 {
@@ -3633,9 +3634,462 @@ line-height: 100px;
   }
 }
 
+/*------------------------------------
+* PESTAÑA 4 - ITEM 4 - IMPLEMENTACION
+--------------------------------------*/
+
+.impConSel h1{
+position: fixed;
+bottom: 0;
+height: 10px;
+margin: 520px 150px;
+display: block;
+animation-duration: 3s;
+font-family: "Open Sans", sans-serif;
+font-size: 25px;
+color: #000000;
+text-align: center;
+line-height: 100px;
+
+  text-shadow: 0 1px 0 #77CBC9,
+               0 2px 0 #77CBC9,
+               0 3px 0 #77CBC9,
+               0 4px 0 #77CBC9,
+               0 5px 0 #77CBC9,
+               0 6px 0 transparent,
+               0 7px 0 transparent,
+               0 8px 0 transparent,
+               0 9px 0 transparent,
+               0 10px 10px rgba(0, 0, 0, .6);
+}
+
+#subConstructor {
+  padding-bottom: 0em;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 0 0 0.2em #77CBC9, 0 0 0.2em #77CBC9;
+  height: 0px;
+  font-size: 22px;
+  font-weight: bold;
+margin-left: 25px;
+margin-top: 30px;
+}
+
+#subConstructor span {
+  font-style: normal;
+  }
+
+#subSelector {
+  padding-bottom: 0em;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 0 0 0.2em #77CBC9, 0 0 0.2em #77CBC9;
+  height: 0px;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 410px;
+margin-top: 30px;
+}
+
+#subSelector span {
+  font-style: normal;
+  }
+
+#subMake-bt {
+  padding-bottom: 0em;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 0 0 0.9em #DF0101, 0 0 0.8em #DF0101;
+  height: 0px;
+  font-size: 20px;
+  font-weight: bold;
+margin-left: 60px;
+margin-top: 70px;
+}
+
+#subMake-bt span {
+  font-style: normal;
+  } 
+
+#impMake-bt {
+width: 130px;
+height: 100px;
+margin: 110px -500px;
+transition:all 0.3s linear;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+   animation-name: pulses;
+  
+}
+
+@keyframes pulses {
+  0% {
+    opacity:1;
+  }
+
+  50% {
+    opacity:0.5;
+    box-shadow:0px 0px 5px 0px $color;
+  }
+  
+  100%{
+    opacity:1;
+    box-shadow:none;
+  }
+}
+
+@keyframes shaker {
+  0% {
+    transform:rotate(0deg);
+  }
+
+  29% {
+    transform:rotate(0deg);
+  }
+
+
+  30% {
+    transform:rotate(1deg);
+  }
+
+  31% {
+    transform:rotate(2deg);
+  }
+
+  33% {
+    transform:rotate(1deg);
+  }
+
+  35% {
+    transform:rotate(0deg);
+  }
+
+  37% {
+    transform:rotate(-1deg);
+  }
+
+  39% {
+    transform:rotate(-2deg);
+  }
+
+  41% {
+    transform:rotate(-1deg);
+  }
+
+  43% {
+    transform:rotate(0deg);
+  }
+
+
+  45% {
+    transform:rotate(1deg);
+  }
+
+  47% {
+    transform:rotate(2deg);
+  }
+
+  49% {
+    transform:rotate(1deg);
+  }
+
+  51% {
+    transform:rotate(0deg);
+  }
+
+  53% {
+    transform:rotate(-1deg);
+  }
+
+  55% {
+    transform:rotate(-2deg);
+  }
+
+  57% {
+    transform:rotate(-1deg);
+  }
+
+  59% {
+    transform:rotate(0deg);
+  }
+
+
+  100%{
+    transform:rotate(0deg);
+  }
+}
+
+
+
+
+#subMake-hoja {
+  padding-bottom: 0em;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 0 0 0.9em #DF0101, 0 0 0.8em #DF0101;
+  height: 0px;
+  font-size: 20px;
+  font-weight: bold;
+margin-left: 35px;
+margin-top: 230px;
+}
+
+#subMake-hoja span {
+  font-style: normal;
+  } 
+
+#impMake-hoja {
+ width: 130px;
+height: 100px;
+margin: 270px -500px;
+transition:all 0.3s linear;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+   animation-name: pulses;
+}
+
+#subVacio-btt {
+  padding-bottom: 0em;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 0 0 0.9em #DF0101, 0 0 0.8em #DF0101;
+  height: 0px;
+  font-size: 20px;
+  font-weight: bold;
+margin-left: 270px;
+margin-top: 70px;
+}
+
+#subVacio-btt span {
+  font-style: normal;
+  } 
+
+#impVacio-btt {
+width: 130px;
+height: 100px;
+margin: 110px -280px;
+transition:all 0.3s linear;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+   animation-name: shaker;
+}
+
+#subDato {
+  padding-bottom: 0em;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 0 0 0.9em #DF0101, 0 0 0.8em #DF0101;
+  height: 0px;
+  font-size: 20px;
+  font-weight: bold;
+margin-left: 440px;
+margin-top: 70px;
+}
+
+#subDato span {
+  font-style: normal;
+  } 
+
+#impDato-bt {
+ width: 130px;
+height: 100px;
+margin: 110px -120px;
+transition:all 0.3s linear;
+  animation-iteration-count: infinite;
+animation-duration: 1s;
+   animation-name: shaker;
+}
+
+#subIzq {
+  padding-bottom: 0em;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 0 0 0.9em #DF0101, 0 0 0.8em #DF0101;
+  height: 0px;
+  font-size: 20px;
+  font-weight: bold;
+margin-left: 600px;
+margin-top: 70px;
+}
+
+#subIzq span {
+  font-style: normal;
+  } 
+
+#impIzq-bt {
+width: 130px;
+height: 100px;
+margin: 110px 35px;
+transition:all 0.3s linear;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+   animation-name: shaker;
+}
+
+
+
+#subDer {
+  padding-bottom: 0em;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 0 0 0.9em #DF0101, 0 0 0.8em #DF0101;
+  height: 0px;
+  font-size: 20px;
+  font-weight: bold;
+margin-left: 365px;
+margin-top: 230px;
+}
+
+#subDer span {
+  font-style: normal;
+  } 
+
+#impDer-bt {
+width: 130px;
+height: 100px;
+margin: 270px -200px;
+transition:all 0.3s linear;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+   animation-name: shaker;
+}
+
+#subVacio {
+  padding-bottom: 0em;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 0 0 0.9em #DF0101, 0 0 0.8em #DF0101;
+  height: 0px;
+  font-size: 20px;
+  font-weight: bold;
+margin-left: 520px;
+margin-top: 230px;
+}
+
+#subVacio span {
+  font-style: normal;
+  }
+
+#impVacio-bt {
+ width: 130px;
+height: 100px;
+margin: 270px -40px; 
+transition:all 0.3s linear;
+  animation-iteration-count: infinite;
+animation-duration: 1s;
+   animation-name: shaker;
+}
+
+#subHoja {
+  padding-bottom: 0em;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 0 0 0.9em #DF0101, 0 0 0.8em #DF0101;
+  height: 0px;
+  font-size: 20px;
+  font-weight: bold;
+margin-left: 530px;
+margin-top: 230px;
+}
+
+#subHoja span {
+  font-style: normal;
+  }
+
+#impHoja-bt {
+ width: 130px;
+height: 100px;
+margin: 270px -30px;
+transition:all 0.3s linear;
+  animation-iteration-count: infinite;
+animation-duration: 1s;
+   animation-name: shaker;
+}
+
+
+@keyframes shaker {
+  0% {
+    transform:rotate(0deg);
+  }
+
+  29% {
+    transform:rotate(0deg);
+  }
+
+
+  30% {
+    transform:rotate(1deg);
+  }
+
+  31% {
+    transform:rotate(2deg);
+  }
+
+  33% {
+    transform:rotate(1deg);
+  }
+
+  35% {
+    transform:rotate(0deg);
+  }
+
+  37% {
+    transform:rotate(-1deg);
+  }
+
+  39% {
+    transform:rotate(-2deg);
+  }
+
+  41% {
+    transform:rotate(-1deg);
+  }
+
+  43% {
+    transform:rotate(0deg);
+  }
+
+
+  45% {
+    transform:rotate(1deg);
+  }
+
+  47% {
+    transform:rotate(2deg);
+  }
+
+  49% {
+    transform:rotate(1deg);
+  }
+
+  51% {
+    transform:rotate(0deg);
+  }
+
+  53% {
+    transform:rotate(-1deg);
+  }
+
+  55% {
+    transform:rotate(-2deg);
+  }
+
+  57% {
+    transform:rotate(-1deg);
+  }
+
+  59% {
+    transform:rotate(0deg);
+  }
+
+
+  100%{
+    transform:rotate(0deg);
+  }
+}
 
 /*-----------------------------
-* PESTAÑA 4 - ITEM 4 - MANEJO
+* PESTAÑA 4 - ITEM 5 - MANEJO
 -------------------------------*/
 
 .manejo1 h1{
@@ -3944,7 +4398,7 @@ main section .cuadroT2:nth-child(1):hover > .contents2 p {
 }
 
 /*-----------------------------
-* PESTAÑA 4 - ITEM 5 - MANEJO
+* PESTAÑA 4 - ITEM 6 - MANEJO
 -------------------------------*/
 
 /*CUADRO DE TEXTO 1*/
