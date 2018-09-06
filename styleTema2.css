@@ -4659,3 +4659,98 @@ main section .cuadroT4:before {
     transform: scale(1);
   }
 }
+
+/*-----------------------------
+* PESTAÑA 4 - ITEM 7 - MANEJO
+-------------------------------*/
+
+.subEjemploF h1{
+  position: fixed;
+  bottom: 0;
+  height: 10px;
+  margin: 520px 170px;
+  display: block;
+  animation-duration: 3s;
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  color: #000000;
+  text-align: center;
+  line-height: 100px;
+
+    text-shadow: 0 1px 0 #77CBC9,
+                 0 2px 0 #77CBC9,
+                 0 3px 0 #77CBC9,
+                 0 4px 0 #77CBC9,
+                 0 5px 0 #77CBC9,
+                 0 6px 0 transparent,
+                 0 7px 0 transparent,
+                 0 8px 0 transparent,
+                 0 9px 0 transparent,
+                 0 10px 10px rgba(0, 0, 0, .6);
+}
+
+#ejArbolB {
+  margin: 30px -520px;
+}
+
+#digitador {
+  margin: 215px -555px;
+}
+
+#subImpListas {
+  padding-bottom: 0em;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 0 0 0.2em #00f5e8, 0 0 0.1em #00f5e8;
+  height: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 260px;
+  margin-top: 50px;
+  width: 200px;
+  text-align: justify;
+}
+
+#subImpListas span {
+  font-style: normal;
+}
+
+#subImpEst {
+  padding-bottom: 0em;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 0 0 0.2em #00f5e8, 0 0 0.1em #00f5e8;
+  height: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 260px;
+  margin-top: 230px;
+  width: 200px;
+  text-align: justify;
+}
+
+#subImpEst span {
+  font-style: normal;
+}
+
+#impEst {
+  width: 270px;
+  height: 150px;
+  margin: 220px -80px;
+  animation: float 1s infinite ease-in-out alternate;
+}
+
+#impListas {
+  width: 270px;
+  height: 150px;
+  margin: 40px -80px;
+  animation: float 1s infinite ease-in-out alternate;
+}
+
+@keyframes float {
+  100% {
+    transform: translateX(20px);
+    box-shadow: 0 40px 10px -18px hsla(0,0%,0%,.2),
+              0 40px 16px -12px hsla(0,0%,0%,.2);
+  }
+}
