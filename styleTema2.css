@@ -1893,7 +1893,7 @@ height: 30px;
 .boxes5 {
 margin: -520px 680px;
 width: 170px;
-height: 370px;
+height: 320px;
 background: -webkit-linear-gradient(left, #f66 0%,#ffffff 42%,#ffffff 52%, #f92);
 font-size: 18px;
 color: #000000;
@@ -2563,7 +2563,7 @@ position: absolute;
 transition: all 0.5s ease-in-out;
 background: rgba(0,0,0,.8);
 width: 642px;
-height: 310px;
+height: 235px;
 border-radius: 5px;
   box-shadow: 2px 3px 10px 0 rgba(0, 0, 0, 0.1);
 text-align: center;
@@ -2637,17 +2637,17 @@ position: fixed;
 top: 0;
 left: 86px;
 background: #ffffff;
-border: 1px solid #ffe062;
+border: 2px solid #ffe062;
 right: 0;
 bottom: 0;
 padding: 20px;
-width: 350px;
+width: 680px;
 height: 315px;
 margin: 262px 235px;
 }
 .tabP3 [type=radio]:checked ~ label {
   background: white;
-  border-bottom: 1px solid #332c13;
+  border-bottom: 2px solid red;
   z-index: 2;
 }
 .tabP3 [type=radio]:checked ~ label ~ .contentP3 {
@@ -2671,30 +2671,36 @@ margin: 262px 235px;
     font-style: normal;
   }
 
-
 #conte1{
-  margin:25px -520px;
+  margin:35px -520px;
+}
+
+#sumaArbol{
+margin:-20px -210px;
+}
+
+#toList{
+margin:-10px -210px;
+}
+
+#cuadrado{
+margin:-10px -210px;
+}
+
+#altura{
+margin:-10px -210px;
 }
 
 #conte2{
-  margin:25px -520px;
+ margin:35px -520px;
 }
 
 #conte3{
-  margin:25px -520px;
+  margin:35px -520px;
 }
 
 #conte4{
-  margin:25px -520px;
-}
-
-
-#notaSuma{
-  margin:25px -5px;
-}
-
-#profesora{
-   margin:70px 160px;
+  margin:35px -520px;
 }
 
 .recuadro9 {
@@ -2705,12 +2711,62 @@ margin: 262px 235px;
   font-weight: bold;
   border-radius: 10px 10px ;
   box-shadow: 5px 5px 5px #01cdfe;
-  width: 640px;
+  width: 500px;
 height: 30px;
   font-size: 20px;
-  margin: -2px 100px;
+  margin: -2px 160px;
 }
 
+#arbolGenerico{
+  margin: 20px -560px;
+}
+
+#aGenerico{
+  margin: 20px -190px;
+}
+
+#estructura{
+margin: 10px -544px;
+}
+
+.arrow2 {
+position: absolute;
+top: 50%;
+left: 44%;
+width: 120px;
+height: 50px;
+margin: -75px 0 0 -100px;
+}
+.arrow-part2 {
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 25px);
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  transform: rotate(45deg);
+  border-top: 4px solid #181414;
+  border-right: 4px solid #181414;
+}
+.arrow-part2:first-of-type {
+  animation: arrow-movement 2s ease-in-out infinite;
+}
+.arrow-part2:last-of-type {
+  animation: arrow-movement 2s 1s ease-in-out infinite;
+}
+
+@keyframes arrow-movement {
+  0% {
+    opacity: 0;
+    left: 25px;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 /*-----------------------------
 * PESTAÑA 4 - TABS
 -------------------------------*/
