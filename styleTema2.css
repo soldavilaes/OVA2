@@ -2767,6 +2767,124 @@ margin: -75px 0 0 -100px;
     opacity: 0;
   }
 }
+
+.ContenText3{
+  margin: 20px auto;
+}
+
+.ContenText3 h1{
+position: fixed;
+bottom: 0;
+height: 10px;
+margin: 540px 320px;
+display: block;
+animation-duration: 3s;
+font-family: "Homer Simpson", cursive;
+font-size: 30px;
+color: #27283D;
+text-align: center;
+line-height: 100px;
+
+  text-shadow: 0 1px 0 #77CBC9,
+               0 2px 0 #77CBC9,
+               0 3px 0 #77CBC9,
+               0 4px 0 #77CBC9,
+               0 5px 0 #77CBC9,
+               0 6px 0 transparent,
+               0 7px 0 transparent,
+               0 8px 0 transparent,
+               0 9px 0 transparent,
+               0 10px 10px rgba(0, 0, 0, .6);
+}
+
+.i22 {
+    border: 2px dashed #2f76eb;
+box-shadow: 0 0 0 1px #2f76eb, 
+          inset 0 0 0 1px #2f76eb, 
+          -30px -30px 0 -25px #2f76eb, 
+          30px -30px 0 -25px #2f76eb, 
+          -30px 30px 0 -25px #2f76eb, 
+          30px 30px 0 -25px #2f76eb;
+}
+
+#caja4 {
+width: 905px;
+height: 350px;
+margin: 60px 20px;
+padding: 13px;
+float: left;
+text-align: center;
+background: white;
+font-family: 'Open Sans';
+text-align: justify;
+background: white;
+font-size: 25px;
+line-height: 1;
+color: #000000;
+background: #B1F2FD;
+}
+
+#caja4 span {
+  font-weight: bold;
+  color: #002245;
+  text-align: center;
+}
+
+.cajaTextoP4 {
+    position: absolute;
+    width:500px;
+    padding: 4px;
+    box-sizing: border-box;
+    border-radius: 20px 20px 20px 20px;
+    transform-style: preserve-3d;
+    background: -webkit-linear-gradient(top left, #f8eeee 50%, #f8eeee 50%);
+    background:    -moz-linear-gradient(top left, #f8eeee 50%, #f8eeee 50%);
+    background:     -ms-linear-gradient(top left, #f8eeee 50%, #f8eeee 50%);
+    background:      -o-linear-gradient(top left, #f8eeee 50%, #f8eeee 50%);
+    background:         linear-gradient(top left, #f8eeee 50%, #f8eeee 50%);
+    margin: 18px 155px;
+    box-shadow: 5px 5px 10px #ea4c88;
+}
+
+.cajaTexto-contenidoP4 {
+   padding: 8px;
+border-radius: 10px 10px 10px 10px;
+height: 25px;
+}
+.cajaTexto-textP4 {
+color: black;
+font-family: 'Open Sans';
+font-size: 20px;
+line-height: 30px;
+font-weight: bold;
+text-align: center;
+padding: 0px;
+top: -10px;
+height: 30px;
+}
+
+#size{
+margin:110px 80px;
+}
+
+#Dcaja{
+margin:150px -480px;
+}
+
+.listaLista{
+font-family: 'Open Sans';
+top: -270px;
+position: relative;
+padding: 15px 20px;
+height: 100px;
+width: 600px;
+left: 15px;
+text-align: justify;
+color: #002245;
+font-size: 20px;
+font-weight: bold;
+}
+
 /*-----------------------------
 * PESTAÑA 4 - TABS
 -------------------------------*/
