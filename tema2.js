@@ -266,3 +266,54 @@ $(document).ready(function(){
   });
 
 });
+
+
+/*-----------------------------
+* PESTAÑA 6 - CAJA 1
+-------------------------------*/
+
+function sample(selector, callback) {
+  document.querySelector(selector).addEventListener('click', callback);
+}
+
+sample('#times', function () {
+  (2).times(function (n) {
+    alert('Yo x ' + n);
+  });
+});
+
+sample('#upto', function () {
+  (7).upto(10, function (n) {
+    alert(n + ' is odd? ' + n.odd);
+  });
+});
+
+sample('#count', function () {
+  var a = ['1', 1, 1, '1', 1],
+      nums = a.count(function (e) {
+    return e.numeric;
+  });
+  alert(nums);
+});
+
+sample('#sample', function () {
+  var a = ['one', 'two', 'three'];
+  alert(a.sample.chop);
+});
+
+sample('#reverse', function () {
+  var s = 'Hello world!';
+  alert(s.reverse);
+});
+
+var sub = document.querySelector('.sub'),
+    words = ['clean', 'awesome', 'nifty',       
+             'fun', 'elegant', 'zen', 'smart',
+            'amusing', 'charming', 'delightful', 'lovely',
+            'thrilling', 'beautiful', 'zen', 'neat'];
+    
+(function loop (n) {
+  n = (n >= words.size ? 0 : n);
+  sub.innerHTML = words.fetch(n).capitalize
+  window.setTimeout(loop.bind(null, n.next), 1200);
+}(0));
