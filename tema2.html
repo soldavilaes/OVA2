@@ -690,13 +690,13 @@
           [else (cons; LADO DERECHO 
                   (f(first lista)) 
                   (g(rest lista)))])))
-  (g (lista 1 2 3))); CUERPO
+ (g(cons 1(cons 2(cons 3 null)))));CUERPO
   </code></pre> 
             </div>
             <div class="i5">Las funciones definidas localmente son <b>f</b> y <b>g</b>.</div>
             <div class="i6">El lado derecho de la definición de la función <b>f</b> es <b>(+ x 5)</b>.</div>
             <div class="i7">El lado derecho de la definición de la función <b>g</b> es desde el <b>cond</b> hasta el <b>else</b>.</div>
-            <div class="i8">El cuerpo de la expresión <b>local</b> es <b>(g (list 1 2 3))</b>.</div>
+            <div class="i8">El cuerpo de la expresión <b>local</b> es <b>(g (cons 1 (...)))))</b>.</div>
             <div class="i3"><b>Análisis:</b>Si la lista ingresada no esta vacía, debe construir una lista con el valor que de como resultado aplicar la función f al primer elemento de la lista y hace un llamado recursivo a la función g para continuar con el resto de la lista. Finalemente se obtiene la lista <b>(list 6 7 8)</b>.</div>
         </div>
         <!-- ITEM 3-->

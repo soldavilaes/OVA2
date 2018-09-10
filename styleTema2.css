@@ -5420,14 +5420,14 @@ data-title {
   position: relative;
   display: inline-block;
   vertical-align: top;
-  width: 400px;
+  width: 410px;
   margin-bottom: 40px;
   margin-right: 40px;
   padding: 5px;
   background-color: #efefef;
   color: #424242;
   height: 270px;
-  margin: -10px 260px;
+  margin: -10px 250px;
 }
 
 .box1 {
@@ -5467,7 +5467,7 @@ data-title {
 }
 
 .box2 pre {
-  margin-left: -15px;
+  margin-left: -23px;
   margin-top: -35px;
 }
 
@@ -5508,7 +5508,7 @@ data-title {
          0px  4px 0 0 #8B0000,
          0px  0px 0 7px #E71C24;
   width: 190px;
-  margin-top: 25px;
+  margin-top: 23px;
   margin-left: 680px;
   line-height: 1;
   padding: 3px;
@@ -5528,7 +5528,7 @@ data-title {
          0px  4px 0 0 #8B0000,
          0px  0px 0 7px #E71C24;
   width: 190px;
-  margin-top: 25px;
+  margin-top: 23px;
   margin-left: 680px;
   line-height: 1;
   padding: 3px;
@@ -5548,7 +5548,7 @@ data-title {
          0px  4px 0 0 #8B0000,
          0px  0px 0 7px #E71C24;
   width: 190px;
-  margin-top: 25px;
+  margin-top: 23px;
   margin-left: 680px;
   line-height: 1;
   padding: 3px;
@@ -5563,11 +5563,11 @@ data-title {
   border-radius: 0 15px;
   box-shadow: -3px -3px 0 3px #8B0000, 3px 3px 0 3px #E71C24;
   line-height: 1;
-  width: 605px;
+  width: 613px;
   font-size: 14px;
   color: #000000;
   padding: 7px;
   text-align: justify;
-  margin: 20px 265px;
+  margin: 23px 257px;
   background: linear-gradient(to top, #f7babd 0%, #ffffff 100%);
 }
