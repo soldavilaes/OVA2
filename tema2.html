@@ -677,10 +677,27 @@
         </div>
         <!-- ITEM 2-->
         <div class='css3-tab-content tab-two'>
-            <!-- start slipsum code -->
-            <h1>Tab Two will be shown by default via the checked attr on the corresponding input</h1>
-            Integer elementum massa at nulla placerat varius. Suspendisse in libero risus, in interdum massa. Vestibulum ac leo vitae metus faucibus gravida ac in neque. Nullam est eros, suscipit sed dictum quis, accumsan a ligula. In sit amet justo lectus. Etiam feugiat dolor ac elit suscipit in elementum orci fringilla. Aliquam in felis eros. Praesent hendrerit lectus sit amet turpis tempus hendrerit. Donec laoreet volutpat molestie. Praesent tempus dictum nibh ac ullamcorper. Sed eu consequat nisi. Quisque ligula metus, tristique eget euismod at, ullamcorper et nibh. Duis ultricies quam egestas nibh mollis in ultrices turpis pharetra. Vivamus et volutpat mi. Donec nec est eget dolor laoreet iaculis a sit amet diam.
-            <h2>Donec malesuada vehicula</h2>  
+            <img id="imgProgramador" src="programador.png" />
+            <div class="box2">
+          <h1>Ejemplo Definiciones Locales</h1>
+<pre><code>
+(local(
+       (define (f x)
+         (+ x 5)); LADO DERECHO
+       (define (g lista)
+        (cond
+          [(empty? lista) empty]
+          [else (cons; LADO DERECHO 
+                  (f(first lista)) 
+                  (g(rest lista)))])))
+  (g (lista 1 2 3))); CUERPO
+  </code></pre> 
+            </div>
+            <div class="i5">Las funciones definidas localmente son <b>f</b> y <b>g</b>.</div>
+            <div class="i6">El lado derecho de la definición de la función <b>f</b> es <b>(+ x 5)</b>.</div>
+            <div class="i7">El lado derecho de la definición de la función <b>g</b> es desde el <b>cond</b> hasta el <b>else</b>.</div>
+            <div class="i8">El cuerpo de la expresión <b>local</b> es <b>(g (list 1 2 3))</b>.</div>
+            <div class="i3"><b>Análisis:</b>Si la lista ingresada no esta vacía, debe construir una lista con el valor que de como resultado aplicar la función f al primer elemento de la lista y hace un llamado recursivo a la función g para continuar con el resto de la lista. Finalemente se obtiene la lista <b>(list 6 7 8)</b>.</div>
         </div>
         <!-- ITEM 3-->
         <div class='css3-tab-content add-new'>

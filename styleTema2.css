@@ -5406,3 +5406,168 @@ data-title {
 #imgSintaxis {
   margin: 35px -545px;
 }
+
+/*-----------------------------
+* PESTAÑA 6 - ITEM 2
+-------------------------------*/
+
+#imgProgramador {
+  margin: -5px -550px;
+}
+
+.box1, .box2 {
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 400px;
+  margin-bottom: 40px;
+  margin-right: 40px;
+  padding: 5px;
+  background-color: #efefef;
+  color: #424242;
+  height: 270px;
+  margin: -10px 260px;
+}
+
+.box1 {
+  margin-left: 10px;
+  width: 390px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.box1:before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 0;
+  height: 100%;
+  width: 10px;
+  background: #FF1493;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.box1 h1 {
+  color: #E71C24;
+}
+
+.box2 {
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #E71C24 10px, white 11px);
+  padding-left: 35px;
+}
+
+.box2 h1 {
+  color: #E71C24;
+  margin-left: -8px;
+  font-size: 24px;
+  margin-top: -15px;
+}
+
+.box2 pre {
+  margin-left: -15px;
+  margin-top: -35px;
+}
+
+@media (max-width: 30em) {
+  .box1, .box2 {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+.i5 {
+  border-radius: 3px;
+  box-shadow:
+        -4px  0px 0 0 #8B0000, 
+         0px -4px 0 0 #8B0000,
+         4px  0px 0 0 #8B0000, 
+         0px  4px 0 0 #8B0000,
+         0px  0px 0 7px #E71C24;
+  width: 190px;
+  margin-top: -252px;
+  margin-left: 680px;
+  line-height: 1;
+  padding: 3px;
+  font-size: 15px;
+  text-align: justify;
+  font-family: 'Open Sans', Sans-serif;
+  color: #000000;
+  background: linear-gradient(to top, #f7babd 0%, #ffffff 100%);
+}
+
+.i6 {
+  border-radius: 3px;
+  box-shadow:
+        -4px  0px 0 0 #8B0000, 
+         0px -4px 0 0 #8B0000,
+         4px  0px 0 0 #8B0000, 
+         0px  4px 0 0 #8B0000,
+         0px  0px 0 7px #E71C24;
+  width: 190px;
+  margin-top: 25px;
+  margin-left: 680px;
+  line-height: 1;
+  padding: 3px;
+  font-size: 15px;
+  text-align: justify;
+  font-family: 'Open Sans', Sans-serif;
+  color: #000000;
+  background: linear-gradient(to top, #f7babd 0%, #ffffff 100%);
+}
+
+.i7 {
+  border-radius: 3px;
+  box-shadow:
+        -4px  0px 0 0 #8B0000, 
+         0px -4px 0 0 #8B0000,
+         4px  0px 0 0 #8B0000, 
+         0px  4px 0 0 #8B0000,
+         0px  0px 0 7px #E71C24;
+  width: 190px;
+  margin-top: 25px;
+  margin-left: 680px;
+  line-height: 1;
+  padding: 3px;
+  font-size: 15px;
+  text-align: justify;
+  font-family: 'Open Sans', Sans-serif;
+  color: #000000;
+  background: linear-gradient(to top, #f7babd 0%, #ffffff 100%);
+}
+
+.i8 {
+  border-radius: 3px;
+  box-shadow:
+        -4px  0px 0 0 #8B0000, 
+         0px -4px 0 0 #8B0000,
+         4px  0px 0 0 #8B0000, 
+         0px  4px 0 0 #8B0000,
+         0px  0px 0 7px #E71C24;
+  width: 190px;
+  margin-top: 25px;
+  margin-left: 680px;
+  line-height: 1;
+  padding: 3px;
+  font-size: 15px;
+  text-align: justify;
+  font-family: 'Open Sans', Sans-serif;
+  color: #000000;
+  background: linear-gradient(to top, #f7babd 0%, #ffffff 100%);
+}
+
+.i3 {
+  border-radius: 0 15px;
+  box-shadow: -3px -3px 0 3px #8B0000, 3px 3px 0 3px #E71C24;
+  line-height: 1;
+  width: 605px;
+  font-size: 14px;
+  color: #000000;
+  padding: 7px;
+  text-align: justify;
+  margin: 20px 265px;
+  background: linear-gradient(to top, #f7babd 0%, #ffffff 100%);
+}
