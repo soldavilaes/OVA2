@@ -2825,9 +2825,11 @@ background: #B1F2FD;
 }
 
 #caja4 span {
-  font-weight: bold;
   color: #002245;
   text-align: center;
+  font-family: 'Open Sans', Sans-serif;
+  font-size: 22px;
+  font-weight: normal;
 }
 
 .cajaTextoP4 {
@@ -2852,19 +2854,22 @@ border-radius: 10px 10px 10px 10px;
 height: 25px;
 }
 .cajaTexto-textP4 {
-color: black;
-font-family: 'Open Sans';
-font-size: 20px;
-line-height: 30px;
-font-weight: bold;
-text-align: center;
-padding: 0px;
-top: -10px;
-height: 30px;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px;
+  top: -10px;
+  height: 30px;
 }
 
 #size{
-margin:110px 80px;
+  margin: 125px 60px;
+  height: 170px;
+  width: 250px;
+  -webkit-animation: seesaw 1s infinite;
 }
 
 #Dcaja{
@@ -2872,17 +2877,26 @@ margin:150px -480px;
 }
 
 .listaLista{
-font-family: 'Open Sans';
-top: -270px;
-position: relative;
-padding: 15px 20px;
-height: 100px;
-width: 600px;
-left: 15px;
-text-align: justify;
-color: #002245;
-font-size: 20px;
-font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  top: -280px;
+  position: relative;
+  padding: 15px 20px;
+  height: 100px;
+  width: 650px;
+  left: 15px;
+  text-align: justify;
+  color: #002245;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+@-webkit-keyframes seesaw {
+  0% {
+      -webkit-transform: rotate(-2deg);
+  }
+  50% {
+      -webkit-transform: rotate(1deg);
+  }
 }
 
 /*-----------------------------
