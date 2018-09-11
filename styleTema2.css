@@ -129,7 +129,7 @@ header h1 {
 ---------------------------*/
 
 #cabecera {
-  background: #617C99;
+  background: #5E6269;
   position: relative;
   display: block;
   margin-right: auto;
@@ -140,6 +140,13 @@ header h1 {
   left: -100px; 
 }
 
+#cabecera h2 {
+  color: white;
+  padding: 10px 7px 7px;
+   font-family: 'Open Sans', sans-serif;
+   text-shadow: #000000 0.1em 0.0em 0.2em;
+}
+
 /*--------------------------
 * AUTOFORMA DEL TITULO
 ---------------------------*/
@@ -147,7 +154,7 @@ header h1 {
     width: 180px;
     height: 25px;
     position: relative;
-    background: #66ff66;
+    background: #33ffbd;
     top: 5px;
     left: -4px;
   }
@@ -171,7 +178,7 @@ header h1 {
     bottom: 0;
     width: 0;
     height: 0;
-    border-left: 12.98px solid #66ff66;
+    border-left: 12.98px solid #33ffbd;
     border-top: 13px solid transparent;
     border-bottom: 12.98px solid transparent;
   }
@@ -183,7 +190,7 @@ header h1 {
 #escenario{
     display: block;
     position: relative;
-    background: #DAE3E5;
+    background: #E8E8E8;
     margin-right: auto;
     margin-left: auto;
     border: solid 1px rgba(255,255,255,0);
@@ -5604,18 +5611,20 @@ data-title {
 
 .box{
 	margin: -20px -10px;
+  width: 890px;
+  height: 120px;
 }
 .textbox {
 background: linear-gradient(to top, #c481fb 0%, #ffffff 100%);
 border-radius: 10px;
-padding: 5px;
+padding: 12px;
 font-size: 20px;
 text-align: justify;
 font-family: 'Sansita';
 position: relative;
 color: black;
-width: 900px;
-height:125px;
+width: 890px;
+height: 120px;
 margin: -10px -90px;
 transform: translate(10%,10%);
 border-top: solid 2px white;
@@ -5637,10 +5646,10 @@ color: white;
 position: relative;
 }
 
-#subtitulo6 {
+#subLocal1 {
   padding-bottom: 0em;
   color: #000000;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   text-shadow: 0 0 0.2em #7e1b9d, 0 0 0.2em #7e1b9d;
   height: 0px;
   font-size: 25px;
@@ -5648,14 +5657,14 @@ position: relative;
   margin: 125px 70px;
 }
 
-#subtitulo6 span {
+#subLocal1 span {
     font-style: normal;
   }
 
-  #subtitulo7 {
+  #subLocal2 {
   padding-bottom: 0em;
   color: #000000;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   text-shadow: 0 0 0.2em #7e1b9d, 0 0 0.2em #7e1b9d;
   height: 0px;
   font-size: 25px;
@@ -5663,7 +5672,7 @@ position: relative;
   margin: 260px 70px;
 }
 
-  #subtitulo7 span {
+  #subLocal2 span {
     font-style: normal;
   }
 
