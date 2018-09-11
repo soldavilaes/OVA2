@@ -5607,43 +5607,47 @@ data-title {
   background: linear-gradient(to top, #f7babd 0%, #ffffff 100%);
 }
 
-/***PESTAÑA 6***/
+/*-----------------------------
+* PESTAÑA 6 - ITEM 3
+-------------------------------*/
 
 .box{
 	margin: -20px -10px;
   width: 890px;
   height: 120px;
 }
+
 .textbox {
-background: linear-gradient(to top, #c481fb 0%, #ffffff 100%);
-border-radius: 10px;
-padding: 12px;
-font-size: 20px;
-text-align: justify;
-font-family: 'Sansita';
-position: relative;
-color: black;
-width: 890px;
-height: 120px;
-margin: -10px -90px;
-transform: translate(10%,10%);
-border-top: solid 2px white;
-transition: all .5s cubic-bezier(0.43, 0.26, 0, 1.87);
-animation: fromleft 2s 1;}
+  background: linear-gradient(to top, #c481fb 0%, #ffffff 100%);
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 20px;
+  text-align: justify;
+  font-family: 'Sansita';
+  position: relative;
+  color: black;
+  width: 890px;
+  height: 120px;
+  margin: -10px -90px;
+  transform: translate(10%,10%);
+  border-top: solid 2px white;
+  transition: all .5s cubic-bezier(0.43, 0.26, 0, 1.87);
+  animation: fromleft 2s 1;
+}
 
 .textbox:hover {
-background: white;
-border-top: solid 19px #4267b2;
-cursor: pointer;
-border-radius: 30px 0px;
-padding-bottom: 60px;
-color:#4267b2;
+  background: white;
+  border-top: solid 19px #4267b2;
+  cursor: pointer;
+  border-radius: 30px 0px;
+  padding-bottom: 60px;
+  color:#4267b2;
 }
 
 .site{
-font-weight: 900;
-color: white;
-position: relative;
+  font-weight: 900;
+  color: white;
+  position: relative;
 }
 
 #subLocal1 {
@@ -5659,7 +5663,7 @@ position: relative;
 
 #subLocal1 span {
     font-style: normal;
-  }
+}
 
   #subLocal2 {
   padding-bottom: 0em;
@@ -5672,9 +5676,9 @@ position: relative;
   margin: 260px 70px;
 }
 
-  #subLocal2 span {
+#subLocal2 span {
     font-style: normal;
-  }
+}
 
 #uno{
 	margin:110px -530px;;
@@ -5699,8 +5703,8 @@ position: relative;
   text-align: justify;
   font-size: 19px;
   line-height: 1;
- margin: 40px 590px;
-width: 365px;
+  margin: 40px 590px;
+  width: 365px;
 }
 
 .card3.card-secondary3 {
@@ -5729,8 +5733,8 @@ width: 365px;
   text-align: justify;
   font-size: 19px;
   line-height: 1;
- margin: 30px 590px;
-width: 365px;
+  margin: 30px 590px;
+  width: 365px;
 }
 
 .card4.card-secondary4 {
@@ -5745,13 +5749,14 @@ width: 365px;
 }
 
 .arrow3 {
-position: absolute;
-top: 50%;
-left: 44%;
-width: 120px;
-height: 50px;
-margin: -38px 0 0 25px;
+  position: absolute;
+  top: 50%;
+  left: 44%;
+  width: 120px;
+  height: 50px;
+  margin: -38px 0 0 25px;
 }
+
 .arrow-part3 {
   position: absolute;
   top: calc(50% - 25px);
@@ -5766,19 +5771,20 @@ margin: -38px 0 0 25px;
 .arrow-part3:first-of-type {
   animation: arrow-movement 2s ease-in-out infinite;
 }
+
 .arrow-part3:last-of-type {
   animation: arrow-movement 2s 1s ease-in-out infinite;
 }
 
-
 .arrow4 {
-position: absolute;
-top: 50%;
-left: 44%;
-width: 120px;
-height: 50px;
-margin: 100px 0 0 25px;
+  position: absolute;
+  top: 50%;
+  left: 44%;
+  width: 120px;
+  height: 50px;
+  margin: 100px 0 0 25px;
 }
+
 .arrow-part4 {
   position: absolute;
   top: calc(50% - 25px);
@@ -5790,13 +5796,14 @@ margin: 100px 0 0 25px;
   border-top: 4px solid #181414;
   border-right: 4px solid #181414;
 }
+
 .arrow-part4:first-of-type {
   animation: arrow-movement 2s ease-in-out infinite;
 }
+
 .arrow-part4:last-of-type {
   animation: arrow-movement 2s 1s ease-in-out infinite;
 }
-
 
 @keyframes arrow-movement {
   0% {
