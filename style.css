@@ -55,10 +55,10 @@ h1, h4, h5, h6 {
    font-family: 'Open Sans', sans-serif;
 }
 h2{
-  color:#000000;
+  color: white;
   padding: 10px 7px 7px;
    font-family: 'Open Sans', sans-serif;
-   text-shadow: white 0.1em 0.0em 0.2em;
+   text-shadow: #000000 0.1em 0.0em 0.2em;
 }
 h3 {
   color: #000000;
@@ -67,8 +67,8 @@ h3 {
 }
 
 header {
-  background: #363A41;
-  border-bottom: 1px solid #1C1C1C;
+  background: rgba(235,30, 0, 1);
+  border-bottom: 1px solid rgba(235,30, 0, 1);
   box-shadow: 1px 0 2px rgba(0,0,0,.5);
   color: #FFF;
   display: flex;
@@ -112,7 +112,7 @@ header h1 {
   margin-right: auto;
   height: 670px;
  /* padding: 22.5%;*/
-  background-color: #89a4c1;
+  background-color: #979797;
   left: 205px;
   
   z-index:1;
@@ -126,7 +126,7 @@ header h1 {
 
 
 #cabecera {
-  background: #617C99;
+  background: #5E6269;
   position: relative;
   display: block;
   margin-right: auto;
@@ -142,7 +142,7 @@ header h1 {
     width: 220px;
     height: 25px;
     position: relative;
-    background: #66ff66;
+    background: #33ffbd;
     top: 5px;
     left: -4px;
   }
@@ -166,7 +166,7 @@ header h1 {
     bottom: 0;
     width: 0;
     height: 0;
-    border-left: 12.98px solid #66ff66;
+    border-left: 12.98px solid #33ffbd;
     border-top: 13px solid transparent;
     border-bottom: 12.98px solid transparent;
   }
@@ -174,7 +174,7 @@ header h1 {
 #escenario{
     display: block;
     position: relative;
-    background: #DAE3E5;
+    background: #E8E8E8;
     margin-right: auto;
     margin-left: auto;
     border: solid 1px rgba(255,255,255,0);
@@ -217,7 +217,7 @@ section, article, div, .box {
   position: relative;
 }
 [id*="menu-"] {
-  background: #5E6269;
+  background: #DEDEDE;
   bottom: 0;
   color: #858585;
   height: 100%;
@@ -284,7 +284,7 @@ section, article, div, .box {
 }
 /* Titulos Principales */
 #menu-left .content h5 {
-  background: #363A41;
+  background: #5E6269;
   color: #FFFFFF;
   font-weight: 550;
   font-size: 16px;
@@ -304,12 +304,12 @@ section, article, div, .box {
 }
 #menu-left .content  li {
   transition: border 0.5s; 
-  color: #FFFFFF;
+  color: #000000;
  
 }
 /* Efecto SubItems */
 #menu-left .content  li:hover {
- background: #AEB2B9;
+  background: red;
  border-left: 5px solid #eee;
 }
 
