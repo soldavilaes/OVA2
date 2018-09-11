@@ -5743,14 +5743,14 @@ width: 365px;
 .card4 > :last-child {
   margin-bottom: 0;
 }
-/***
+
 .arrow3 {
 position: absolute;
 top: 50%;
 left: 44%;
 width: 120px;
 height: 50px;
-margin: -75px 0 0 -100px;
+margin: -38px 0 0 25px;
 }
 .arrow-part3 {
   position: absolute;
@@ -5770,18 +5770,6 @@ margin: -75px 0 0 -100px;
   animation: arrow-movement 2s 1s ease-in-out infinite;
 }
 
-@keyframes arrow-movement {
-  0% {
-    opacity: 0;
-    left: 25px;
-  }
-  70% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
 
 .arrow4 {
 position: absolute;
@@ -5789,11 +5777,11 @@ top: 50%;
 left: 44%;
 width: 120px;
 height: 50px;
-margin: -80px 0 0 30px;
+margin: 100px 0 0 25px;
 }
 .arrow-part4 {
   position: absolute;
-  top: calc(50% - 60px);
+  top: calc(50% - 25px);
   left: calc(50% - 25px);
   width: 50px;
   height: 50px;
@@ -5809,6 +5797,7 @@ margin: -80px 0 0 30px;
   animation: arrow-movement 2s 1s ease-in-out infinite;
 }
 
+
 @keyframes arrow-movement {
   0% {
     opacity: 0;
@@ -5820,4 +5809,4 @@ margin: -80px 0 0 30px;
   100% {
     opacity: 0;
   }
-}*/
+}
