@@ -58,6 +58,34 @@ $(document).ready(function(e){
   });
 });
 
+$(document).ready(function(e){
+  $('#itemActividad1').on('click', function(){
+    $('#content').load('actividad1.html')
+  });
+});
+$(document).ready(function(e){
+  $('#itemActividad2').on('click', function(){
+    $('#content').load('actividad2.html')
+  });
+});
+$(document).ready(function(e){
+  $('#itemActividad3').on('click', function(){
+    $('#content').load('actividad3.html')
+  });
+});
+
+$(document).ready(function(e){
+  $('#itemIntro').on('click', function(){
+    $('#content').load('intro.html')
+  });
+});
+
+/* SELECCIONAR ITEM*/
+$('#menu-left li').on('click', function(){
+    $('li').removeClass('activo');
+    $(this).addClass('activo');
+});
+
 $(document).ready(function() {
   $('.has-animation').each(function(index) {
     $(this).delay($(this).data('delay')).queue(function(){

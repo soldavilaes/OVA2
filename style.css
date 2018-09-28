@@ -881,3 +881,8 @@ box-shadow: 6px 6px 6px #0fe4d2;
     opacity: 1;
   }
 }
+
+.activo {
+  background-color: #33ffbd;
+  font-weight: bold;
+}
