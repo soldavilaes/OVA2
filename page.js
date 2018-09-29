@@ -1,3 +1,4 @@
+
 var count = $('.count');
 var loader = $('#loader');
 $({ Counter: 0 }).animate({ Counter: count.text() }, {

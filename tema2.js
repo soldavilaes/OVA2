@@ -317,3 +317,5 @@ var sub = document.querySelector('.sub'),
   sub.innerHTML = words.fetch(n).capitalize
   window.setTimeout(loop.bind(null, n.next), 1200);
 }(0));
+
+
