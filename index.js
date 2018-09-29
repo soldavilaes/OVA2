@@ -86,6 +86,7 @@ $('#menu-left li').on('click', function(){
     $(this).addClass('activo');
 });
 
+/* EFECTO DE ENTRADA DE LA INTRODUCCIÓN */
 $(document).ready(function() {
   $('.has-animation').each(function(index) {
     $(this).delay($(this).data('delay')).queue(function(){
