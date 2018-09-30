@@ -50,7 +50,7 @@ template{display: none;}
 body{background-color:black;}
 #ardoraMain{background: linear-gradient(to top, #ffb2d8 0%, #ffffff 100%); border: 3px solid rgba(235,30, 0, 1); height: 467px; font-family:'Arial Black', Gadget, sans-serif; color: #F0F0F0; padding: 5px; position: relative;}
 #ardoraEnu{ font-size: 18px; position: relative; padding: 5px; margin-bottom: 10px; font-family:'Sansita';
-text-align: justify; 
+text-align: justify; margin: 40px auto;
 }
 #ardoraAlumSCORM{visibility: hidden;padding:0px;margin:0px;position: absolute;height: 15px;width: 250px;bottom: 0px;right: 0px;cursor: pointer;border-style: dotted;
 border-width: 1px;-webkit-border-radius: 4px;-khtml-border-radius: 4px;border-radius: 4px;
@@ -69,7 +69,17 @@ margin: -90px 110px;
 .bg_sol{color: #000000; font-family:'Sansita';float:left;display:table-cell;font-size:20px;height:35px;width:40px;text-align: center;cursor:pointer;border-width:2px;border-style:solid;border-color:#000000;margin-left:2px; margin-top: 2px;border-radius:4px;box-shadow: 4px 4px 4px rgba(50, 50, 50, 0.5);}
 #contentdiv{float:left;margin-bottom: 2px; margin: -90px 10px;}
 #words_div{margin: 110px 0px; height: 50px;font-family:'Sansita';font-size:15px;color:#000000;padding:5px;width:550px !important;border-width:2px;border-style:solid;border-color:#FF0080;border-radius:4px;text-shadow:2px 2px #cccccc; border-width:2px;border-style:solid;border-color:#FF0080;border-radius:4px;}
-#help_div{text-align:justify;margin-bottom:3px;font-family:'Sansita';font-size:14px;padding:5px;width:550px;border-width:2px; height: 80px; margin: -49px 90px;}
+#help_div{text-align:justify;margin-bottom:3px;font-family:'Sansita';font-size:14px;padding:5px;width:550px;border-width:2px; height: 80px; margin: -49px 92px;}
 #help_div p{float: left; margin: 0; color:#000000; font-size:16px; line-height: 20px;}
 #help_div img{width:20px; margin: -25px 5px; cursor: pointer;}
-#nota{margin: -9px 10px; color: #ff00ff; font-family:'Sansita'; font-size: 18px;}
+#nota{margin: -45px 8px; color: #ff00ff; font-family:'Sansita'; font-size: 18px;}
+#titulo2{  color: #000000;
+  font-family: 'Sansita';
+  text-shadow: 0 0 0.2em #ff00ff, 0 0 0.2em #ff00ff;
+  height: 0px;
+  font-size: 28px;
+  font-weight: bold; margin:-25px 70px; width: 800px;}
+
+#titulo2 span{
+	font-style: normal;
+}
