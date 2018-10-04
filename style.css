@@ -36,6 +36,7 @@ ul {
 li {
   margin: 0px 0;
   padding: 6px 8px;
+  text-decoration: none;
 }
 p {
   line-height: 1.5;
@@ -249,6 +250,7 @@ section, article, div, .box {
   overflow: hidden;
   padding: 5px;
   position: relative;
+  text-decoration: none;
 }
 [id*="menu-"] li:last-child {
   border: 0;
@@ -296,6 +298,11 @@ section, article, div, .box {
   left: auto;
   font-size: 16px;
 }
+
+#menu-left a {
+  text-decoration: none;
+}
+
 #menu-left .content h5.open i.fa-chevron-down {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
@@ -309,12 +316,13 @@ section, article, div, .box {
 }
 /* Efecto SubItems */
 #menu-left .content  li:hover {
-  background: red;
+  background: #AEB2B9;
  border-left: 5px solid #eee;
 }
 
 #menu-left .content .fa {
   padding: 0 8px 0 4px;
+
 }
 #menu-left .content ul:last-child {
   color: #656565;
@@ -335,6 +343,7 @@ section, article, div, .box {
   *font-weight: bold;
   padding-left: 8px;
 }
+
 .abrir {
   transform: translateX(-205px);
 }

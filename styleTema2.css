@@ -597,7 +597,7 @@ font-weight: bold;
 .open_popup{
   background:tomato;
   border:none;
-  padding:5px 15px;
+  padding: 18px 22px;
   color:#fff;
   animation-name: pulse;
   animation-duration: .5s;
@@ -607,7 +607,10 @@ font-weight: bold;
   font-weight: bold;
   font-size: 18px;
   right: -870px;
-
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
 }
 
 .popup_main {
