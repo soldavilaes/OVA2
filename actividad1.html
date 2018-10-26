@@ -4,14 +4,14 @@ and open the template in the editor.
 -->
 <!DOCTYPE html>
 <html>
-    <head>
-        <title></title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <style type="text/css" media="screen">
-            @import 'styleActividad.css';
-         </style>
+<head>
+  <title></title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <style type="text/css" media="screen">
+  @import 'styleActividad.css';
+</style>
 
-         <link type="text/css" href="palabras_resources/css/ardoraConstruPal.css" rel="stylesheet" />
+<link type="text/css" href="palabras_resources/css/ardoraConstruPal.css" rel="stylesheet" />
 <script language="javascript" type="text/javascript" src="palabras_resources/js/jquery.js"></script>
 <script language="javascript" type="text/javascript" src="palabras_resources/js/jquery-ui.min.js"></script>
 <script language="javascript" type="text/javascript" src="palabras_resources/js/jquery.ui.touch-punch.min.js"></script>
@@ -19,53 +19,51 @@ and open the template in the editor.
 <script language="javascript" type="text/javascript" src="palabras_resources/js/ardoraScorm.js"></script>
 <script language="javascript" type="text/javascript" src="palabras_resources/js/ardoraConstruPal.js"></script>
 <script language="javascript" type="text/javascript" src="palabras_resources/js/ardoraTab.js"></script>
-    
-    </head>
-    <body>
-        <div id="content">
-        <div id="loader">
-          <div class="count">100%</div>
-        </div>
-             <div id ="cabecera">
-              <img src="iconoPrin2.png"/>
-              <pre><h2>              PROCESAMIENTO DE DATOS ARBITRARIAMENTE GRANDES</h2></pre>
+
+</head>
+<body>
+  <div id="content">
+    <div id="loader">
+      <div class="count">100%</div>
+    </div>
+    <div id ="cabecera">
+      <img src="iconoPrin2.png"/>
+      <pre><h2>              PROCESAMIENTO DE DATOS ARBITRARIAMENTE GRANDES</h2></pre>
+    </div>
+
+    <div id="escenario">
+     <pre><h3 id="pointer">    <i class="fa fa-edit"></i> ACTIVIDAD 1</h3> </pre>
+     <p>Seleccione las letras que hagan parte de la definicón dada.</p><img id="indi" src="indicacion1.png"/> 
+
+     <div id="contenidoGeneral">
+
+      <div id="ardoraMain">
+        <p id="titulo2"><span>CONSTRUYE LA PALABRA CORRESPONDIENTE A LA DEFINICIÓN DADA</span></p>
+        <audio id="audioFelicitacion">
+          <source src="palabras_resources/media/correct-ding.mp3" type="audio/mp3">
+          </audio>
+          <audio id="audioErro">
+            <source src="palabras_resources/media/perder-incorrecto-no-valido.mp3" type="audio/mp3">
+            </audio>
+            <div id="ardoraEnu"><SPAN style="font-size:16px;color:#000000">(<b>Nota:</b> Ten en cuenta los espacios entre algunas palabras). </SPAN></div>
+            <div id="nota"><span><b>Definición:</b></span></div>
+            <div id="help_div"></div>
+            <div id="contentdiv">
+              <div id="words_div"></div>
+              <div id="ardoraAct">
+                <canvas id="ardoraActCanvas" width="2px" height="2px"></canvas>
+              </div></div>
+              <div id="ardoraTab">
+                <div id="buttonOk"><canvas id="buttonOkCanvas" width="70" height="70"></canvas></div>
+              </div></div>
+
             </div>
-  
-        <div id="escenario">
-                 <pre><h3 id="pointer">    <i class="fa fa-edit"></i> ACTIVIDAD 1</h3> </pre>
-                  <p>Ubique el cursor del mouse sobre los recuadros para observar los objetivos.</p><img src="indicacion1.png"/> 
+          </div>
 
-        <div id="contenidoGeneral">
 
-            <div id="ardoraMain">
-              <p id="titulo2"><span>CONSTRUYE LA PALABRA CORRESPONDIENTE A LA DEFINICIÓN DADA</span></p>
-<audio id="audioFelicitacion">
-<source src="palabras_resources/media/correct-ding.mp3" type="audio/mp3">
-</audio>
-<audio id="audioErro">
-<source src="palabras_resources/media/perder-incorrecto-no-valido.mp3" type="audio/mp3">
-</audio>
-<div id="ardoraEnu"><SPAN style="font-size:16px;color:#000000">(<b>Nota:</b> Ten en cuenta los espacios entre algunas palabras). </SPAN></div>
-<div id="nota"><span><b>Definición:</b></span></div>
-<div id="help_div"></div>
-<div id="contentdiv">
-<div id="words_div"></div>
-  <div id="ardoraAct">
-<canvas id="ardoraActCanvas" width="2px" height="2px"></canvas>
-</div></div>
-<div id="ardoraTab">
-  <div id="buttonOk"><canvas id="buttonOkCanvas" width="70" height="70"></canvas></div>
-</div></div>
-        
-        </div>
-        </div>
+          <script  src="actividad.js"></script>
+          <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+          <script  src="page.js"></script>
 
-         
-  
-
-    <script  src="actividad.js"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
-    <script  src="page.js"></script>
-
-    </body>
-</html>
+        </body>
+        </html>

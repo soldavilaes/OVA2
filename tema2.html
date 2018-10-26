@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>TEMA 2</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <style type="text/css" media="screen">
-  @import 'styleTema2.css';
+	<title>TEMA 2</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<style type="text/css" media="screen">
+	@import 'styleTema2.css';
 </style>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
@@ -13,702 +13,721 @@
 </head>
 
 <body>
-  <div id="content">
- <div id="loader">
-  <div class="count">100%</div>
-</div>
-           
-    <div id ="cabecera">
-      <img src="iconoPrin2.png"/>
-      <pre><h2>              PROCESAMIENTO DE DATOS ARBITRARIAMENTE GRANDES</h2></pre>
-    </div>
+	<div id="content">
+		<div id="loader">
+			<div class="count">100%</div>
+		</div>
 
-    <div id="escenario">
-     <pre><h3 id="pointer">       <i class="fa fa-list"></i> TEMA 2</h3> </pre>
-     <p>Hacer clic en las pestañas para continuar </p><img id="iPestaña" src="pestañas.png"/>
+		<div id ="cabecera">
+			<img src="iconoPrin2.png"/>
+			<pre><h2>              PROCESAMIENTO DE DATOS ARBITRARIAMENTE GRANDES</h2></pre>
+		</div>
 
-     <!--  <div id="contenidoGeneral">-->
-         <!--         
-                  <div class="tab-body-container ">
-          <ul class="tab-group">
-            <li id='tab-1' >3</li>
-            <li id='tab-2'>2</li>
-            <li id='tab-3'class='tab-current'>1</li>
-          </ul>
+		<div id="escenario">
+			<pre><h3 id="pointer">       <i class="fa fa-list"></i> TEMA 2</h3> </pre>
+			<p>Hacer clic en las pestañas para continuar </p><img id="iPestaña" src="indicacion1.png"/>
 
-          <ul class="body-group">
-            <li id='body-1'>
-              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren</p>
+      <!-- PESTAÑAS -->   
+
+      <div class="menu">
+      	<ul class="menu__tabs">
+      		<li><a href="#item-5">5</a></li>
+      		<li><a href="#item-4">4</a></li>
+      		<li><a href="#item-3">3</a></li>
+      		<li><a href="#item-2">2</a></li>
+      		<li><a class="active" href="#item-1">1</a></li>
+      	</ul>
+      	<section class="menu__wrapper">
+
+      		<!-- PESTAÑA 1 --> 
+
+      		<article id="item-1" class="menu__item item-active">
+      			<img id="subArboles" src="arboles.png" />
+      			<div class="mybox"><span>Los <b>árboles</b> son un tipo de dato, cuya estructura puede ser considerada intuitivamente como una estructura jerárquica, el cual se puede definir recursivamente de la siguiente forma:</span></div>
+      			<p></p>
+      			<img id="idea" src="chica.png" />
+      			<div class="card card-secondary">
+      				• Una colección de un dato (el valor de la raíz del árbol) y una lista de hijos que también son árboles.
+      			</div>
+      			<img id="arbol1" src="arbol1.png">
+      			<img id="arbol2" src="arbol2.png">
+      			<div class="card1 card-secondary1">
+      				• Una hoja será un árbol sin hijos (un dato con una lista de hijos vacía).
+      			</div>
+
+      			<!-- BOTON DEL EJEMPLO --> 
+
+      			<div class="popup_main">
+      				<div class="open_popup">Ej.</div>
+      				<div class="popup_body">
+      					<div class="popup_back"></div>
+      					<div class="popup_contain">
+      						<div class="popup_close">x</div>
+      						<b>Ejemplo:</b> Árbol Genealogico.
+      						<img id="arbolGenealogico" src="arbolGenealogico.jpg">
+      					</div>
+      				</div>
+      			</div>
+      		</article>
+
+      		<!-- PESTAÑA 2 --> 
+
+      		<article id="item-2" class="menu__item">
+      			<div class="slider">
+      				<div class="slider-inner">
+      					<ul class="slider-container">
+      						<!-- ITEM 1 --> 
+      						<li class="slider-item">
+      							<img id="defArboles" src="defArboles.png">
+      							<p id="subtitulo1"><span>NODO</span></p>
+      							<p id="texto1"><span>Un nodo puede ser una <b>hoja</b> o un nodo <b>raíz</b>.</span></p>
+      							<div class="formas">
+      								<div class="circulo circle bottom-left"><b>HOJA:</b><span>No tiene nodos hijos (sucesores).</span></div>
+      								<div class="circulo1 circle bottom-left"><b>RAÍZ:</b><span>No tiene nodos predecesores.</span></div>
+      							</div> 
+      							<p id="subtitulo2"><span>SUBÁRBOL</span></p>
+      							<div class="forma2">
+      								<div class="cuadro inset"><b>SUBÁRBOL&nbsp;:</b>&nbsp;Es el conjunto de todos los predecesores de un nodo.</div>
+      							</div>
+      							<p id="subtitulo3"><span>ÁRBOL BINARIO</span></p>
+      							<img id="arbolB" src="arbolB.gif">
+      						</li>
+
+      						<!-- ITEM 2 --> 
+
+      						<li class="slider-item">
+      							<img id="subRecorridos" src="recorridos.png">
+      							<p id="salmon"><span>1</span>
+      								<p id="subtitulo4"><span>INORDEN</span></p>
+      								<p id="verde"><span>2</span>
+      									<p id="subtitulo5"><span>PREORDEN</span></p>
+      									<p id="azul"><span>3</span>
+      										<p id="subtitulo6"><span>POSTORDEN</span></p>
+      										<div class="loading"> 
+      											<h2 class="freelancer" style="">Recorrer en <b>inorden</b> el subárbol izquierdo, visitar el elemento de la raíz y luego recorrer en inorden el subárbol derecho.</h2>
+      										</div>
+      										<div class="loading1"> 
+      											<h2 class="freelancer1" style="">Visitar el elemento de la raíz, recorrer en <b>preorden</b> el subárbol izquierdo y luego recorrer en preorden el subárbol derecho.</h2>
+      										</div>
+      										<div class="loading2"> 
+      											<h2 class="freelancer2" style="">Recorrer en <b>postorden</b> el subárbol izquierdo, luego recorrer en postorden el subárbol derecho y finalmente visitar el elemento de la raíz.</h2>
+      										</div>
+      									</li>
+
+      									<!-- ITEM 3 --> 
+
+      									<li class="slider-item">
+      										<div id="subEjRecorridos"><img src="subEjRecorridos.png"></div>    
+      										<p id="enunciadoEj"><span>Realice los recorridos anteriormente vistos para el siguiente árbol. </span></p>
+      										<div id="arbolEj"><img  src="arbolEj.png"></div>
+      										<p id="subInorden"><span>RECORRIDO INORDEN</span></p>
+      										<div id="mEjemplo"><img src="mEjemplo.png"></div>  
+      										<div id="ejInorden"><img src="ejInorden.gif"></div>
+      									</li>
+
+      									<!-- ITEM 4 --> 
+
+      									<li class="slider-item">
+      										<p id="subPreorden"><span>RECORRIDO PREORDEN</span></p>  
+      										<div id="ejPreorden"><img src="ejPreorden.gif"></div>
+      										<div><img id="muñecoFin" src="finalizado.png" /></div>
+      										<p id="subPostorden"><span>RECORRIDO POSTORDEN</span></p>  
+      										<div id="ejPostorden"><img src="ejPostorden.gif"></div>
+      									</li>
+
+      									<!-- ITEM 5 --> 
+
+      									<li class="slider-item">
+      										<div>
+      											<img id="subRepresentacion" src="subRepresentacion.png" />
+      											<img id="subTipos" src="subTipos.png" />
+      											<img id="logoR" src="drRacket.png" />
+      											<img id="genBin" src="genBin.gif" />
+      											<img id="informatico" src="informatico.png" />
+      										</div>
+      										<p id="texRepresentacion"><span>En DrRacket podemos representar árboles usando estructuras ó usando listas.</span></p>
+      										<div class="animated-box in">
+      											<h1>• Cuando los nodos tienen una cantidad restringida de hijos (no más de 2, 3, etc) se pueden usar <b>estructuras</b>.</h1>
+      										</div>   
+      										<div class="animated-box2 in">
+      											<h1>• Cuando la cantidad de hijos de un nodo no es restringida, es más apropiado usar <b>listas</b>.</h1>
+      										</div>   
+      									</li>
+      								</ul>
+      							</div>
+      							<nav class="slider-nav">
+      								<a class="slider-nav-link prev" href="#prev">Atrás</a>
+      								<a class="slider-nav-link next" href="#next">Siguiente</a>
+      							</div>
+      						</article>
+
+      						<!-- PESTAÑA 3 --> 
+
+      						<article id="item-3" class="menu__item">
+      							<div class="panel" id="panel4">
+      								<h1 class = "panelContent"><img src="funcionCons.png" /></h1>
+      								<p class = "panelContent"><span></span></p>
+      								<div class="tabsP4">
+      									<div class="tabsP4-header">
+      										<div class="borderP4"></div>
+      										<ul>
+      											<li class="activeP4"><a href="#tab-1" tab-id="1" ripple="ripple" ripple-color="#FFF">Definición</a></li>
+      											<li><a href="#tab-2" tab-id="2" ripple="ripple" ripple-color="#FFF">Características</a></li>
+      											<li><a href="#tab-3" tab-id="3" ripple="ripple" ripple-color="#FFF">Implementación</a></li>
+      											<li><a href="#tab-4" tab-id="4" ripple="ripple" ripple-color="#FFF">Funciones</a></li>
+      											<li><a href="#tab-5" tab-id="5" ripple="ripple" ripple-color="#FFF">Representación</a></li>
+      											<li><a href="#tab-6" tab-id="6" ripple="ripple" ripple-color="#FFF">manejo</a></li>
+      											<li><a href="#tab-7" tab-id="7" ripple="ripple" ripple-color="#FFF">Manejo</a></li>
+      										</ul>
+      									</div>
+      									<div class="tabsP4-content">
+      										<div class="tabP4 active" tab-id="1">
+      											<div class="letrasP3">
+      												<h1>ARBOLES GENÉRICOS</h1>
+      											</div>
+      											<img id="arbolGenrico" src="arbol1.gif"/>
+
+      											<div class="boxes4">
+      												<span>
+      													Los nodos de los árboles genéricos pueden tener un número variable de hijos, a diferencia de los nodos de los árboles binarios que sólo pueden tener dos hijos como máximo. <br><br>Se usan en un gran número de dominios en los que es necesario representar estructuras jerárquicas: procesadores de lenguaje, documentos XML, documentos HTML, etc. 
+      												</span>
+      											</div>
+      											<div class="recuadro3">Ejemplo de árbol genérico</div>
+      										</div>
+
+      										<div class="tabP4" tab-id="2">
+      											<div class="recuadro4">Algunas caracteristicas de los arboles genéricos son:</div>
+      											<div class="circle-1">
+      												<p id="circle-1"><span><b>1.</b> Un árbol genérico está formado por un dato y una lista de árboles hijos (también árboles).</span></p> 
+      											</div>
+
+      											<div class="circle-2">
+      												<p id="circle-2"><span><b>2.</b> La lista de árboles hijos puede ser vacía.</span></p> 
+      											</div>
+
+      											<div class="circle-3">
+      												<p id="circle-2"><span><b>3.</b>No usamos el concepto de árbol-vacío, un árbol o nodo hoja es un árbol cuya lista de hijos es una lista vacía.</span></p> 
+      											</div>
+      											<img id="recuerda" src="recuerda.png"/>
+      											<div class="boxes5">
+      												<span>
+      													<b>Funciones Importantes</b><br><br>
+      													<b>Cons</b>: Toma dos argumentos y devuelve una lista construida a partir de esos dos argumentos.<br><br>
+      													<b>First</b>:  Devuelve el dato de la raíz del árbol.<br><br>
+      													<b>Rest</b>:  Devuelve la lista de árboles hijos (lista vacía, cuando es un nodo hoja).<br><br>
+      												</span>
+      											</div>
+
+      										</div>
+
+      										<div class="tabP4" tab-id="5">
 
 
-              <p>No sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-                diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-            </li>
-            <li id='body-2'>
-              <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te
-                feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-            </li>
-            <li id='body-3'>
-              <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat
-                nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-            </li>
-          </ul>
-        </div>-->
-        <!-- PESTAÑAS -->      
-        <div class="menu">
-          <ul class="menu__tabs">
-            <li><a href="#item-5">5</a></li>
-            <li><a href="#item-4">4</a></li>
-            <li><a href="#item-3">3</a></li>
-            <li><a href="#item-2">2</a></li>
-            <li><a class="active" href="#item-1">1</a></li>
-          </ul>
-          <section class="menu__wrapper">
-            <!-- PESTAÑA 1 --> 
-            <article id="item-1" class="menu__item item-active">
-              <img id="subArboles" src="arboles.png" />
-              <div class="mybox"><span>Los <b>árboles</b> son un tipo de dato, cuya estructura puede ser considerada intuitivamente como una estructura jerárquica, el cual se puede definir recursivamente de la siguiente forma:</span></div>
-              <p></p>
-              <img id="idea" src="chica.png" />
-              <div class="card card-secondary">
-                • Una colección de un dato (el valor de la raíz del árbol) y una lista de hijos que también son árboles.
-              </div>
-              <img id="arbol1" src="arbol1.png">
-              <img id="arbol2" src="arbol2.png">
-              <div class="card1 card-secondary1">
-               • Una hoja será un árbol sin hijos (un dato con una lista de hijos vacía).
-             </div>
-             <!-- BOTON DEL EJEMPLO --> 
-             <div class="popup_main">
-              <div class="open_popup">Ej.</div>
-              <div class="popup_body">
-                <div class="popup_back"></div>
-                <div class="popup_contain">
-                  <div class="popup_close">x</div>
-                  <b>Ejemplo:</b> Árbol Genealogico.
-                  <img id="arbolGenealogico" src="arbolGenealogico.jpg">
-                </div>
-              </div>
-            </div>
-          </article>
-          <!-- PESTAÑA 2 --> 
-          <article id="item-2" class="menu__item">
-            <div class="slider">
-              <div class="slider-inner">
-                <ul class="slider-container">
-                  <!-- ITEM 1 --> 
-                  <li class="slider-item">
-                    <img id="defArboles" src="defArboles.png">
-                    <p id="subtitulo1"><span>NODO</span></p>
-                    <p id="texto1"><span>Un nodo puede ser una <b>hoja</b> o un nodo <b>raíz</b>.</span></p>
-                    <div class="formas">
-                     <div class="circulo circle bottom-left"><b>HOJA:</b><span>No tiene nodos hijos (sucesores).</span></div>
-                     <div class="circulo1 circle bottom-left"><b>RAÍZ:</b><span>No tiene nodos predecesores.</span></div>
-                   </div> 
-                   <p id="subtitulo2"><span>SUBÁRBOL</span></p>
-                   <div class="forma2">
-                     <div class="cuadro inset"><b>SUBÁRBOL&nbsp;:</b>&nbsp;Es el conjunto de todos los predecesores de un nodo.</div>
+      											<div class="recuadro6">REPRESENTACIÓN DE ARBOLES GENÉRICOS CON LISTAS</div>
+
+      											<div class="recuadro7">
+      												<h1> Recordemos que un árbol contiene un dato en su raíz y un número cualquiera de hijos, que también son árboles. <br><br>
+      													Para representar un árbol con n hijos, se utiliza una lista de n+1 elementos donde el primer elemento será el dato de la raíz y el resto serán los árboles hijos. Los nodos hoja serán por tanto listas de un elemento, el dato.
+      												</h1>
+
+      											</div>
+
+      											<div class="botonPestaña4">
+      												<p class="pop-up-button green">Ver</p>
+      												<div class="pop-up">
+      													<div class="closeP4">
+      														<span>x</span>
+      													</div>
+
+      													<div class="pop-up-text">
+      														<img id="arbolListas" src="arbolListas.png"/>
+      													</div>
+      												</div>
+      											</div>
+
+      											<img id="ejemplo" src="ejemplo.png"/>
+      											<img id="arbolG" src="arbolG.png"/>
+      											<img id="implementacion" src="implementacion.png"/>
+
+      										</div>
+
+      										<div class="tabP4" tab-id="6">
+      											<div class="recuadro8">FUNCIONES CON LISTAS PARA MANEJO DE ARBOLES GENÉRICOS</div>
+                   
+                   	<div class="tabsP3">
+
+                   		<div class="tabP3">
+                   			<input type="radio" id="tab-1P3" name="tab-group-1P3" checked>
+                   			<label for="tab-1P3"><b>(suma-datos-tree tree)</b></label>
+                   			<div class="contentP3">
+                   				<p id="titulo2"><span>DESCRIPCIÓN</span></p> <br><br>
+                   				<img id="conte1" src="conte1.png"/>
+                   				<img id="sumaArbol" class="lightbox" src="sumaArbol.png"/>
+
+                   			</div> 
+                   		</div>
+
+                   		<div class="tabP3">
+                   			<input type="radio" id="tab-2P3" name="tab-group-1P3">
+                   			<label for="tab-2P3"><b>(to-list-tree tree)</b></label>
+                   			<div class="contentP3">
+                   				<p id="titulo2"><span>DESCRIPCIÓN</span></p> </b><br><br>
+                   				<img id="conte2" src="conte2.png"/>
+                   				<img id="toList" class="lightbox" src="toList.png"/>
+
+                   			</div> 
+                   		</div>
+
+                   		<div class="tabP3">
+                   			<input type="radio" id="tab-3P3" name="tab-group-1P3">
+                   			<label for="tab-3P3"><b>(cuadrado-tree tree)</b></label>
+
+                   			<div class="contentP3">
+                   				<p id="titulo2"><span>DESCRIPCIÓN</span></p> <br><br>
+                   				<img id="conte3" src="conte3.png"/>
+                   				<img id="cuadrado" class="lightbox" src="cuadrado.png"/>
+                   			</div> 
+                   		</div>
+
+                   		<div class="tabP3">
+                   			<input type="radio" id="tab-5P3" name="tab-group-1P3">
+                   			<label for="tab-5P3"><b>(altura-tree tree)</b></label>
+
+                   			<div class="contentP3">
+                   				<p id="titulo2"><span>DESCRIPCIÓN</span></p> <br><br>
+                   				<img id="conte4" src="conte4.png"/>
+                   				<img id="altura" class="lightbox" src="altura.png"/>
+                   			</div>
+                   		</div>
+
+                   	</div>
+
                    </div>
-                   <p id="subtitulo3"><span>ÁRBOL BINARIO</span></p>
-                   <img id="arbolB" src="arbolB.gif">
-                 </li>
-                 <!-- ITEM 2 --> 
-                 <li class="slider-item">
-                  <img id="subRecorridos" src="recorridos.png">
-                  <p id="salmon"><span>1</span>
-                    <p id="subtitulo4"><span>INORDEN</span></p>
-                    <p id="verde"><span>2</span>
-                      <p id="subtitulo5"><span>PREORDEN</span></p>
-                      <p id="azul"><span>3</span>
-                        <p id="subtitulo6"><span>POSTORDEN</span></p>
-                        <div class="loading"> 
-                          <h2 class="freelancer" style="">Recorrer en <b>inorden</b> el subárbol izquierdo, visitar el elemento de la raíz y luego recorrer en inorden el subárbol derecho.</h2>
-                        </div>
-                        <div class="loading1"> 
-                          <h2 class="freelancer1" style="">Visitar el elemento de la raíz, recorrer en <b>preorden</b> el subárbol izquierdo y luego recorrer en preorden el subárbol derecho.</h2>
-                        </div>
-                        <div class="loading2"> 
-                          <h2 class="freelancer2" style="">Recorrer en <b>postorden</b> el subárbol izquierdo, luego recorrer en postorden el subárbol derecho y finalmente visitar el elemento de la raíz.</h2>
-                        </div>
-                      </li>
-                      <!-- ITEM 3 --> 
-                      <li class="slider-item">
-                        <div id="subEjRecorridos"><img src="subEjRecorridos.png"></div>    
-                        <p id="enunciadoEj"><span>Realice los recorridos anteriormente vistos para el siguiente árbol. </span></p>
-                        <div id="arbolEj"><img  src="arbolEj.png"></div>
-                        <p id="subInorden"><span>RECORRIDO INORDEN</span></p>
-                        <div id="mEjemplo"><img src="mEjemplo.png"></div>  
-                        <div id="ejInorden"><img src="ejInorden.gif"></div>
-                      </li>
-                      <!-- ITEM 4 --> 
-                      <li class="slider-item">
-                        <p id="subPreorden"><span>RECORRIDO PREORDEN</span></p>  
-                        <div id="ejPreorden"><img src="ejPreorden.gif"></div>
-                        <div><img id="muñecoFin" src="finalizado.png" /></div>
-                        <p id="subPostorden"><span>RECORRIDO POSTORDEN</span></p>  
-                        <div id="ejPostorden"><img src="ejPostorden.gif"></div>
-                      </li>
-                      <!-- ITEM 5 --> 
-                      <li class="slider-item">
-                        <div>
-                          <img id="subRepresentacion" src="subRepresentacion.png" />
-                          <img id="subTipos" src="subTipos.png" />
-                          <img id="logoR" src="drRacket.png" />
-                          <img id="genBin" src="genBin.gif" />
-                          <img id="informatico" src="informatico.png" />
-                        </div>
-                        <p id="texRepresentacion"><span>En DrRacket podemos representar árboles usando estructuras ó usando listas.</span></p>
-                        <div class="animated-box in">
-                          <h1>• Cuando los nodos tienen una cantidad restringida de hijos (no más de 2, 3, etc) se pueden usar <b>estructuras</b>.</h1>
-                        </div>   
-                        <div class="animated-box2 in">
-                          <h1>• Cuando la cantidad de hijos de un nodo no es restringida, es más apropiado usar <b>listas</b>.</h1>
-                        </div>   
-                      </li>
-                    </ul>
-                  </div>
-                  <nav class="slider-nav">
-                    <a class="slider-nav-link prev" href="#prev">Atrás</a>
-                    <a class="slider-nav-link next" href="#next">Siguiente</a>
-                  </div>
-                </article>
-                <!-- PESTAÑA 3 --> 
-                <article id="item-3" class="menu__item">
-                  <div class="panel" id="panel4">
-                    <h1 class = "panelContent"><img src="funcionCons.png" /></h1>
-                    <p class = "panelContent"><span></span></p>
-                    <div class="tabsP4">
-                      <div class="tabsP4-header">
-                        <div class="borderP4"></div>
-                        <ul>
-                          <li class="activeP4"><a href="#tab-1" tab-id="1" ripple="ripple" ripple-color="#FFF">Definición</a></li>
-                          <li><a href="#tab-2" tab-id="2" ripple="ripple" ripple-color="#FFF">Características</a></li>
-                          <li><a href="#tab-3" tab-id="3" ripple="ripple" ripple-color="#FFF">Implementación</a></li>
-                          <li><a href="#tab-4" tab-id="4" ripple="ripple" ripple-color="#FFF">Funciones</a></li>
-                          <li><a href="#tab-5" tab-id="5" ripple="ripple" ripple-color="#FFF">Representación</a></li>
-                          <li><a href="#tab-6" tab-id="6" ripple="ripple" ripple-color="#FFF">manejo</a></li>
-                          <li><a href="#tab-7" tab-id="7" ripple="ripple" ripple-color="#FFF">Manejo</a></li>
-                        </ul>
-                      </div>
-                      <div class="tabsP4-content">
-                        <div class="tabP4 active" tab-id="1">
-                         <div class="letrasP3">
-                           <h1>ARBOLES GENÉRICOS</h1>
-                         </div>
-                         <img id="arbolGenrico" src="arbol1.gif"/>
 
-                         <div class="boxes4">
-                          <span>
-                            Los nodos de los árboles genéricos pueden tener un número variable de hijos, a diferencia de los nodos de los árboles binarios que sólo pueden tener dos hijos como máximo. <br><br>Se usan en un gran número de dominios en los que es necesario representar estructuras jerárquicas: procesadores de lenguaje, documentos XML, documentos HTML, etc. 
-                          </span>
-                        </div>
-                        <div class="recuadro3">Ejemplo de árbol genérico</div>
-                      </div>
-
-                      <div class="tabP4" tab-id="2">
-                       <div class="recuadro4">Algunas caracteristicas de los arboles genéricos son:</div>
-                       <div class="circle-1">
-                        <p id="circle-1"><span><b>1.</b> Un árbol genérico está formado por un dato y una lista de árboles hijos (también árboles).</span></p> 
-                      </div>
-
-                      <div class="circle-2">
-                        <p id="circle-2"><span><b>2.</b> La lista de árboles hijos puede ser vacía.</span></p> 
-                      </div>
-
-                      <div class="circle-3">
-                        <p id="circle-2"><span><b>3.</b>No usamos el concepto de árbol-vacío, un árbol o nodo hoja es un árbol cuya lista de hijos es una lista vacía.</span></p> 
-                      </div>
-                      <img id="recuerda" src="recuerda.png"/>
-                      <div class="boxes5">
-                        <span>
-                          <b>Funciones Importantes</b><br><br>
-                          <b>Cons</b>: Toma dos argumentos y devuelve una lista construida a partir de esos dos argumentos.<br><br>
-                          <b>First</b>:  Devuelve el dato de la raíz del árbol.<br><br>
-                          <b>Rest</b>:  Devuelve la lista de árboles hijos (lista vacía, cuando es un nodo hoja).<br><br>
-                        </span>
-                      </div>
-
-                    </div>
-
-                    <div class="tabP4" tab-id="5">
-
-
-                      <div class="recuadro6">REPRESENTACIÓN DE ARBOLES GENÉRICOS CON LISTAS</div>
-
-                      <div class="recuadro7">
-                       <h1> Recordemos que un árbol contiene un dato en su raíz y un número cualquiera de hijos, que también son árboles. <br><br>
-                         Para representar un árbol con n hijos, se utiliza una lista de n+1 elementos donde el primer elemento será el dato de la raíz y el resto serán los árboles hijos. Los nodos hoja serán por tanto listas de un elemento, el dato.
-                       </h1>
-
-                     </div>
-
-                     <div class="botonPestaña4">
-                      <p class="pop-up-button green">Ver</p>
-                      <div class="pop-up">
-                        <div class="closeP4">
-                          <span>x</span>
-                        </div>
-
-                        <div class="pop-up-text">
-                          <img id="arbolListas" src="arbolListas.png"/>
-                        </div>
-                      </div>
-                    </div>
-
-                    <img id="ejemplo" src="ejemplo.png"/>
-                    <img id="arbolG" src="arbolG.png"/>
-                    <img id="implementacion" src="implementacion.png"/>
-
-                  </div>
-
-                  <div class="tabP4" tab-id="6">
-                   <div class="recuadro8">FUNCIONES CON LISTAS PARA MANEJO DE ARBOLES GENÉRICOS</div>
-                   <!---<img id="notaSuma" src="notaSuma.png"/>
-                   <img id="profesora" src="profesora.png"/>--->
-                   <div class="tabsP3">
-
-                     <div class="tabP3">
-                       <input type="radio" id="tab-1P3" name="tab-group-1P3" checked>
-                       <label for="tab-1P3"><b>(suma-datos-tree tree)</b></label>
-                       <div class="contentP3">
-                        <p id="titulo2"><span>DESCRIPCIÓN</span></p> <br><br>
-                        <img id="conte1" src="conte1.png"/>
-                        <img id="sumaArbol" src="sumaArbol.png"/>
-
-                      </div> 
-                    </div>
-
-                    <div class="tabP3">
-                     <input type="radio" id="tab-2P3" name="tab-group-1P3">
-                     <label for="tab-2P3"><b>(to-list-tree tree)</b></label>
-                     <div class="contentP3">
-                      <p id="titulo2"><span>DESCRIPCIÓN</span></p> </b><br><br>
-                      <img id="conte2" src="conte2.png"/>
-                       <img id="toList" src="toList.png"/>
-
-                    </div> 
-                  </div>
-
-                  <div class="tabP3">
-                   <input type="radio" id="tab-3P3" name="tab-group-1P3">
-                   <label for="tab-3P3"><b>(cuadrado-tree tree)</b></label>
-
-                   <div class="contentP3">
-                     <p id="titulo2"><span>DESCRIPCIÓN</span></p> <br><br>
-                     <img id="conte3" src="conte3.png"/>
-                     <img id="cuadrado" src="cuadrado.png"/>
-                   </div> 
-                 </div>
-
-                 <div class="tabP3">
-                   <input type="radio" id="tab-5P3" name="tab-group-1P3">
-                   <label for="tab-5P3"><b>(altura-tree tree)</b></label>
-
-                   <div class="contentP3">
-                     <p id="titulo2"><span>DESCRIPCIÓN</span></p> <br><br>
-                     <img id="conte4" src="conte4.png"/>
-                     <img id="altura" src="altura.png"/>
+                   <div class="tabP4" tab-id="3">
+                   	<div class="recuadro9">IMPLEMENTACIÓN DE ARBOLES GENÉRICOS</div>
+                   	<img id="arbolGenerico" src="arbolGenerico.png"/>
+                   	<img id="aGenerico" src="aGenerico.gif"/>
+                   	<div class="arrow2">
+                   		<div class="arrow-part2"></div>
+                   		<div class="arrow-part2"></div>
+                   	</div>
                    </div>
-                 </div>
+
+                   <div class="tabP4" tab-id="4">
+
+                   	<div class="recuadro5">FUNCIONES CON ESTRUCTURAS PARA MANEJO DE ARBOLES GENÉRICOS</div>
+                   	<div class='caja1'>
+                   		<span>
+                   			<b>• (make-tree dato lista-hijos):</b> Construye un árbol a partir de un dato y una lista de hijos formada por árboles. La lista puede ser vacía. <br><br>
+                   		</span>
+                   	</div>
+
+                   	<div class='caja2'>
+                   		<span>
+
+                   			<b>• (dato-tree tree):</b> Devuelve el dato de la raíz del árbol.<br>
+                   			<b>• (hijos-tree tree):</b> Devuelve una lista de árboles hijos.<br>
+                   			<b>• (hoja-tree? tree):</b> Predicado que comprueba si el árbol es un nodo hoja (no tiene hijos).
+                   		</span>
+                   	</div>
+
+                   	<div class='caja3'>
+                   		<span>
+                   			<b>NOTA:</b> Un bosque es una lista de árboles (Devueltos por la función hijos-tree)<br><br>
+                   		</span>
+                   	</div>
+
+                   	<img id="notaEjm" src="notaEjm.png"/>
+
+                   	<div class="containerMass5">
+                   		<input type="checkbox" id="toggles5" />
+                   		<label class="buttonMass5" for="toggles5"></label>
+                   		<nav class="nav5">
+                   			<img id="estructura" src="estructura.png"/>
+
+                   		</nav>
+                   	</div>
+
+                   	<div class="ContenText">
+                   		<h1>Constructores</h1>
+                   	</div>
+
+                   	<div class="containerMass3">
+                   		<input type="checkbox" id="toggles" />
+                   		<label class="buttonMass3" for="toggles"></label>
+                   		<nav class="nav3">
+                   			<br>
+                   			Funciones que permiten construir un nuevo árbol. 
+                   		</nav>
+                   	</div>
+
+                   	<div class="ContenText2">
+                   		<h1>Selectores</h1>
+                   	</div>
+
+                   	<div class="containerMass4">
+                   		<input type="checkbox" id="toggles4" />
+                   		<label class="buttonMass4" for="toggles4"></label>
+                   		<nav class="nav4">
+                   			<br>
+                   			Funciones que obtienen los elementos de un árbol. 
+                   		</nav>
+                   	</div>
+                   </div>
 
                </div>
+           </div>
 
-             </div>
-
-             <div class="tabP4" tab-id="3">
-              <div class="recuadro9">IMPLEMENTACIÓN DE ARBOLES GENÉRICOS</div>
-              <img id="arbolGenerico" src="arbolGenerico.png"/>
-              <img id="aGenerico" src="aGenerico.gif"/>
-            <div class="arrow2">
-              <div class="arrow-part2"></div>
-              <div class="arrow-part2"></div>
-            </div>
-             </div>
-
-             <div class="tabP4" tab-id="4">
-
-              <div class="recuadro5">FUNCIONES CON ESTRUCTURAS PARA MANEJO DE ARBOLES GENÉRICOS</div>
-              <div class='caja1'>
-                <span>
-                  <b>• (make-tree dato lista-hijos):</b> Construye un árbol a partir de un dato y una lista de hijos formada por árboles. La lista puede ser vacía. <br><br>
-                </span>
-              </div>
-
-              <div class='caja2'>
-                <span>
-
-                  <b>• (dato-tree tree):</b> Devuelve el dato de la raíz del árbol.<br>
-                  <b>• (hijos-tree tree):</b> Devuelve una lista de árboles hijos.<br>
-                  <b>• (hoja-tree? tree):</b> Predicado que comprueba si el árbol es un nodo hoja (no tiene hijos).
-                </span>
-              </div>
-
-              <div class='caja3'>
-                <span>
-                  <b>NOTA:</b> Un bosque es una lista de árboles (Devueltos por la función hijos-tree)<br><br>
-                </span>
-              </div>
-
-              <img id="notaEjm" src="notaEjm.png"/>
-
-              <div class="containerMass5">
-                <input type="checkbox" id="toggles5" />
-                <label class="buttonMass5" for="toggles5"></label>
-                <nav class="nav5">
-                  <img id="estructura" src="estructura.png"/>
-
-                </nav>
-              </div>
-
-              <div class="ContenText">
-                <h1>Constructores</h1>
-              </div>
-
-              <div class="containerMass3">
-                <input type="checkbox" id="toggles" />
-                <label class="buttonMass3" for="toggles"></label>
-                <nav class="nav3">
-                  <br>
-                  Funciones que permiten construir un nuevo árbol. 
-                </nav>
-              </div>
-
-              <div class="ContenText2">
-                <h1>Selectores</h1>
-              </div>
-
-              <div class="containerMass4">
-                <input type="checkbox" id="toggles4" />
-                <label class="buttonMass4" for="toggles4"></label>
-                <nav class="nav4">
-                  <br>
-                  Funciones que obtienen los elementos de un árbol. 
-                </nav>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-    </article> 
-    <!-- PESTAÑA 4 --> 
-    <article id="item-4" class="menu__item">
-      <img id="subArbolBin" src="arbolesBin.png" />
-      <p id="indPestañasV"><span>Haz clic sobre las pestañas verticales para observar el contenido.</span></p>
-    <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, dignissimos nam dolor est. Ad vel eum voluptates rerum. Harum quia dolore architecto ducimus, rem porro minus perferendis ab eveniet aliquid!
-    </p>-->
+       </div>
+   </article> 
+   <!-- PESTAÑA 4 --> 
+   <article id="item-4" class="menu__item">
+   	<img id="subArbolBin" src="arbolesBin.png" />
+   	<p id="indPestañasV"><span>Haz clic sobre las pestañas verticales para observar el contenido.</span></p>
+  
     <div class="v-tab">
-      <ul class="tab__head">
-        <li class="active" rel="tab1">DEFINICIÓN</li>
-        <li rel="tab2">MANEJO</li>
-        <li rel="tab3">IMPLEMENTACIÓN</li>
-        <li rel="tab4">IMPLEMENTACIÓN</li>
-        <li rel="tab5">F. RECURSIVAS</li>
-        <li rel="tab6">F. RECURSIVAS</li>
-        <li rel="tab7">EJEMPLO</li>
-      </ul>
+    	<ul class="tab__head">
+    		<li class="active" rel="tab1">DEFINICIÓN</li>
+    		<li rel="tab2">MANEJO</li>
+    		<li rel="tab3">IMPLEMENTACIÓN</li>
+    		<li rel="tab4">IMPLEMENTACIÓN</li>
+    		<li rel="tab5">F. RECURSIVAS</li>
+    		<li rel="tab6">F. RECURSIVAS</li>
+    		<li rel="tab7">EJEMPLO</li>
+    	</ul>
 
-      <div class="tab__container">
-       <!-- TAB 1 -->
-       <div id="tab1" class="tab__content">
-         <div class="defAb">
-          <h1>ÁRBOL BINARIO</h1>
-        </div>
-        <p id="dArbolB"><span>Un árbol binario es una estructura que contiene tres elementos:</span></p>
-        <!-- NÚMERO 1 -->
-        <div class="wraps">
-          <div class="portrait"></div>
-          <div id="contentt" class="">
-            <h1>Un dato</h1>
-          </div>
-          <div class="button1"></div>
-        </div>
-        <!-- NÚMERO 2 -->
-        <div class="wraps2">
-          <div class="portrait2"></div>
-          <div id="contentt2" class="">
-            <h1>Un árbol binario izquierdo</h1>
-          </div>
-          <div class="button2"></div>
-        </div>
-        <!-- NÚMERO 3 -->
-        <div class="wraps3">
-          <div class="portrait3"></div>
-          <div id="contentt3" class="">
-            <h1>un árbol binario derecho</h1>
-          </div>
-          <div class="button3"></div>
-        </div>
-        <p id="dArbolB2"><span>Esta definición es recursiva y necesita un caso base. Es el siguiente: </span></p>
-        <!-- EFECTO CIRCULO -->
-        <div class="notice-wrapper">
-          <div class="notice js-notice">
-            <div class="notice-icon"></div>
-            <div class="notice-text">
-              <h5 class="notice-title">Un árbol binario puede ser también un árbol-vacío, un símbolo especial (usaremos la lista vacía) que representa un árbol que no tiene datos ni hijos.</h5>
-            </div>
-          </div>
-        </div>
-        <img id="arBinario" src="arBinario1.gif" />
-      </div>
-      <!-- ITEM 2 -->
-      <div id="tab2" class="tab__content">
-        <div class="manejo">
-          <h1>FUNCIONES QUE USAN LOS ÁRBOLES BINARIOS</h1>
-        </div>
-        <p id="subConstructores"><span>Constructores</span></p>   
-        <p id="subSelectores"><span>Selectores</span></p>  
-        <div class="accordion accordion-01">
-          <div class="set">
-            <a>'vacio-bt<i class="fa fa-plus"></i></a>
-            <div class="content1">
-              <p id="selector1"><span>Símbolo que define el árbol binario vacío.</span> </p>
-            </div>
-          </div>
-          <div class="set">
-            <a>(dato-bt &nbsp; bt)<i class="fa fa-plus"></i></a>
-            <div class="content1">
-              <p id="selector1"><span>Devuelve el dato de un árbol binario.</span></p>
-            </div>
-          </div>
-          <div class="set">
-            <a>(izq-bt &nbsp; bt)<i class="fa fa-plus"></i></a>
-            <div class="content1">
-              <p id="selector1"><span>Devuelve el árbol binario izquierdo.</span></p>
-            </div>
-          </div>
-          <div class="set">
-            <a>(der-bt &nbsp;bt)<i class="fa fa-plus"></i></a>
-            <div class="content1">
-              <p id="selector1"><span>Devuelve el árbol binario derecho.</span></p>
-            </div>
-          </div>
-          <div class="set">
-            <a>(hoja-bt? &nbsp;bt)<i class="fa fa-plus"></i></a>
-            <div class="content1">
-              <p id="selector1"><span>Comprueba si el árbol es una hoja (no tiene hijos).</span></p>
-            </div>
-          </div>
-          <div class="set">
-            <a>(vacio-bt? &nbsp;bt)<i class="fa fa-plus"></i></a>
-            <div class="content1">
-              <p id="selector1"><span>Comprueba si el árbol es vacío.</span></p>
-            </div>
-          </div>
-        </div> <!-- /.accordion-01 -->
-        <!--<img id="nota" class="lightbox" src="arBinario.png" />-->
-        <div class="stickyNote">
-          <div class="stickyTitle">
-            (make-bt &nbsp; dato &nbsp; izq-bt &nbsp; der-bt)
-          </div>
-          <div class="stickyContent">
-            Crea un árbol binario con un dato, un árbol binario izquierdo y un árbol binario derecho.
-          </div>
-        </div>
-        <div class="stickyNote1">
-          <div class="stickyTitle1">
-           (make-hoja-bt &nbsp; dato)
-          </div>
-          <div class="stickyContent1">
-            Crea una hoja, con su hijo izquierdo e hijo derecho vacíos.
-          </div>
-        </div>
-      </div>
-      <!-- #tab2 -->
-      <!-- #TAB3 -->
-      <div id="tab3" class="tab__content">
-        <div class="impAb">
-            <h1>IMPLEMENTACIÓN DE ÁRBOLES BINARIOS</h1>
-        </div>
-        <img id="arBinario2" src="arBinario2.gif" />
-        <div class="arrow1">
-            <div class="arrow-part"></div>
-            <div class="arrow-part"></div>
-        </div>
-        <img id="impAb" src="impArBin.gif" />
-      </div>
-      <!-- #tab3 -->
-      <!-- #TAB4 -->
-      <div id="tab4" class="tab__content">
-        <div class="impConSel">
-            <h1>IMPLEMENTACIÓN DE FUNCIONES</h1>
-        </div>
-         <p id="subConstructor"><span>Constructores</span></p>   
-        <p id="subSelector"><span>Selectores</span></p>  
-        <p id="subMake-bt"><span>make-bt</span></p> 
-         <img id="impMake-bt" class="lightbox" src="make-bt.png" />
-         <p id="subMake-hoja"><span>make-hoja-bt</span></p> 
-         <img id="impMake-hoja" class="lightbox" src="make-hoja.png" />
-         <p id="subVacio-btt"><span>vacio-bt?</span></p> 
-         <img id="impVacio-btt" class="lightbox" src="vacio-btp.png" />
-         <p id="subDato"><span>dato-bt</span></p> 
-         <img id="impDato-bt" class="lightbox" src="dato-bt.png" />
-         <p id="subIzq"><span>izq-bt</span></p> 
-         <img id="impIzq-bt" class="lightbox" src="izq-bt.png" />
-         <p id="subDer"><span>der-bt</span></p>
-         <img id="impDer-bt" class="lightbox" src="der-bt.png" />
-          <p id="subHoja"><span>hoja-bt</span></p>
-         <img id="impHoja-bt" class="lightbox" src="hoja-btp.png" />
-        </div>
-      <!-- #tab4 --> 
-      <!-- #TAB5--> 
-      <div id="tab5" class="tab__content">
-        <div class="manejo1">
-            <h1>FUNCIONES RECURSIVAS</h1>
-        </div>
-          <main>
-            <section>
-              <!-- CAJA 1 -->
-              <div class="cuadroT">
-                <div class="contents">
-                  <h2>(to-list-bt &nbsp; bt)</h2>
-                  <p id="funcion1"><span>Devuelve una lista formada por los elementos del bt.</span></p>
-                </div>
-              </div>
-              <p id="subImp"><span>Implementación</span></p>
-              <img id="impF1" class="lightbox" src="to-list.png" />
-              <!-- CAJA 2 -->
-              <div class="cuadroT2">
-                <div class="contents2">
-                  <h2>(member-bt? &nbsp; x &nbsp; bt)</h2>
-                  <p id="funcion2"><span>Busca el elemento x en un árbol binario ordenado.</span></p>
-                </div>
-              </div>
-            </section>
-          </main>
-          <p id="subImp2"><span>Implementación</span></p>
-          <img id="impF2" class="lightbox" src="member-bt.png" />
-      </div>
-      <!-- #tab5 -->
-      <!-- #TAB6 --> 
-      <div id="tab6" class="tab__content">
-        <div class="manejo1">
-            <h1>FUNCIONES RECURSIVAS</h1>
-        </div>
-        <main>
-          <section>
-            <!-- CAJA 1 -->
-            <div class="cuadroT3">
-              <div class="contents3">
-                <h2>(insert-bt &nbsp; x &nbsp; bt) </h2>
-                <p id="funcion1"><span>“Inserta” un dato (realmente, crea otro árbol) en un árbol binario ordenado.</span></p>
-              </div>
-            </div>
-            <p id="subImp3"><span>Implementación</span></p>
-            <img id="impF1-4" class="lightbox" src="insert-bt.png" />
-            <!-- CAJA 2 -->
-            <div class="cuadroT4">
-              <div class="contents4">
-                <h2>(list-to-bt &nbsp; list)</h2>
-                <p id="funcion2"><span>Construye un árbol binario ordenado a partir de una lista.</span></p>
-              </div>
-            </div>
-          </section>
-        </main>
-        <p id="subImp4"><span>Implementación</span></p>
-        <img id="impF2-4" class="lightbox" src="list-to-bt.png" />
-      </div>
-      <!-- #tab6 -->
-      <!-- #TAB7 --> 
-      <div id="tab7" class="tab__content">
-        <div class="subEjemploF">
-            <h1>EJEMPLO DE ÁRBOL BINARIO</h1>
-        </div>
-        <img id="ejArbolB" src="ejArbolB.png" />
-        <img id="digitador" src="digitador.png" />
-        <p id="subImpListas"><span>Implementación con Listas &#8594;</span></p>
-        <img id="impListas" class="lightbox" src="arbolBListas.png" />
-        <p id="subImpEst"><span>Implementación con Estructuras &#8594;</span></p>
-        <img id="impEst" class="lightbox" src="arbolEst.png" />
-      <!-- #tab7 -->
-      </div>
-  </div>
-</div>
-</article>
-    <!-- PESTAÑA 5 --> 
-    <article id="item-5" class="menu__item">
-      <img id="subDefLocales" src="dLocales.png" />
-      <p id="indPestañasH"><span>Haz clic sobre las pestañas horizontales para observar el contenido.</span></p>
-      <div class='css3-tab'>
-        <input type='radio' name='a' id='tabOne' tabindex="1" checked>
-        <input type='radio' name='a' id='tabTwo' tabindex="2">
-        <input type='radio' name='a' id='addNew' tabindex="3">
-        <div class="css3-tab-nav">
-            <label for='tabOne'>DEFINICIÓN</label>
-            <label for='tabTwo'>EJEMPLO</label>
-            <label for='addNew'>SEMÁNTICA</label>
-        </div>
-        <!-- ITEM 1-->
-        <div class='css3-tab-content tab-one'>
-          <div class='containers'>
-            <p id="conceptoLocal"><span>La función <b>Local</b> es aquella que permite que las definiciones sean visibles en algunas partes del código y no en todo el programa.</span></p>
-          </div>
-            <p id="cajaV" data-title="SINTAXIS" class="dialog-box_success">
-              <span>Una expresión <b>local</b> es solo otro tipo de expresión:</span>
-              <img id="imgSintaxis" src="sintaxis.png" />
-            </p>
-            <div class="perspective">
-              <div class="note">
-                <h1>Importante...</h1>
-                <p id="pDefLocal"><span>La palabra clave <b>local</b> distingue esta nueva clase de expresiones de otras expresiones. La secuencia entre paréntesis que sigue a local se conoce como <b>DEFINICIÓN LOCAL</b>. Las definiciones se denominan variables, funciones o <b>estructuras DEFINIDAS LOCALMENTE</b>.</span></p>
-              </div>
-            </div>
-        </div>
-        <!-- ITEM 2-->
-        <div class='css3-tab-content tab-two'>
-            <img id="imgProgramador" src="programador.png" />
-            <div class="box2">
-          <h1>Ejemplo Definiciones Locales</h1>
-<pre><code>
-(local(
-       (define (f x)
-         (+ x 5)); LADO DERECHO
-       (define (g lista)
-        (cond
-          [(empty? lista) empty]
-          [else (cons; LADO DERECHO 
-                  (f(first lista)) 
-                  (g(rest lista)))])))
- (g(cons 1(cons 2(cons 3 null)))));CUERPO
-  </code></pre> 
-            </div>
-            <div class="i5">Las funciones definidas localmente son <b>f</b> y <b>g</b>.</div>
-            <div class="i6">El lado derecho de la definición de la función <b>f</b> es <b>(+ x 5)</b>.</div>
-            <div class="i7">El lado derecho de la definición de la función <b>g</b> es desde el <b>cond</b> hasta el <b>else</b>.</div>
-            <div class="i8">El cuerpo de la expresión <b>local</b> es <b>(g (cons 1 (...)))))</b>.</div>
-            <div class="i3"><b>Análisis:</b>Si la lista ingresada no esta vacía, debe construir una lista con el valor que de como resultado aplicar la función f al primer elemento de la lista y hace un llamado recursivo a la función g para continuar con el resto de la lista. Finalemente se obtiene la lista <b>(list 6 7 8)</b>.</div>
-        </div>
-        <!-- ITEM 3-->
-        <div class='css3-tab-content add-new'>
-          <div class="boxes">
-            <div class="textbox"> 
-              El propósito de una expresión local es definir una variable, una función o una estructura para la evaluación <br>de la expresión del cuerpo. Fuera de la expresión local, las definiciones no tienen ningún efecto. 
-              <br>Considere las siguientes expresiones:
-            </div> 
-          </div>
-          <img id="uno" src="uno.png" />
-          <img id="dos" src="dos.png" />
-          <p id="subLocal1"><span>(local ((define (f x) exp-1)) exp)</span></p>
-          <p id="subLocal2"><span>(local ((define PI 3)) exp)</span></p>
-          <div class="card3 card-secondary3">
-              Define la función f durante la evaluación de exp. El resultado de exp es el resultado de toda la expresión local.
-          </div>
-          <div class="card4 card-secondary4">
-              Permite temporalmente que la PI variable represente 3 durante la evaluación de exp.
-          </div>
-          <div class="arrow3">
-            <div class="arrow-part3"></div>
-            <div class="arrow-part3"></div>
-          </div>
-          <div class="arrow4">
-            <div class="arrow-part4"></div>
-            <div class="arrow-part4"></div>
-          </div>
-        </div>
+    	<div class="tab__container">
+    		
+    		<!-- TAB 1 -->
+
+    		<div id="tab1" class="tab__content">
+    			<div class="defAb">
+    				<h1>ÁRBOL BINARIO</h1>
+    			</div>
+    			<p id="dArbolB"><span>Un árbol binario es una estructura que contiene tres elementos:</span></p>
+    			
+    			<!-- NÚMERO 1 -->
+
+    			<div class="wraps">
+    				<div class="portrait"></div>
+    				<div id="contentt" class="">
+    					<h1>Un dato</h1>
+    				</div>
+    				<div class="button1"></div>
+    			</div>
+    			
+    			<!-- NÚMERO 2 -->
+
+    			<div class="wraps2">
+    				<div class="portrait2"></div>
+    				<div id="contentt2" class="">
+    					<h1>Un árbol binario izquierdo</h1>
+    				</div>
+    				<div class="button2"></div>
+    			</div>
+
+    			<!-- NÚMERO 3 -->
+
+    			<div class="wraps3">
+    				<div class="portrait3"></div>
+    				<div id="contentt3" class="">
+    					<h1>un árbol binario derecho</h1>
+    				</div>
+    				<div class="button3"></div>
+    			</div>
+    			<p id="dArbolB2"><span>Esta definición es recursiva y necesita un caso base. Es el siguiente: </span></p>
+
+    			<!-- EFECTO CIRCULO -->
+
+    			<div class="notice-wrapper">
+    				<div class="notice js-notice">
+    					<div class="notice-icon"></div>
+    					<div class="notice-text">
+    						<h5 class="notice-title">Un árbol binario puede ser también un árbol-vacío, un símbolo especial (usaremos la lista vacía) que representa un árbol que no tiene datos ni hijos.</h5>
+    					</div>
+    				</div>
+    			</div>
+    			<img id="arBinario" src="arBinario1.gif" />
+    		</div>
+
+    		<!-- ITEM 2 -->
+
+    		<div id="tab2" class="tab__content">
+    			<div class="manejo">
+    				<h1>FUNCIONES QUE USAN LOS ÁRBOLES BINARIOS</h1>
+    			</div>
+    			<p id="subConstructores"><span>Constructores</span></p>   
+    			<p id="subSelectores"><span>Selectores</span></p>  
+    			<div class="accordion accordion-01">
+    				<div class="set">
+    					<a>'vacio-bt<i class="fa fa-plus"></i></a>
+    					<div class="content1">
+    						<p id="selector1"><span>Símbolo que define el árbol binario vacío.</span> </p>
+    					</div>
+    				</div>
+    				<div class="set">
+    					<a>(dato-bt &nbsp; bt)<i class="fa fa-plus"></i></a>
+    					<div class="content1">
+    						<p id="selector1"><span>Devuelve el dato de un árbol binario.</span></p>
+    					</div>
+    				</div>
+    				<div class="set">
+    					<a>(izq-bt &nbsp; bt)<i class="fa fa-plus"></i></a>
+    					<div class="content1">
+    						<p id="selector1"><span>Devuelve el árbol binario izquierdo.</span></p>
+    					</div>
+    				</div>
+    				<div class="set">
+    					<a>(der-bt &nbsp;bt)<i class="fa fa-plus"></i></a>
+    					<div class="content1">
+    						<p id="selector1"><span>Devuelve el árbol binario derecho.</span></p>
+    					</div>
+    				</div>
+    				<div class="set">
+    					<a>(hoja-bt? &nbsp;bt)<i class="fa fa-plus"></i></a>
+    					<div class="content1">
+    						<p id="selector1"><span>Comprueba si el árbol es una hoja (no tiene hijos).</span></p>
+    					</div>
+    				</div>
+    				<div class="set">
+    					<a>(vacio-bt? &nbsp;bt)<i class="fa fa-plus"></i></a>
+    					<div class="content1">
+    						<p id="selector1"><span>Comprueba si el árbol es vacío.</span></p>
+    					</div>
+    				</div>
+    			</div> 
+
+    			<div class="stickyNote">
+    				<div class="stickyTitle">
+    					(make-bt &nbsp; dato &nbsp; izq-bt &nbsp; der-bt)
+    				</div>
+    				<div class="stickyContent">
+    					Crea un árbol binario con un dato, un árbol binario izquierdo y un árbol binario derecho.
+    				</div>
+    			</div>
+    			<div class="stickyNote1">
+    				<div class="stickyTitle1">
+    					(make-hoja-bt &nbsp; dato)
+    				</div>
+    				<div class="stickyContent1">
+    					Crea una hoja, con su hijo izquierdo e hijo derecho vacíos.
+    				</div>
+    			</div>
+    		</div>
+    		
+    		<!-- #TAB3 -->
+
+    		<div id="tab3" class="tab__content">
+    			<div class="impAb">
+    				<h1>IMPLEMENTACIÓN DE ÁRBOLES BINARIOS</h1>
+    			</div>
+    			<img id="arBinario2" src="arBinario2.gif" />
+    			<div class="arrow1">
+    				<div class="arrow-part"></div>
+    				<div class="arrow-part"></div>
+    			</div>
+    			<img id="impAb" src="impArBin.gif" />
+    		</div>
+    		
+    		<!-- #TAB4 -->
+
+    		<div id="tab4" class="tab__content">
+    			<div class="impConSel">
+    				<h1>IMPLEMENTACIÓN DE FUNCIONES</h1>
+    			</div>
+    			<p id="subConstructor"><span>Constructores</span></p>   
+    			<p id="subSelector"><span>Selectores</span></p>  
+    			<p id="subMake-bt"><span>make-bt</span></p> 
+    			<img id="impMake-bt" class="lightbox" src="make-bt.png" />
+    			<p id="subMake-hoja"><span>make-hoja-bt</span></p> 
+    			<img id="impMake-hoja" class="lightbox" src="make-hoja.png" />
+    			<p id="subVacio-btt"><span>vacio-bt?</span></p> 
+    			<img id="impVacio-btt" class="lightbox" src="vacio-btp.png" />
+    			<p id="subDato"><span>dato-bt</span></p> 
+    			<img id="impDato-bt" class="lightbox" src="dato-bt.png" />
+    			<p id="subIzq"><span>izq-bt</span></p> 
+    			<img id="impIzq-bt" class="lightbox" src="izq-bt.png" />
+    			<p id="subDer"><span>der-bt</span></p>
+    			<img id="impDer-bt" class="lightbox" src="der-bt.png" />
+    			<p id="subHoja"><span>hoja-bt</span></p>
+    			<img id="impHoja-bt" class="lightbox" src="hoja-btp.png" />
+    		</div>
+    		
+    		<!-- #TAB5--> 
+
+    		<div id="tab5" class="tab__content">
+    			<div class="manejo1">
+    				<h1>FUNCIONES RECURSIVAS</h1>
+    			</div>
+    			<main>
+    				<section>
+
+    					<!-- CAJA 1 -->
+
+    					<div class="cuadroT">
+    						<div class="contents">
+    							<h2>(to-list-bt &nbsp; bt)</h2>
+    							<p id="funcion1"><span>Devuelve una lista formada por los elementos del bt.</span></p>
+    						</div>
+    					</div>
+    					<p id="subImp"><span>Implementación</span></p>
+    					<img id="impF1" class="lightbox" src="to-list.png" />
+    					
+    					<!-- CAJA 2 -->
+
+    					<div class="cuadroT2">
+    						<div class="contents2">
+    							<h2>(member-bt? &nbsp; x &nbsp; bt)</h2>
+    							<p id="funcion2"><span>Busca el elemento x en un árbol binario ordenado.</span></p>
+    						</div>
+    					</div>
+    				</section>
+    			</main>
+    			<p id="subImp2"><span>Implementación</span></p>
+    			<img id="impF2" class="lightbox" src="member-bt.png" />
+    		</div>
+    		
+    		<!-- #TAB6 --> 
+
+    		<div id="tab6" class="tab__content">
+    			<div class="manejo1">
+    				<h1>FUNCIONES RECURSIVAS</h1>
+    			</div>
+    			<main>
+    				<section>
+
+    					<!-- CAJA 1 -->
+
+    					<div class="cuadroT3">
+    						<div class="contents3">
+    							<h2>(insert-bt &nbsp; x &nbsp; bt) </h2>
+    							<p id="funcion1"><span>“Inserta” un dato (realmente, crea otro árbol) en un árbol binario ordenado.</span></p>
+    						</div>
+    					</div>
+    					<p id="subImp3"><span>Implementación</span></p>
+    					<img id="impF1-4" class="lightbox" src="insert-bt.png" />
+    					
+    					<!-- CAJA 2 -->
+
+    					<div class="cuadroT4">
+    						<div class="contents4">
+    							<h2>(list-to-bt &nbsp; list)</h2>
+    							<p id="funcion2"><span>Construye un árbol binario ordenado a partir de una lista.</span></p>
+    						</div>
+    					</div>
+    				</section>
+    			</main>
+    			<p id="subImp4"><span>Implementación</span></p>
+    			<img id="impF2-4" class="lightbox" src="list-to-bt.png" />
+    		</div>
+    		
+    		<!-- #TAB7 --> 
+
+    		<div id="tab7" class="tab__content">
+    			<div class="subEjemploF">
+    				<h1>EJEMPLO DE ÁRBOL BINARIO</h1>
+    			</div>
+    			<img id="ejArbolB" src="ejArbolB.png" />
+    			<img id="digitador" src="digitador.png" />
+    			<p id="subImpListas"><span>Implementación con Listas &#8594;</span></p>
+    			<img id="impListas" class="lightbox" src="arbolBListas.png" />
+    			<p id="subImpEst"><span>Implementación con Estructuras &#8594;</span></p>
+    			<img id="impEst" class="lightbox" src="arbolEst.png" />
+    		</div>
+    	</div>
     </div>
-    </article>                 
+</article>
+
+<!-- PESTAÑA 5 --> 
+
+<article id="item-5" class="menu__item">
+	<img id="subDefLocales" src="dLocales.png" />
+	<p id="indPestañasH"><span>Haz clic sobre las pestañas horizontales para observar el contenido.</span></p>
+	<div class='css3-tab'>
+		<input type='radio' name='a' id='tabOne' tabindex="1" checked>
+		<input type='radio' name='a' id='tabTwo' tabindex="2">
+		<input type='radio' name='a' id='addNew' tabindex="3">
+		<div class="css3-tab-nav">
+			<label for='tabOne'>DEFINICIÓN</label>
+			<label for='tabTwo'>EJEMPLO</label>
+			<label for='addNew'>SEMÁNTICA</label>
+		</div>
+
+		<!-- ITEM 1-->
+
+		<div class='css3-tab-content tab-one'>
+			<div class='containers'>
+				<p id="conceptoLocal"><span>La función <b>Local</b> es aquella que permite que las definiciones sean visibles en algunas partes del código y no en todo el programa.</span></p>
+			</div>
+			<p id="cajaV" data-title="SINTAXIS" class="dialog-box_success">
+				<span>Una expresión <b>local</b> es solo otro tipo de expresión:</span>
+				<img id="imgSintaxis" src="sintaxis.png" />
+			</p>
+			<div class="perspective">
+				<div class="note">
+					<h1>Importante...</h1>
+					<p id="pDefLocal"><span>La palabra clave <b>local</b> distingue esta nueva clase de expresiones de otras expresiones. La secuencia entre paréntesis que sigue a local se conoce como <b>DEFINICIÓN LOCAL</b>. Las definiciones se denominan variables, funciones o <b>estructuras DEFINIDAS LOCALMENTE</b>.</span></p>
+				</div>
+			</div>
+		</div>
+
+		<!-- ITEM 2-->
+
+		<div class='css3-tab-content tab-two'>
+			<img id="imgProgramador" src="programador.png" />
+			<div class="box2">
+				<h1>Ejemplo Definiciones Locales</h1>
+				<pre><code>
+					(local(
+					(define (f x)
+					(+ x 5)); LADO DERECHO
+					(define (g lista)
+					(cond
+					[(empty? lista) empty]
+					[else (cons; LADO DERECHO 
+					(f(first lista)) 
+					(g(rest lista)))])))
+					(g(cons 1(cons 2(cons 3 null)))));CUERPO
+				</code></pre> 
+			</div>
+			<div class="i5">Las funciones definidas localmente son <b>f</b> y <b>g</b>.</div>
+			<div class="i6">El lado derecho de la definición de la función <b>f</b> es <b>(+ x 5)</b>.</div>
+			<div class="i7">El lado derecho de la definición de la función <b>g</b> es desde el <b>cond</b> hasta el <b>else</b>.</div>
+			<div class="i8">El cuerpo de la expresión <b>local</b> es <b>(g (cons 1 (...)))))</b>.</div>
+			<div class="i3"><b>Análisis:</b>Si la lista ingresada no esta vacía, debe construir una lista con el valor que de como resultado aplicar la función f al primer elemento de la lista y hace un llamado recursivo a la función g para continuar con el resto de la lista. Finalemente se obtiene la lista <b>(list 6 7 8)</b>.</div>
+		</div>
+
+		<!-- ITEM 3-->
+
+		<div class='css3-tab-content add-new'>
+			<div class="boxes">
+				<div class="textbox"> 
+					El propósito de una expresión local es definir una variable, una función o una estructura para la evaluación <br>de la expresión del cuerpo. Fuera de la expresión local, las definiciones no tienen ningún efecto. 
+					<br>Considere las siguientes expresiones:
+				</div> 
+			</div>
+			<img id="uno" src="uno.png" />
+			<img id="dos" src="dos.png" />
+			<p id="subLocal1"><span>(local ((define (f x) exp-1)) exp)</span></p>
+			<p id="subLocal2"><span>(local ((define PI 3)) exp)</span></p>
+			<div class="card3 card-secondary3">
+				Define la función f durante la evaluación de exp. El resultado de exp es el resultado de toda la expresión local.
+			</div>
+			<div class="card4 card-secondary4">
+				Permite temporalmente que la PI variable represente 3 durante la evaluación de exp.
+			</div>
+			<div class="arrow3">
+				<div class="arrow-part3"></div>
+				<div class="arrow-part3"></div>
+			</div>
+			<div class="arrow4">
+				<div class="arrow-part4"></div>
+				<div class="arrow-part4"></div>
+			</div>
+		</div>
+	</div>
+</article>                 
 </section>
 <div class="menu--shadow"></div>
 </div>
