@@ -12,6 +12,12 @@ html, body {
   overflow-y:hidden;
 }
 
+#ta1_156,#id1{
+  background-color: #979797;
+  overflow:hidden;
+}
+
+
 *, *::after,*::before {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
